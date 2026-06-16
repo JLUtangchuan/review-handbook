@@ -13,6 +13,9 @@
 
 ## 快速开始
 
+### 在线访问
+🌐 **[JLUtangchuan.github.io/review-handbook](https://JLUtangchuan.github.io/review-handbook/)**
+
 ### 本地预览
 ```bash
 cd web
