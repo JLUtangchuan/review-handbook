@@ -1,0 +1,58 @@
+id: "pap-week08-rt2"
+title: "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control"
+type: "paper"
+week: 8
+topics: ["rt-series", "vlm-foundation"]
+tags:
+  - name: "VLA"
+    initial_weight: 2.0
+  - name: "RT-2"
+    initial_weight: 1.8
+  - name: "Google DeepMind"
+    initial_weight: 1.0
+  - name: "机器人基础模型"
+    initial_weight: 1.5
+  - name: "Co-fine-tuning"
+    initial_weight: 1.2
+sources:
+  - platform: "other"
+    url: "https://arxiv.org/abs/2307.15818"
+    title: "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control"
+    saved_at: "2026-06-16"
+summary: |
+  RT-2是Google DeepMind提出的Vision-Language-Action（VLA）模型，核心思想是将互联网规模的视觉语言预训练知识迁移到机器人控制任务中。
+
+  **核心方法**：
+  1. 使用PaLI-X或PaLM-E作为Backbone VLM
+  2. 将机器人动作离散化为Token（类似语言模型的词汇表）
+  3. 在互联网图文数据 + 机器人操作数据上进行Co-fine-tuning
+  4. 推理时，输入「图像 + 任务描述」→ 直接输出动作Token序列
+
+  **关键发现**：
+  - 互联网预训练知识产生了显著的**涌现能力**：模型能理解从未在机器人数据中见过的物体和指令（如"把可乐罐推到Taylor Swift照片旁边"）
+  - 符号理解、推理、人类识别等能力来自VLM预训练，无需显式训练
+  - 在6000+条机器人轨迹上fine-tune即可获得这些能力
+  - 相比RT-1，在新物体/新场景上的泛化能力大幅提升
+
+  **局限**：
+  - 推理速度较慢（大模型固有的延迟问题）
+  - 需要大量计算资源
+  - 动作空间离散化可能损失精度
+key_points:
+  - "将机器人动作Token化：7个自由度×256 bins = 动作词汇表"
+  - "Co-fine-tuning：同时在视觉问答和机器人操控数据上训练"
+  - "Chain-of-Thought推理：模型可以输出中间推理步骤再输出动作"
+  - "泛化能力：未见过的新物体、新指令、新场景均能处理"
+  - "RT-2-PaLI-X 55B参数，但可以通过模型蒸馏减小"
+  - "开创了VLA范式：从'视觉→动作'升级为'视觉+语言→动作'"
+review_questions:
+  - "RT-2如何将连续动作空间离散化？这种离散化有什么trade-off？"
+  - "Co-fine-tuning的具体训练策略是怎样的？为什么不用顺序训练？"
+  - "RT-2的涌现能力从何而来？如何验证是预训练而非机器人数据带来的？"
+  - "RT-2的推理延迟在实际部署中如何解决？"
+  - "RT-2和RT-1的核心区别是什么？RT-X又做了哪些改进？"
+difficulty: 4
+status: "pending"
+rating: 0
+created_at: "2026-06-16"
+updated_at: "2026-06-16"

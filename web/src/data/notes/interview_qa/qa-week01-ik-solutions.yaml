@@ -1,0 +1,76 @@
+id: "qa-week01-ik-solutions"
+title: "逆运动学的解析解与数值解，各有什么优缺点？"
+type: "interview_qa"
+week: 1
+topics: ["kinematics"]
+tags:
+  - name: "逆运动学"
+    initial_weight: 1.5
+  - name: "数值方法"
+    initial_weight: 1.2
+  - name: "面试高频"
+    initial_weight: 1.8
+images:
+  - url: "https://picsum.photos/seed/robot-ik/800/400"
+    caption: "逆运动学解析解推导过程（示例）"
+  - url: "https://picsum.photos/seed/robot-dh/800/400"
+    caption: "DH参数建系示意图（示例）"
+recommendations: ["fnd-week01-kinematics"]
+sources:
+  - platform: "xiaohongshu"
+    url: "https://xhslink.com/example-ik"
+    title: "大疆机器人面试：逆运动学求解方法对比"
+    saved_at: "2026-06-11"
+question: "逆运动学的解析解与数值解，各有什么优缺点？在工程中如何选择？"
+answer: |
+  ## 解析解（闭式解）
+
+  ### 方法
+  - **几何法**：利用机器人几何结构，通过三角函数直接求解
+  - **代数法**：利用变换矩阵的元素建立方程组求解
+  - 通常要求机器人满足Pieper准则（3个相邻关节轴交于一点或平行）
+
+  ### 优点
+  - 计算速度快（O(1)），适合实时控制
+  - 可以求出所有可能解
+  - 数值稳定，结果可预测
+
+  ### 缺点
+  - 只适用于特定构型的机器人
+  - 推导复杂，不同构型需要不同的求解公式
+  - 无法处理冗余自由度
+
+  ## 数值解
+
+  ### 方法
+  - **雅可比伪逆法**：Δθ = J⁺ Δx，迭代求解
+  - **牛顿-拉夫逊法**：利用泰勒展开迭代
+  - **优化法**：将IK转化为非线性优化问题
+  - **数据驱动法**：用神经网络学习IK映射
+
+  ### 优点
+  - 通用性强，适用于任意构型
+  - 可以处理冗余自由度（加入次要任务）
+  - 容易实现，无需构型推导
+
+  ### 缺点
+  - 迭代计算，速度较慢
+  - 可能收敛到局部最优或奇异点
+  - 对初始值敏感
+  - 无法保证找到所有解
+
+  ## 工程选择建议
+
+  1. **工业机器人（如6轴焊接）**：优先使用解析解，保证实时性和可靠性
+  2. **人形机器人/灵巧手（高自由度）**：使用数值解+Damped Least Squares避免奇异
+  3. **移动操作（冗余系统）**：使用Null-space优化，主任务用IK，次要任务（避障等）在零空间执行
+  4. **新构型原型**：先用数值解验证，如果构型满足Pieper准则再推导解析解
+follow_up:
+  - "Damped Least Squares方法如何避免雅可比奇异问题？"
+  - "Null-space投影的物理意义是什么？举例说明次要任务的设计"
+  - "如果IK求解器在奇异点附近震荡，应该怎么处理？"
+difficulty: 3
+status: "completed"
+rating: 0
+created_at: "2026-06-16"
+updated_at: "2026-06-16"

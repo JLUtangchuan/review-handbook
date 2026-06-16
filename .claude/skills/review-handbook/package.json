@@ -1,0 +1,14 @@
+{
+  "name": "review-handbook",
+  "version": "1.0.0",
+  "description": "复习手册 — 100天面试准备知识管理 Skill。从小红书/知乎收藏中提取、总结、组织算法岗面试资料。",
+  "author": "个人助手",
+  "license": "MIT",
+  "main": "SKILL.md",
+  "commands": [
+    {
+      "name": "review-handbook",
+      "description": "复习手册内容管理：add(添加笔记) / roadmap(生成路线图) / progress(更新进度) / import(批量导入)"
+    }
+  ]
+}

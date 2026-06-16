@@ -1,0 +1,515 @@
+role: 具身智能算法工程师
+start_date: '2026-06-16'
+total_days: 100
+total_weeks: 15
+weeks:
+- week: 1
+  theme: 机器人学基础：运动学与坐标变换
+  start_date: '2026-06-16'
+  end_date: '2026-06-22'
+  day_range:
+  - 1
+  - 7
+  topics:
+  - kinematics
+  - motion-planning
+  - ros
+  content:
+    foundations:
+    - note_id: fnd-week01-kinematics
+      title: 机器人正逆运动学与DH参数法
+      topics:
+      - kinematics
+    - note_id: fnd-week01-coord-transform
+      title: 坐标变换与齐次变换矩阵
+      topics:
+      - kinematics
+    interview_qa:
+    - note_id: qa-week01-ik-solutions
+      question: 逆运动学的解析解与数值解，各有什么优缺点？
+      topics:
+      - kinematics
+    - note_id: qa-week01-rrt
+      question: 手写RRT路径规划算法，分析其概率完备性
+      topics:
+      - motion-planning
+    advanced: []
+    coding:
+    - note_id: cod-week01-rrt
+      title: 实现RRT路径规划算法
+      topics:
+      - motion-planning
+    papers:
+    - note_id: pap-week01-rrt-star
+      title: 'RRT*: Optimal Sampling-based Path Planning'
+      arxiv_id: '1105.1186'
+      topics:
+      - motion-planning
+- week: 2
+  theme: 机器人动力学与控制基础
+  start_date: '2026-06-23'
+  end_date: '2026-06-29'
+  day_range:
+  - 8
+  - 14
+  topics:
+  - dynamics
+  - control-theory
+  - state-estimation
+  content:
+    foundations:
+    - note_id: fnd-week02-dynamics
+      title: 拉格朗日与牛顿-欧拉动力学
+      topics:
+      - dynamics
+    - note_id: fnd-week02-pid-mpc
+      title: PID控制与模型预测控制(MPC)
+      topics:
+      - control-theory
+    interview_qa:
+    - note_id: qa-week02-impedance
+      question: 阻抗控制 vs 导纳控制：原理、区别与适用场景
+      topics:
+      - control-theory
+    advanced: []
+    coding: []
+    papers: []
+- week: 3
+  theme: 深度学习基础回顾
+  start_date: '2026-06-30'
+  end_date: '2026-07-06'
+  day_range:
+  - 15
+  - 21
+  topics:
+  - deep-learning-basics
+  - optimization
+  - transformers
+  content:
+    foundations:
+    - note_id: fnd-week03-backprop
+      title: 反向传播推导与常见激活函数
+      topics:
+      - deep-learning-basics
+    - note_id: fnd-week03-optimizers
+      title: SGD/Adam/AdamW优化器原理对比
+      topics:
+      - optimization
+    interview_qa:
+    - note_id: qa-week03-batchnorm
+      question: BatchNorm与LayerNorm的区别？为什么Transformer用LayerNorm？
+      topics:
+      - deep-learning-basics
+      - transformers
+    - note_id: qa-week03-attention
+      question: 手写Multi-Head Self-Attention并分析复杂度
+      topics:
+      - transformers
+    papers:
+    - note_id: pap-week03-transformer
+      title: Attention Is All You Need
+      arxiv_id: '1706.03762'
+      topics:
+      - transformers
+    advanced:
+    - note_id: adv-week03-transformer-deep
+      title: Transformer架构深度剖析
+      topics:
+      - transformers
+      - deep-learning-basics
+    coding: []
+- week: 4
+  theme: 计算机视觉基础：2D→3D
+  start_date: '2026-07-07'
+  end_date: '2026-07-13'
+  day_range:
+  - 22
+  - 28
+  topics:
+  - 3d-perception
+  - object-detection
+  - point-cloud
+  content:
+    foundations:
+    - note_id: fnd-week04-camera-model
+      title: 相机模型与多视图几何基础
+      topics:
+      - 3d-perception
+    - note_id: fnd-week04-pointnet
+      title: PointNet/PointNet++点云处理
+      topics:
+      - point-cloud
+      - 3d-perception
+    interview_qa:
+    - note_id: qa-week04-3d-detection
+      question: 3D目标检测主流方法对比：Voxel-based vs Point-based vs Range-view
+      topics:
+      - 3d-perception
+      - object-detection
+    papers:
+    - note_id: pap-week04-pointnet
+      title: 'PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation'
+      arxiv_id: '1612.00593'
+      topics:
+      - point-cloud
+    advanced: []
+    coding: []
+- week: 5
+  theme: 强化学习基础
+  start_date: '2026-07-14'
+  end_date: '2026-07-20'
+  day_range:
+  - 29
+  - 35
+  topics:
+  - rl-basics
+  - imitation-learning
+  content:
+    foundations:
+    - note_id: fnd-week05-rl-intro
+      title: MDP、贝尔曼方程与值函数
+      topics:
+      - rl-basics
+    - note_id: fnd-week05-policy-gradient
+      title: Policy Gradient与Actor-Critic方法
+      topics:
+      - rl-basics
+    interview_qa:
+    - note_id: qa-week05-rl-vs-il
+      question: 强化学习与模仿学习的本质区别？什么时候用哪种？
+      topics:
+      - rl-basics
+      - imitation-learning
+    papers:
+    - note_id: pap-week05-ppo
+      title: Proximal Policy Optimization Algorithms
+      arxiv_id: '1707.06347'
+      topics:
+      - rl-basics
+    advanced: []
+    coding: []
+- week: 6
+  theme: 模仿学习与离线强化学习
+  start_date: '2026-07-21'
+  end_date: '2026-07-27'
+  day_range:
+  - 36
+  - 42
+  topics:
+  - imitation-learning
+  - offline-rl
+  - rl-for-manipulation
+  content:
+    foundations:
+    - note_id: fnd-week06-bc-dagger
+      title: Behavior Cloning与DAgger算法
+      topics:
+      - imitation-learning
+    - note_id: fnd-week06-offline-rl
+      title: CQL与IQL：离线RL核心算法
+      topics:
+      - offline-rl
+    interview_qa:
+    - note_id: qa-week06-covariate-shift
+      question: 模仿学习中的分布偏移(Covariate Shift)问题及解决方案
+      topics:
+      - imitation-learning
+    papers:
+    - note_id: pap-week06-act
+      title: Action Chunking with Transformers (ACT)
+      arxiv_id: '2304.13705'
+      topics:
+      - imitation-learning
+      - rl-for-manipulation
+    advanced: []
+    coding: []
+- week: 7
+  theme: 视觉语言模型（VLM）基础
+  start_date: '2026-07-28'
+  end_date: '2026-08-03'
+  day_range:
+  - 43
+  - 49
+  topics:
+  - vlm-foundation
+  - multi-modal-fusion
+  - generative-models
+  content:
+    foundations:
+    - note_id: fnd-week07-vlm-intro
+      title: CLIP到GPT-4V：视觉语言模型演进
+      topics:
+      - vlm-foundation
+    interview_qa:
+    - note_id: qa-week07-vlm-arch
+      question: VLM中的视觉编码器选择：ViT vs ResNet vs SigLIP的优劣
+      topics:
+      - vlm-foundation
+      - multi-modal-fusion
+    papers:
+    - note_id: pap-week07-clip
+      title: Learning Transferable Visual Models From Natural Language Supervision
+      arxiv_id: '2103.00020'
+      topics:
+      - vlm-foundation
+      - contrastive-learning
+    advanced: []
+    coding: []
+- week: 8
+  theme: VLA模型：RT系列与基础模型
+  start_date: '2026-08-04'
+  end_date: '2026-08-10'
+  day_range:
+  - 50
+  - 56
+  topics:
+  - rt-series
+  - action-tokenization
+  - vlm-foundation
+  content:
+    foundations:
+    - note_id: fnd-week08-rt2
+      title: RT-1到RT-2：机器人基础模型演进
+      topics:
+      - rt-series
+    interview_qa:
+    - note_id: qa-week08-action-space
+      question: 连续动作空间 vs 离散动作空间：VLA模型如何选择？
+      topics:
+      - action-tokenization
+      - rt-series
+    papers:
+    - note_id: pap-week08-rt2
+      title: 'RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic
+        Control'
+      arxiv_id: '2307.15818'
+      topics:
+      - rt-series
+    - note_id: pap-week08-open-x
+      title: 'Open X-Embodiment: Robotic Learning Datasets and RT-X Models'
+      arxiv_id: '2310.08864'
+      topics:
+      - rt-series
+    advanced: []
+    coding: []
+- week: 9
+  theme: VLA模型：开源方案与最新进展
+  start_date: '2026-08-11'
+  end_date: '2026-08-17'
+  day_range:
+  - 57
+  - 63
+  topics:
+  - octo-openvla
+  - action-tokenization
+  - multi-modal-fusion
+  content:
+    foundations:
+    - note_id: fnd-week09-openvla
+      title: OpenVLA与Octo：开源VLA模型架构对比
+      topics:
+      - octo-openvla
+    interview_qa:
+    - note_id: qa-week09-vla-training
+      question: VLA模型的训练策略：从头训练、微调、MoE分别如何选？
+      topics:
+      - octo-openvla
+    papers:
+    - note_id: pap-week09-openvla
+      title: 'OpenVLA: An Open-Source Vision-Language-Action Model'
+      arxiv_id: '2406.09246'
+      topics:
+      - octo-openvla
+    - note_id: pap-week09-pi0
+      title: 'π0: A Vision-Language-Action Flow Model for General Robot Control'
+      arxiv_id: '2410.24164'
+      topics:
+      - octo-openvla
+      - generative-models
+    advanced: []
+    coding: []
+- week: 10
+  theme: 3D感知与NeRF/Gaussian Splatting
+  start_date: '2026-08-18'
+  end_date: '2026-08-24'
+  day_range:
+  - 64
+  - 70
+  topics:
+  - nerf-gaussian
+  - 3d-perception
+  - point-cloud
+  content:
+    foundations:
+    - note_id: fnd-week10-nerf
+      title: NeRF原理与3D Gaussian Splatting
+      topics:
+      - nerf-gaussian
+    interview_qa:
+    - note_id: qa-week10-nerf-vs-gs
+      question: NeRF vs 3D Gaussian Splatting：速度、质量、应用场景对比
+      topics:
+      - nerf-gaussian
+    papers:
+    - note_id: pap-week10-3dgs
+      title: 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+      arxiv_id: '2308.04079'
+      topics:
+      - nerf-gaussian
+    advanced: []
+    coding: []
+- week: 11
+  theme: 操作任务与灵巧操作
+  start_date: '2026-08-25'
+  end_date: '2026-08-31'
+  day_range:
+  - 71
+  - 77
+  topics:
+  - rl-for-manipulation
+  - imitation-learning
+  - sim-to-real
+  content:
+    foundations:
+    - note_id: fnd-week11-manipulation
+      title: 机器人操作任务：抓取、插入、灵巧操作
+      topics:
+      - rl-for-manipulation
+    interview_qa:
+    - note_id: qa-week11-dexterous
+      question: 灵巧手操作为什么难？从感知、规划、控制三个角度分析
+      topics:
+      - rl-for-manipulation
+    papers:
+    - note_id: pap-week11-diffusion-policy
+      title: 'Diffusion Policy: Visuomotor Policy Learning via Action Diffusion'
+      arxiv_id: '2303.04137'
+      topics:
+      - imitation-learning
+      - rl-for-manipulation
+    advanced: []
+    coding: []
+- week: 12
+  theme: Sim-to-Real迁移与域适应
+  start_date: '2026-09-01'
+  end_date: '2026-09-07'
+  day_range:
+  - 78
+  - 84
+  topics:
+  - domain-randomization
+  - domain-adaptation
+  - simulators
+  content:
+    foundations:
+    - note_id: fnd-week12-sim-real
+      title: Sim-to-Real迁移的核心挑战与方法
+      topics:
+      - domain-randomization
+      - domain-adaptation
+    interview_qa:
+    - note_id: qa-week12-domain-gap
+      question: 如何系统性地缩小Sim-to-Real的Domain Gap？
+      topics:
+      - domain-randomization
+      - domain-adaptation
+    papers:
+    - note_id: pap-week12-domain-rand
+      title: Domain Randomization for Transferring Deep Neural Networks from Simulation
+        to the Real World
+      arxiv_id: '1703.06907'
+      topics:
+      - domain-randomization
+    advanced: []
+    coding: []
+- week: 13
+  theme: ML系统设计与工程实践
+  start_date: '2026-09-08'
+  end_date: '2026-09-14'
+  day_range:
+  - 85
+  - 91
+  topics:
+  - ml-system-design
+  - distributed-training
+  - model-deployment
+  content:
+    foundations:
+    - note_id: fnd-week13-ml-system
+      title: ML系统设计面试框架
+      topics:
+      - ml-system-design
+    - note_id: fnd-week13-deployment
+      title: 模型部署：TensorRT/ONNX/Triton
+      topics:
+      - model-deployment
+    interview_qa:
+    - note_id: qa-week13-robot-system
+      question: 设计一个机器人推理系统：从感知到动作的端到端Pipeline
+      topics:
+      - ml-system-design
+    papers: []
+    advanced: []
+    coding: []
+- week: 14
+  theme: 前沿论文与最新趋势
+  start_date: '2026-09-15'
+  end_date: '2026-09-21'
+  day_range:
+  - 92
+  - 98
+  topics:
+  - vla
+  - generative-models
+  - sim-to-real
+  content:
+    foundations: []
+    interview_qa:
+    - note_id: qa-week14-embodied-trends
+      question: 具身智能2024-2025年最重要的3个趋势是什么？
+      topics:
+      - vla
+      - generative-models
+    papers:
+    - note_id: pap-week14-embodied-survey
+      title: 'A Survey on Embodied Intelligence: Robots That Learn from Interaction'
+      topics:
+      - vla
+      - rl-for-manipulation
+    advanced: []
+    coding: []
+- week: 15
+  theme: 综合复习与模拟面试
+  start_date: '2026-09-22'
+  end_date: '2026-09-28'
+  day_range:
+  - 99
+  - 105
+  topics:
+  - robotics-foundation
+  - vla
+  - reinforcement-learning
+  - computer-vision
+  content:
+    foundations:
+    - note_id: fnd-week15-cheatsheet
+      title: 具身智能面试核心知识点速查表
+      topics:
+      - robotics-foundation
+      - vla
+      - reinforcement-learning
+    interview_qa:
+    - note_id: qa-week15-mock-1
+      question: 模拟面试：VLA模型的推理延迟如何优化？
+      topics:
+      - vla
+      - model-deployment
+    - note_id: qa-week15-mock-2
+      question: 模拟面试：从零设计一个机器人抓取系统
+      topics:
+      - rl-for-manipulation
+      - 3d-perception
+      - ml-system-design
+    papers: []
+    advanced: []
+    coding: []

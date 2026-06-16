@@ -1,0 +1,30 @@
+# 复习手册 — 用户配置
+# 修改此文件来切换目标岗位
+
+target_role: "具身智能算法工程师"
+model: "deepseek-v4-flash"  # Claude model for the skill (supports image reading for 小红书)
+
+roles:
+  "具身智能算法工程师":
+    focus_areas:
+      - "机器人学基础"
+      - "计算机视觉"
+      - "强化学习"
+      - "模仿学习"
+      - "VLA视觉语言动作模型"
+      - "Sim-to-Real迁移"
+      - "运动规划与控制"
+      - "3D感知与重建"
+
+  "自动驾驶感知算法工程师":
+    focus_areas:
+      - "3D目标检测"
+      - "BEV感知"
+      - "Occupancy Network"
+      - "轨迹预测"
+      - "传感器融合"
+      - "端到端自动驾驶"
+      - "世界模型"
+
+language: "zh"
+start_date: "2026-06-16"
