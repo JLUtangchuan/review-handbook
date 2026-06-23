@@ -32,3 +32,5 @@ npm-debug.log*
 
 # Next.js
 next-env.d.ts
+
+skill/scripts/cookies.json

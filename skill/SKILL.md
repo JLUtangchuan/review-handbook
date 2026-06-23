@@ -137,35 +137,36 @@ Read `data/roadmap.yaml` for the target week:
 - Existing content slots (to avoid duplicates)
 
 #### Step 2: Construct Search Queries
-For each topic, generate **3 types of search queries** in parallel:
+For each topic, generate **3 types of search queries**:
 
-| Content Type | Query Pattern (知乎) | Query Pattern (小红书) |
+| Content Type | 知乎 (WebSearch) | 小红书 (xhs_search.py) |
 |---|---|---|
-| **基础知识** | `site:zhihu.com {topic_name} 入门 详解 原理` | `site:xiaohongshu.com {topic_name} 学习笔记 总结` |
-| **面试问答** | `site:zhihu.com {topic_name} 面试题 手写` | `site:xiaohongshu.com {topic_name} 面试 面经 算法岗` |
-| **推荐论文** | `site:zhihu.com {topic_name} 论文解读 必读` | `site:xiaohongshu.com {topic_name} 论文 精读` |
+| **基础知识** | `site:zhihu.com {topic_name} 入门 详解 原理` | `python skill/scripts/xhs_search.py search "{topic_name} 学习笔记" --count 10` |
+| **面试问答** | `site:zhihu.com {topic_name} 面试题 手写` | `python skill/scripts/xhs_search.py search "{topic_name} 面试 面经" --count 10` |
+| **推荐论文** | `site:zhihu.com {topic_name} 论文解读 必读` | `python skill/scripts/xhs_search.py search "{topic_name} 论文 精读" --count 10` |
 
-Example for Week 1 topic "kinematics":
-- 基础: `site:zhihu.com 机器人运动学 DH参数 详解`
-- 面试: `site:zhihu.com 机器人 逆运动学 面试题`
-- 论文: `site:zhihu.com 运动规划 RRT* 论文解读`
-- 小红书: `site:xiaohongshu.com 机器人运动学 学习笔记`
+**知乎**: Use **WebSearch** with `site:zhihu.com` operator.
 
-Use **WebSearch** tool for all queries. The `site:` operator helps target the specific platform.
+**小红书**: Use the local `xhs_search.py` script which controls a real Chrome browser via CDP.
+This avoids Xiaohongshu's anti-bot blocking (WebFetch gets blocked).
+Requires Chrome running — run `python skill/scripts/xhs_search.py login` once to authenticate.
 
 #### Step 3: Fetch and Filter
-For each search result (top ~5-8 per query):
-1. Use **WebFetch** to retrieve the full page content
-2. Filter out:
-   - Paywalled content
-   - Low-quality / too-short posts
-   - Posts already indexed in `collections/{platform}.yaml`
-   - Irrelevant content (doesn't match the week's topics)
-3. Prioritize:
-   - High engagement (likes/comments)
-   - Comprehensive content (>1000 words)
-   - Recent posts (last 1-2 years)
-   - Official/verified authors
+For 知乎 results: Use **WebFetch** to retrieve full page content.
+
+For 小红书 results: Use `python skill/scripts/xhs_search.py detail "<note_url>"` to extract content, images, and metadata from each note.
+
+Filter out:
+- Paywalled content
+- Low-quality / too-short posts
+- Posts already indexed in `collections/{platform}.yaml`
+- Irrelevant content (doesn't match the week's topics)
+
+Prioritize:
+- High engagement (likes/comments)
+- Comprehensive content (>1000 words)
+- Recent posts (last 1-2 years)
+- Official/verified authors
 
 #### Step 4: Analyze and Create Notes
 For each selected post, follow the same analysis pipeline as `add`:
@@ -297,3 +298,36 @@ This command is designed to be run once per day. Can also be automated via cron:
 - Notes can be manually edited in YAML files — the skill reads and preserves manual changes
 - After adding content, the web app needs rebuild: `cd web && npx tsx scripts/prebuild.ts && npm run build`
 - For GitHub Pages auto-deploy, push changes to main branch — the GitHub Actions workflow handles the rest
+
+## Xiaohongshu Tool Setup（小红书搜索工具）
+
+基于 [jackwener/xhs-cli](https://github.com/jackwener/xhs-cli) — 逆向工程 API + 签名请求，天然避开反爬检测。
+
+### Prerequisites
+- Python 3.10+
+- `pip install xiaohongshu-cli`
+
+### First-time Setup
+```bash
+cd skill/scripts
+
+# Install
+pip install xiaohongshu-cli
+
+# Login (opens browser for QR scan with 小红书 app)
+python3 xhs_search.py login
+```
+
+若 QR 登录无法下载 Camoufox 浏览器（SSL 问题），可手动提供 cookie：
+1. 用 Chrome 打开 xiaohongshu.com 并登录
+2. 从 DevTools → Application → Cookies 提取 `a1`、`web_session` 等
+3. 保存为 `~/.xiaohongshu-cli/cookies.json`
+
+Cookies 保存在 `~/.xiaohongshu-cli/cookies.json`，7天有效期，过期自动提示刷新。
+
+### Anti-Detection Notes
+- 使用逆向 API，所有请求带 `x-s` / `x-s-common` / `x-t` 签名
+- 请求间隔带高斯抖动（Gaussian jitter），模拟阅读行为
+- 触发验证码时自动指数退避
+- **不需要**启动 Chrome 或任何浏览器（仅在 QR 登录时需要）
+- 每天可搜索数百次而不会被封

@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "/review-handbook" : "",
+  // Dev mode: full Next.js server with API routes
+  // Static export: use next.config.export.ts via build-static.sh
+  basePath: "",
   images: {
     unoptimized: true,
   },

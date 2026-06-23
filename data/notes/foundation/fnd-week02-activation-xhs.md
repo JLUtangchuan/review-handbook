@@ -1,0 +1,56 @@
+---
+id: fnd-week02-activation-xhs
+title: "大模型激活函数为什么是swiGLU？"
+type: foundation
+week: 2
+topics: ["activation-functions"]
+tags: - initial_weight: 1.2
+  name: 日常实习
+- initial_weight: 1.2
+  name: 算法
+- initial_weight: 1.2
+  name: 互联网大厂
+- initial_weight: 1.2
+  name: 互联网大厂实习
+- initial_weight: 1.2
+  name: 面经
+difficulty: 3
+status: pending
+rating: 0
+created_at: "2026-06-23"
+updated_at: "2026-06-23"
+sources:
+- platform: xiaohongshu
+  url: "https://www.xiaohongshu.com/explore/6921761f000000001f0061d8"
+  title: "大模型激活函数为什么是swiGLU？"
+  saved_at: "2026-06-23"
+recommendations: []
+---
+
+# 大模型激活函数为什么是swiGLU？
+
+> @ai芝士 | 👍95 | https://www.xiaohongshu.com/explore/6921761f000000001f0061d8
+
+---
+
+SwiGLU 是 GLU 的改进版，用 Swish 风格门控替代原有的 sigmoid 门控，既增强了模型的非线性表达能力，又通过平滑可导的特性改善梯度传播、缓解梯度消失，成为目前大模型的核心组件
+-
+#日常实习[话题]# #算法[话题]# #互联网大厂[话题]# #互联网大厂实习[话题]# #面经[话题]# #大模型[话题]# #转码[话题]#
+
+## 图片
+
+![图1](http://sns-webpic-qc.xhscdn.com/202606232348/9828b595a1e6d738437dae3d11c8b4d9/1040g2sg31p6brbn6jcgg5nvg187g8477mc261m8!nd_dft_wlteh_webp_3)
+
+![图2](http://sns-webpic-qc.xhscdn.com/202606232348/e7867254e18b4d9e72be3b937be4a07e/1040g2sg31p6brbn6jce05nvg187g8477ojc5g1g!nd_dft_wlteh_webp_3)
+
+![图3](http://sns-webpic-qc.xhscdn.com/202606232348/f2d7cc403a8879982b4bfa7d8e368aa9/1040g2sg31p6brbn6jcfg5nvg187g8477l7irq78!nd_dft_wlteh_webp_3)
+
+![图4](http://sns-webpic-qc.xhscdn.com/202606232348/4f8348503f93e5fd331bb7a833630fa7/1040g2sg31p6brbn6jcg05nvg187g8477lm8odr8!nd_dft_wlteh_webp_3)
+
+![图5](http://sns-webpic-qc.xhscdn.com/202606232348/3792e4c6f87fd86873ebb91d6abfe69a/1040g2sg31p6brbn6jcf05nvg187g84775glkc3o!nd_dft_wlteh_webp_3)
+
+![图6](http://sns-webpic-qc.xhscdn.com/202606232348/62f54ca8253683a0f97cd70e6087005e/1040g2sg31p6brbn6jceg5nvg187g84779v12588!nd_dft_wlteh_webp_3)
+
+![图7](http://sns-webpic-qc.xhscdn.com/202606232348/2f980a7bedc37c5b2d987943e660492d/1040g2sg31p6brbn6jch05nvg187g84775q1gr48!nd_dft_wlteh_webp_3)
+
+

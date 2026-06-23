@@ -1,11 +1,10 @@
-# 复习手册 — 学习进度追踪
-
 current_week: 1
-current_day: 1
+current_day: 11
 total_days: 100
-completed_days: []
+completed_days:
+  - 8
 completed_items: {}
 weekly_notes: {}
 streak:
-  current: 0
-  longest: 0
+  current: 1
+  longest: 1

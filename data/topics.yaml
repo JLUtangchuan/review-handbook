@@ -1,104 +1,120 @@
 # 复习手册 — 话题分类体系
-# 具身智能算法工程师方向
+# 具身智能算法工程师方向 | 基于小红书面试高频考点重组
 
 topics:
-  - id: "robotics-foundation"
-    name: "机器人学基础"
-    icon: "🤖"
+  - id: foundation-model
+    name: 基础模型架构
+    icon: 🏗️
     subtopics:
-      - id: "kinematics"
-        name: "运动学（正/逆）"
-      - id: "dynamics"
-        name: "动力学"
-      - id: "motion-planning"
-        name: "运动规划"
-      - id: "control-theory"
-        name: "控制理论"
-      - id: "state-estimation"
-        name: "状态估计与滤波"
+      - id: attention-arch
+        name: 注意力架构（MHA→MQA→GQA→MLA演进/复杂度分析/手撕代码）
+      - id: position-encoding
+        name: 位置编码（Sinusoidal→RoPE→ALiBi→NoPE/NTK-aware外推）
+      - id: activation-functions
+        name: 激活函数（SwiGLU/GELU/GeGLU/SiLU对比/门控机制/梯度分析）
+      - id: normalization
+        name: 归一化与正则（LayerNorm→RMSNorm→DeepNorm/Pre-LN vs Post-LN/Dropout）
+      - id: llm-architecture
+        name: 大模型架构报告（DeepSeek V2/V3/R1→Kimi-MoE→GLM→Qwen技术报告）
+      - id: architecture-innovation
+        name: 架构创新（MoE路由与负载均衡/Mamba/SSM/Titans记忆力/Linear Attention）
+      - id: optimizers
+        name: 优化器（SGD→Adam→AdamW→Lion→Sophia→Muon/解耦Weight Decay）
+      - id: loss-functions
+        name: 损失函数（CE/NTP/Contrastive/Aux-loss/Z-loss/RLHF-loss）
+      - id: training-regularization
+        name: 训练正则（Weight Decay/EMA/Gradient Clip/Label Smoothing/Loss Spike分析）
+      - id: flash-attention
+        name: FlashAttention（V1/V2/V3原理/Tiling策略/IO-Awareness/面试高频）
 
-  - id: "computer-vision"
-    name: "计算机视觉"
-    icon: "👁️"
+  - id: reinforcement-learning
+    name: 强化学习
+    icon: 🎮
     subtopics:
-      - id: "3d-perception"
-        name: "3D感知"
-      - id: "object-detection"
-        name: "目标检测"
-      - id: "point-cloud"
-        name: "点云处理"
-      - id: "nerf-gaussian"
-        name: "NeRF/3D Gaussian"
-      - id: "video-understanding"
-        name: "视频理解"
+      - id: rl-fundamentals
+        name: RL基础（MDP/Bellman方程/Value Iteration/Policy Gradient/Actor-Critic/GAE推导）
+      - id: ppo-variants
+        name: PPO全解（PPO-Clip/PPO-Penalty/TRPO/Importance Sampling/Critic设计）
+      - id: grpo-variants
+        name: 'GRPO及其变体（GRPO推导/DAPO/SAPO/GSPO/Group Relative Advantage）'
+      - id: rlhf-pipeline
+        name: 'RLHF全流程（Reward Model训练→PPO→DPO→GRPO→RLVR→Evaluation）'
+      - id: reward-design
+        name: 'Reward设计（Bradley-Terry/Ensemble RM/Process vs Outcome Reward/Overoptimization）'
+      - id: rl-coding
+        name: 'RL Coding（手写PPO/GRPO/GAE/Reward Model/Training Loop/verl源码阅读）'
 
-  - id: "machine-learning"
-    name: "机器学习"
-    icon: "🧠"
+  - id: vla-architecture
+    name: VLA模型架构
+    icon: 🤖
     subtopics:
-      - id: "deep-learning-basics"
-        name: "深度学习基础"
-      - id: "optimization"
-        name: "优化方法"
-      - id: "transformers"
-        name: "Transformer架构"
-      - id: "generative-models"
-        name: "生成模型"
-      - id: "contrastive-learning"
-        name: "对比学习"
+      - id: vlm-backbone
+        name: 'VLM基座（CLIP/SigLIP/InternVL/Llava/Qwen-VL/DINOv2）'
+      - id: rt-series
+        name: 'RT系列（RT-1→RT-2→RT-X/Co-fine-tuning/Web-to-Robot迁移）'
+      - id: open-vla
+        name: '开源VLA（OpenVLA/Octo/π0/RDT/GR-1/架构对比与选型）'
+      - id: action-representation
+        name: '动作表示（Tokenization/Flow Matching/Diffusion Policy/Action Chunking）'
+      - id: vla-training
+        name: 'VLA训练范式（全量微调→LoRA→MoE插件/Co-training/Sim-to-Real）'
+      - id: vla-interview
+        name: 'VLA面试（架构选型/动作空间设计/推理延迟优化/多Embodiment泛化/Scaling Law）'
 
-  - id: "reinforcement-learning"
-    name: "强化学习"
-    icon: "🎮"
+  - id: world-models
+    name: 世界模型（WAM）
+    icon: 🌍
     subtopics:
-      - id: "rl-basics"
-        name: "RL基础（MDP/Q-Learning/Policy Gradient）"
-      - id: "imitation-learning"
-        name: "模仿学习（BC/DAgger/IRL）"
-      - id: "offline-rl"
-        name: "离线强化学习"
-      - id: "multi-agent-rl"
-        name: "多智能体强化学习"
-      - id: "rl-for-manipulation"
-        name: "操作任务的RL"
+      - id: wm-fundamentals
+        name: '世界模型基础（Dyna→Model-based RL→Latent Imagination→RSSM）'
+      - id: video-generation-wm
+        name: '视频生成世界模型（Sora/Genie/UniSim/GameNGen/Occupancy WM）'
+      - id: robot-wm
+        name: '机器人世界模型（DreamerV3/GR-1/SuSIE/DayDreamer/DriveWAM）'
+      - id: wam-application
+        name: 'WAM应用（规划/数据增强/Sim-to-Real/Policy Rollout/自动驾驶WAM）'
 
-  - id: "vla"
-    name: "VLA视觉语言动作模型"
-    icon: "🤖"
+  - id: model-optimization
+    name: 模型优化与加速
+    icon: ⚡
     subtopics:
-      - id: "vlm-foundation"
-        name: "视觉语言模型基础"
-      - id: "rt-series"
-        name: "RT系列（RT-1/RT-2/RT-X）"
-      - id: "octo-openvla"
-        name: "Octo/OpenVLA/π0"
-      - id: "action-tokenization"
-        name: "动作分词与离散化"
-      - id: "multi-modal-fusion"
-        name: "多模态融合策略"
+      - id: kv-cache
+        name: 'KV Cache优化（PagedAttention/vLLM/GQA→MLA/RadixAttention/Prefix Caching）'
+      - id: quantization
+        name: '量化（QAT vs PTQ/GPTQ/AWQ/FP8 E4M3/INT4/GGUF/KV Cache量化）'
+      - id: peft
+        name: 'PEFT（LoRA/QLoRA/AdaLoRA/DoRA/IA3/VeRA/理论和实现）'
+      - id: inference-opt
+        name: '推理优化（FlashAttention/TensorRT-LLM/SGLang/Speculative Decoding/显存计算）'
+      - id: distillation
+        name: '知识蒸馏（Logit-based/Feature-based/Online Distillation/模型压缩）'
 
-  - id: "sim-to-real"
-    name: "Sim-to-Real迁移"
-    icon: "🔄"
+  - id: training-frameworks
+    name: 训练框架与工程
+    icon: 🔧
     subtopics:
-      - id: "domain-randomization"
-        name: "域随机化"
-      - id: "domain-adaptation"
-        name: "域适应"
-      - id: "simulators"
-        name: "仿真平台（Isaac/MuJoCo）"
-      - id: "digital-twin"
-        name: "数字孪生"
+      - id: verl
+        name: 'Verl框架（PPO/GRPO Pipeline/Hybrid Engine/SGLang+FSDP/源码解析）'
+      - id: distributed-training
+        name: '分布式训练（DDP/FSDP/TP/PP/SP/CP/通信与计算重叠）'
+      - id: deepspeed
+        name: 'DeepSpeed（ZeRO-1/2/3→ZeRO-Offload→ZeRO++/显存优化策略）'
+      - id: megatron
+        name: 'Megatron-LM（TP+PP Pipeline/Sequence Parallel/Context Parallel）'
+      - id: embodied-frameworks
+        name: '具身框架（IsaacSim/ManiSkill/RLBench/LIBERO/Genesis/GPU并行仿真）'
+      - id: data-pipeline
+        name: '数据管线（OXE数据集/RoboSet/数据配比与增强/Scaling Law）'
 
-  - id: "system-mlops"
-    name: "系统与MLOps"
-    icon: "⚙️"
+  - id: system-integration
+    name: 系统设计与面试实战
+    icon: 🎯
     subtopics:
-      - id: "ml-system-design"
-        name: "ML系统设计"
-      - id: "distributed-training"
-        name: "分布式训练"
-      - id: "model-deployment"
-        name: "模型部署与推理优化"
-      - id: "ros"
-        name: "ROS/ROS2"
+      - id: system-design
+        name: '系统设计（端到端推理Pipeline/延迟优化SLA/吞吐-成本平衡/千人服务架构）'
+      - id: robot-foundations
+        name: '机器人基础（运动学/手眼标定/ROS2/URDF/Real2Sim/传感器融合）'
+      - id: latest-trends
+        name: '前沿趋势（具身AGI/Foundation Model for Robotics/多Embodiment/Sim-to-Real新范式）'
+      - id: mock-interview
+        name: '模拟面试（算法推导手撕/项目深挖/系统设计/行为面试/公司面试题汇总）'

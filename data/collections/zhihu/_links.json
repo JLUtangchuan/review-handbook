@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://www.zhihu.com/p/1956846015798818776",
+    "title": "IRL-VLA：通过奖励世界模型训练视觉-语言-行动策略，实现端到端自动驾驶"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2047023571269165830",
+    "title": "一文吃透 PPO / DPO / GRPO / GSPO:从公式推导到 verl 源码逐行拆解"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2047385722957705557",
+    "title": "具身智能入门感想"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2043620037890769967",
+    "title": "“面试造火箭”之 强化学习（具身/自驾）总结"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2045891619426252501",
+    "title": "Scaling  Is  All You Need"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1963075673762555122",
+    "title": "Diffusion + RL 系列一 （DQL 及其后续发展）"
+  },
+  {
+    "url": "https://www.zhihu.com/p/682151286",
+    "title": "Diffusion + RL 系列一 （DQL 及其后续发展）"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2041526242667656710",
+    "title": "CS224R Policy Gradients"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2025175020712857922",
+    "title": "[自动驾驶] SparseDriveV2 论文阅读报告"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2039807168044652235",
+    "title": "DynVLA：少量Token做VLA Cot压缩"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2039667146515538016",
+    "title": "自动驾驶Diffusion+RL 研发流程"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2023457361075906396",
+    "title": "魔鬼藏在狭隘的策略中：释放VLA驾驶模型的探索潜力"
+  },
+  {
+    "url": "https://www.zhihu.com/question/2038041473304802451/answer/2038409251262026008",
+    "title": "如何评价张小珺对姚顺宇的4小时访谈？"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2036117878219527373",
+    "title": "BridgeDrive 将自动驾驶闭环规划建模为“从粗糙专家 anchor 到精细驾驶轨迹”的扩散桥生成过程"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2029889047666091791",
+    "title": "🌊 LangFlow: 连续扩散语言模型，首次匹敌离散"
+  },
+  {
+    "url": "https://www.zhihu.com/p/2010761168512368956",
+    "title": "完整GRPO训练流程：一个具体例子"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1891136980370302219",
+    "title": "多种注意力机制详解"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1975272224467461447",
+    "title": "空间势场法：One-4-all、PBDMP、FlowDrive"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1972781108128155202",
+    "title": "近期关于RL学习的研究总结"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1971570957010317420",
+    "title": "自动驾驶视觉与多模态模型"
+  },
+  {
+    "url": "https://www.zhihu.com/p/1970953355355469364",
+    "title": "在地平线搞自动驾驶的三年——工作总结版"
+  }
+]

@@ -28,11 +28,8 @@ jobs:
       - name: Install dependencies
         run: cd web && npm ci
 
-      - name: Copy data files
-        run: cd web && npx tsx scripts/prebuild.ts
-
       - name: Build static site
-        run: cd web && npm run build
+        run: cd web && npm run build:static
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -1,3 +1,6 @@
 # Next.js build output
 .next/
 out/
+
+# build-static.sh temp files
+.api.bak/

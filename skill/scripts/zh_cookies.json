@@ -1,0 +1,146 @@
+[
+  {
+    "domain": ".zhihu.com",
+    "name": "_xsrf",
+    "value": "2d4a3a1e-146e-4d21-92ff-dfe1fe3c0069",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "_zap",
+    "value": "6263ff47-3e2a-46f6-8d41-cf024c935f51",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1816786087.994715
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49",
+    "value": "1782226991",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "captcha_session_v2",
+    "value": "2|1:0|10:1782226089|18:captcha_session_v2|88:emgzWnRtYXN5YThwQXRYdzloRktvQVJIbzBIZkx0Q0J2Mm5VRklDRHBjcENyOXRSVkF2Rll3dnVOSHl1cGNMUg==|99f27a81ba85fe7e0acefe60eca4edfef5094fd18984365009bc212a372408a4",
+    "path": "/",
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1784818089.105977
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "HMACCOUNT",
+    "value": "A3CDAA8AAAF28EEF",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "osd",
+    "value": "W1sWCkmUzaZgadFXDfcvu03BgSsbyfrOGQ6hYG_ooNApGu1rOTdbnQpo210MIcXtaLvZxHA9XuHDnoDOwAGIIyo=",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "gdxidpyhxdE",
+    "value": "4PMx8rOfcZUVDRPtggjYkBknUtikZTA21ba%2Bc6toeN90spG4lGqrHaG9g8AmM%2FG2Kz6b3P64tcYpOXN5EgQ%5CYr%2Bsvlyiih0i14LBXLZMNDv96xj1UNpbjS48t10ovcLcE%2FZjes3fiu%5CySsw1kw2MXKIJsrPetG%5CDk42g2pww%5CdPR77s%5C%3A1782226992715",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1784818992
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "z_c0",
+    "value": "2|1:0|10:1782226778|4:z_c0|92:Mi4xMExLaEF3QUFBQUNBbE5sRHFGQjlIQ1lBQUFCZ0FsVk5XZTBuYXdERWlKVndXSWxwSEwzbGcyRTVPSDgwaWlFX0dR|f4844a85c6e1ab97bd6166cb37fec358eb80cdd73c9d8f3dbe941f7335a7770e",
+    "path": "/",
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "unspecified",
+    "expirationDate": 1797778777.134508
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "BEC",
+    "value": "d6322fc1daba6406210e61eaa4ec5a7a",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1782230590.487906
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "JOID",
+    "value": "UVETB0mex6NtadtdCPovsUfEjCsRw__DGQSrZWLoqtosF-1hMzJWnQBi3lAMK8_oZbvTznUwXuvJm43OyguNLio=",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "SESSIONID",
+    "value": "W7brlz7hwgvCx764CImT4X3Y1XqyQU1eDyYIDcLUawl",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified"
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "d_c0",
+    "value": "gJTZQ6hQfRyPTkkT129pAbQEHiKo7-UzI2Q=|1782226088",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1816786088.93066
+  },
+  {
+    "domain": ".zhihu.com",
+    "name": "Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49",
+    "value": "1782226089",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1813762991
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "__snaker__id",
+    "value": "YLhYU3bij8s2QZtQ",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1813762090
+  },
+  {
+    "domain": "www.zhihu.com",
+    "name": "q_c1",
+    "value": "a5d5dbfe861447698056af2394fd43fe|1782226777000|1782226777000",
+    "path": "/",
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "unspecified",
+    "expirationDate": 1816786777.414267
+  }
+]

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import NavBar from "@/components/NavBar";
+import AdminPanel from "@/components/AdminPanel";
 import { WeightProvider } from "@/components/WeightContext";
 import { ReviewProvider } from "@/components/ReviewContext";
 import "./globals.css";
@@ -35,6 +36,7 @@ export default function RootLayout({
             <main className="flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom">
               {children}
             </main>
+            <AdminPanel />
           </WeightProvider>
         </ReviewProvider>
       </body>

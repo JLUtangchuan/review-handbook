@@ -66,7 +66,8 @@ export default function WeekClient({
   const handleMarkComplete = useCallback((noteId: string, rating: number) => {
     setCompletedNotes((prev) => {
       const next = new Set(prev);
-      if (next.has(noteId)) {
+      const wasComplete = next.has(noteId);
+      if (wasComplete) {
         next.delete(noteId);
       } else {
         next.add(noteId);
@@ -80,6 +81,17 @@ export default function WeekClient({
         }
         localStorage.setItem("rh_completed", JSON.stringify(saved));
       }
+
+      // Fire-and-forget API call to persist to data/ YAML (dev mode only)
+      const newStatus = wasComplete ? "pending" : "completed";
+      fetch(`/api/notes/${noteId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status: newStatus, rating }),
+      }).catch(() => {
+        // API unavailable (static/production mode) — silently ignore
+      });
+
       return next;
     });
   }, []);

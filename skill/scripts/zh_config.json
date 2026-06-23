@@ -1,0 +1,11 @@
+{
+  "zhihuUrls": [
+    {
+      "name": "collection-713057152",
+      "url": "https://www.zhihu.com/collection/713057152"
+    }
+  ],
+  "outputPath": "/home/chuan/workdir/review-handbook/data/collections/zhihu",
+  "os": "linux",
+  "openCollection": false
+}
