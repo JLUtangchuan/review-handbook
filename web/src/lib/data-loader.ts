@@ -365,8 +365,8 @@ function noteToMarkdown(note: Note): string {
   const fmKeys = ["id", "title", "type", "week", "topics", "tags", "difficulty",
     "status", "rating", "created_at", "updated_at", "recommendations"];
   for (const k of fmKeys) {
-    if (k in (note as Record<string, unknown>)) {
-      fm[k] = (note as Record<string, unknown>)[k];
+    if (k in (note as unknown as Record<string, unknown>)) {
+      fm[k] = (note as unknown as Record<string, unknown>)[k];
     }
   }
   if (note.sources) fm["sources"] = note.sources;
