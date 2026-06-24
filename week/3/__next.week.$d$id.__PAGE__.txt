@@ -1,8 +1,12 @@
 1:"$Sreact.fragment"
-2:I[80875,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js"],"default"]
+2:I[80875,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","/review-handbook/_next/static/chunks/2yg-60zhatybd.js"],"default"]
 b:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
-3:Tbaa,## 来源
+3:Tc8e,## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+## 来源
 - [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
 
 ## 内容
@@ -35,7 +39,16 @@ DeepSeek系列三阶段技术演进：
 ## 相关笔记
 - [[adv-week03-mamba]]
 - [[qa-week03-deepseek-mla]]
-- [[qa-week03-moe-routing]]4:T93a,## 来源
+- [[qa-week03-moe-routing]]
+
+## 相关笔记
+- [[adv-week03-mamba]]
+- [[qa-week03-deepseek-mla]]
+- [[qa-week03-moe-routing]]4:T9fa,## 来源
+- [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
+
+## 内容
+## 来源
 - [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
 
 ## 内容
@@ -62,6 +75,9 @@ DeepSeek系列三阶段技术演进：
 ## 图片
 ![DeepSeek V3技术报告精华](http://sns-webpic-qc.xhscdn.com/202606222257/e8e1c256229729de7bbbcfed18acc416/notes_pre_post/1040g3k031c1gqskkh0005no10lvg8f4hia26e1o!nc_n_webp_mw_1)
 *DeepSeek V3技术报告精华*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
 
 ## 相关笔记
 - [[fnd-week03-deepseek]]5:T879,> **💡 问题**: DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？
@@ -93,7 +109,13 @@ Step 3 — Cache only Latent（推理时）：推理时只存储c_KV（1个laten
 
 ## 相关笔记
 - [[fnd-week03-deepseek]]
-- [[fnd-week10-kv-cache]]6:T99e,> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
+- [[fnd-week10-kv-cache]]6:Tab5,> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
 
 ## 来源
 - [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
@@ -117,6 +139,9 @@ MoE负载均衡是MoE架构的核心挑战——如果专家负载不均，会�
 ## 图片
 ![MoE路由与负载均衡](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
 *MoE路由与负载均衡*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
 
 ## 相关笔记
 - [[fnd-week03-deepseek]]7:Tbc9,## 来源
@@ -299,7 +324,7 @@ b_j初始化为零，然后根据式\eqref{eq:aux-loss-free}来更新，更新�
 
 ![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
 
-![图片](https://pic1.zhimg.com/v2-5fc67a2efe2e8f52b40fac8a80da1442_l.jpg?source=06d4cd63)0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"weekPlan":{"week":3,"theme":"基础模型架构：大模型技术报告精读（面试必问）","start_date":"2026-06-30","end_date":"2026-07-06","day_range":[15,21],"topics":["llm-architecture","architecture-innovation","loss-functions"],"content":{"foundations":[{"note_id":"fnd-week03-deepseek","title":"DeepSeek技术报告全景：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","topics":["llm-architecture","architecture-innovation"]},{"note_id":"fnd-week03-kimi-glm","title":"Kimi-MoE vs GLM-4 vs Qwen：国内大模型架构对比","topics":["llm-architecture"]}],"interview_qa":[{"note_id":"qa-week03-deepseek-mla","question":"DeepSeek MLA如何将KV Cache压缩10-20倍？低秩假设为什么合理？","topics":["llm-architecture","kv-cache"]},{"note_id":"qa-week03-moe-routing","question":"MoE负载均衡：Aux-loss vs Expert Choice vs DeepSeek Shared Expert策略？","topics":["architecture-innovation","llm-architecture"]}],"advanced":[{"note_id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","topics":["architecture-innovation"]},{"note_id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","topics":[]}],"coding":[],"papers":[{"note_id":"pap-week03-deepseek-v3","title":"DeepSeek-V3 Technical Report","arxiv_id":"2412.19437","topics":["llm-architecture"],"cool_papers_url":"https://papers.cool/arxiv/kimi?paper=2412.19437"}]}},"notes":[{"id":"fnd-week03-deepseek","title":"DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"DeepSeek","initial_weight":1.8},{"name":"MLA","initial_weight":1.5},{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.3}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["adv-week03-mamba","qa-week03-deepseek-mla","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$3","images":[]},{"id":"fnd-week03-kimi-glm","title":"Kimi-MoE与GLM-4技术架构对比","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.2},{"name":"Kimi","initial_weight":1.3},{"name":"GLM","initial_weight":1.2}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d","title":"年度最牛逼论文：DeepSeek-V3技术报告","saved_at":"2026-06-22"}],"summary":"$4","images":[]},{"id":"qa-week03-deepseek-mla","title":"DeepSeek MLA如何将KV Cache压缩到极致","type":"interview_qa","week":3,"topics":["llm-architecture","kv-cache"],"tags":[{"name":"MLA","initial_weight":1.6},{"name":"DeepSeek","initial_weight":1.5},{"name":"KV Cache","initial_weight":1.4}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？","summary":"$5","images":[]},{"id":"qa-week03-moe-routing","title":"MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略","type":"interview_qa","week":3,"topics":["architecture-innovation","llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.5},{"name":"负载均衡","initial_weight":1.4},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？","summary":"$6","images":[]},{"id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"Mamba","initial_weight":1.5},{"name":"SSM","initial_weight":1.4},{"name":"Titans","initial_weight":1.3},{"name":"架构创新","initial_weight":1.2}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$7","images":[]},{"id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/32372010801","title":"MoE环游记：3、换个思路来分配","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$8","images":[]}],"weekNum":3,"hasPrev":true,"hasNext":true,"totalWeeks":15}],["$L9"],"$La"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"qGs-v4gzfOS06h0eFRT_0"}
-9:["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js","async":true}]
+![图片](https://pic1.zhimg.com/v2-5fc67a2efe2e8f52b40fac8a80da1442_l.jpg?source=06d4cd63)0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"weekPlan":{"week":3,"theme":"基础模型架构：大模型技术报告精读（面试必问）","start_date":"2026-06-30","end_date":"2026-07-06","day_range":[15,21],"topics":["llm-architecture","architecture-innovation","loss-functions"],"content":{"foundations":[{"note_id":"fnd-week03-deepseek","title":"DeepSeek技术报告全景：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","topics":["llm-architecture","architecture-innovation"]},{"note_id":"fnd-week03-kimi-glm","title":"Kimi-MoE vs GLM-4 vs Qwen：国内大模型架构对比","topics":["llm-architecture"]}],"interview_qa":[{"note_id":"qa-week03-deepseek-mla","question":"DeepSeek MLA如何将KV Cache压缩10-20倍？低秩假设为什么合理？","topics":["llm-architecture","kv-cache"]},{"note_id":"qa-week03-moe-routing","question":"MoE负载均衡：Aux-loss vs Expert Choice vs DeepSeek Shared Expert策略？","topics":["architecture-innovation","llm-architecture"]}],"advanced":[{"note_id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","topics":["architecture-innovation"]},{"note_id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","topics":[]}],"coding":[],"papers":[{"note_id":"pap-week03-deepseek-v3","title":"DeepSeek-V3 Technical Report","arxiv_id":"2412.19437","topics":["llm-architecture"],"cool_papers_url":"https://papers.cool/arxiv/kimi?paper=2412.19437"}]}},"notes":[{"id":"fnd-week03-deepseek","title":"DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"DeepSeek","initial_weight":1.8},{"name":"MLA","initial_weight":1.5},{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.3}],"difficulty":4,"status":"completed","rating":1,"created_at":"2026-06-22","updated_at":"2026-06-24","recommendations":["adv-week03-mamba","qa-week03-deepseek-mla","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$3","images":[]},{"id":"fnd-week03-kimi-glm","title":"Kimi-MoE与GLM-4技术架构对比","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.2},{"name":"Kimi","initial_weight":1.3},{"name":"GLM","initial_weight":1.2}],"difficulty":3,"status":"completed","rating":1,"created_at":"2026-06-22","updated_at":"2026-06-24","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d","title":"年度最牛逼论文：DeepSeek-V3技术报告","saved_at":"2026-06-22"}],"summary":"$4","images":[]},{"id":"qa-week03-deepseek-mla","title":"DeepSeek MLA如何将KV Cache压缩到极致","type":"interview_qa","week":3,"topics":["llm-architecture","kv-cache"],"tags":[{"name":"MLA","initial_weight":1.6},{"name":"DeepSeek","initial_weight":1.5},{"name":"KV Cache","initial_weight":1.4}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？","summary":"$5","images":[]},{"id":"qa-week03-moe-routing","title":"MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略","type":"interview_qa","week":3,"topics":["architecture-innovation","llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.5},{"name":"负载均衡","initial_weight":1.4},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"completed","rating":2,"created_at":"2026-06-22","updated_at":"2026-06-24","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？","summary":"$6","images":[]},{"id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"Mamba","initial_weight":1.5},{"name":"SSM","initial_weight":1.4},{"name":"Titans","initial_weight":1.3},{"name":"架构创新","initial_weight":1.2}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$7","images":[]},{"id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/32372010801","title":"MoE环游记：3、换个思路来分配","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$8","images":[]}],"weekNum":3,"hasPrev":true,"hasNext":true,"totalWeeks":15}],["$L9"],"$La"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"2kW-2_wcHNbAnx5ScEv94"}
+9:["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/2yg-60zhatybd.js","async":true}]
 a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
 d:null
