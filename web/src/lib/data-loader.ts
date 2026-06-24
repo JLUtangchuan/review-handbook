@@ -127,13 +127,23 @@ function migrateNote(raw: Record<string, unknown>): Note {
   } as unknown as Note;
 }
 
-/** Parse YAML frontmatter from a markdown string */
+/** Parse YAML frontmatter and body from a markdown string */
 function parseFrontmatter(md: string): Record<string, unknown> | null {
-  const match = md.match(/^---\n([\s\S]*?)\n---/);
+  const match = md.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   if (!match) return null;
   try {
-    const parsed = yaml.load(match[1]);
-    return (parsed as Record<string, unknown>) ?? null;
+    const parsed = yaml.load(match[1]) as Record<string, unknown> | null;
+    if (!parsed) return null;
+    // Extract body content (after frontmatter) as summary if not already set
+    const body = match[2]?.trim() || "";
+    if (body && !parsed["summary"]) {
+      // Remove heading lines (lines starting with #) from body for cleaner summary
+      const cleanBody = body.replace(/^#\s+.*$/gm, "").trim();
+      if (cleanBody) {
+        parsed["summary"] = cleanBody;
+      }
+    }
+    return parsed;
   } catch {
     return null;
   }

@@ -17,7 +17,7 @@ export default function NoteImageGallery({
       flexWrap: "wrap",
       marginTop: "10px",
     }}>
-      {images.map((img, i) => (
+      {images.slice(0, maxPreview).map((img, i) => (
         <a
           key={i}
           href={img.url}

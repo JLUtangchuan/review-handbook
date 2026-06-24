@@ -105,6 +105,7 @@ export default function NoteImage({
             <img
               src={images[lightboxIndex].url}
               alt={images[lightboxIndex].caption || "大图"}
+              onClick={(e) => e.stopPropagation()}
               style={{
                 maxWidth: "100%",
                 maxHeight: "90vh",

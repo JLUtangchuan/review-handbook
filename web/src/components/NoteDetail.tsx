@@ -3,6 +3,7 @@
 import type { Note } from "@/lib/types";
 import { difficultyColor, difficultyLabel, platformLabel, noteTypeIcon, noteTypeLabel } from "@/lib/utils";
 import MarkdownRenderer from "./MarkdownRenderer";
+import PaperInterpretation from "./PaperInterpretation";
 import InterestBar from "./InterestBar";
 
 interface NoteDetailProps {
@@ -74,6 +75,20 @@ export default function NoteDetail({
                 {platformLabel(s.platform)} 来源
               </a>
             ))}
+            {/* Paper interpretation: extract arxiv_id from sources or check roadmap */}
+            {(() => {
+              // Try to find arxiv ID from sources
+              for (const s of note.sources) {
+                const am = s.url?.match(/arxiv\.org\/abs\/([\d.]+)/i);
+                if (am) return <PaperInterpretation arxivId={am[1]} title={note.title} />;
+                const pm = s.url?.match(/papers\.cool.*[?&]paper=([\d.]+)/i);
+                if (pm) return <PaperInterpretation arxivId={pm[1]} title={note.title} />;
+              }
+              // Try to extract from content
+              const am2 = note.summary?.match(/arxiv[:\s]*(\d{4}\.\d{4,5})/i);
+              if (am2) return <PaperInterpretation arxivId={am2[1]} title={note.title} />;
+              return null;
+            })()}
           </div>
 
           {/* Tags with weights */}

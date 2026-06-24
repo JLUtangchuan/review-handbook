@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useCallback, useEffect } from "react";
 import type { Note } from "@/lib/types";
-import { difficultyColor, difficultyLabel, noteTypeIcon, noteTypeLabel } from "@/lib/utils";
+import { difficultyColor, difficultyLabel, noteTypeIcon, noteTypeLabel, todayStr } from "@/lib/utils";
 import { useWeight } from "@/components/WeightContext";
 import { useReview, type ReviewQuality } from "@/components/ReviewContext";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
@@ -15,10 +15,6 @@ const QUALITY_OPTIONS: { key: ReviewQuality; label: string; emoji: string; color
   { key: "easy",   label: "简单", emoji: "😎", color: "#3b82f6", bg: "rgba(59,130,246,0.1)" },
 ];
 
-function todayStr(): string {
-  return new Date().toISOString().split("T")[0];
-}
-
 export default function CardsClient({ notes }: { notes: Note[] }) {
   const { prefs } = useWeight();
   const { records, reviewNote, sortByCombinedWeight, getDueNotes, dueToday, totalReviewed } = useReview();
@@ -26,6 +22,7 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
   const [flipped, setFlipped] = useState(false);
   const [index, setIndex] = useState(0);
   const [sliding, setSliding] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   // Only show due notes, sorted by combined weight (tag interest × Ebbinghaus urgency)
   const dueNotes = useMemo(() => {
@@ -33,7 +30,12 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
     return sortByCombinedWeight(due, prefs);
   }, [notes, getDueNotes, sortByCombinedWeight, prefs]);
 
-  const currentNote = dueNotes[index] ?? null;
+  const displayNotes = useMemo(() => {
+    if (showAll) return sortByCombinedWeight(notes, prefs);
+    return dueNotes;
+  }, [showAll, notes, dueNotes, sortByCombinedWeight, prefs]);
+
+  const currentNote = displayNotes[index] ?? null;
   const tagNames = currentNote?.tags?.map((tw) => tw.name) ?? [];
   const record = currentNote ? records[currentNote.id] : undefined;
 
@@ -54,20 +56,41 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
     setSliding(true);
     setTimeout(() => {
       setFlipped(false);
-      if (index < dueNotes.length - 1) {
+      if (index < displayNotes.length - 1) {
         setIndex(index + 1);
       } else {
         setIndex(0);
       }
       setSliding(false);
     }, 280);
-  }, [index, dueNotes.length]);
+  }, [index, displayNotes.length]);
 
   // Handle review
+  const qualityToRating: Record<ReviewQuality, number> = { forgot: 1, hard: 2, good: 3, easy: 4 };
+
   const handleReview = useCallback(
     (quality: ReviewQuality) => {
       if (!currentNote) return;
       reviewNote(currentNote.id, quality);
+
+      // Sync rating to API (dev mode — persists to data/notes YAML)
+      const rating = qualityToRating[quality];
+      fetch(`/api/notes/${currentNote.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status: "completed", rating }),
+      }).catch(() => {});
+
+      // Sync with week completion localStorage
+      try {
+        const saved = JSON.parse(localStorage.getItem("rh_completed") || "{}");
+        saved[currentNote.id] = {
+          completed_at: todayStr(),
+          rating,
+        };
+        localStorage.setItem("rh_completed", JSON.stringify(saved));
+      } catch {}
+
       advance();
     },
     [currentNote, reviewNote, advance]
@@ -109,7 +132,7 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
     );
   }
 
-  if (dueNotes.length === 0) {
+  if (displayNotes.length === 0) {
     return (
       <div className="max-w-lg mx-auto px-4 py-20 text-center">
         <p className="text-4xl mb-4">🎉</p>
@@ -118,10 +141,7 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
           已复习 {totalReviewed} 次 · avg ease {avgEase} · {notes.length} 张卡片
         </p>
         <button
-          onClick={() => {
-            // Force-show all notes as due
-            setIndex(0);
-          }}
+          onClick={() => setShowAll(true)}
           className="px-4 py-2 rounded-lg border border-primary/30 bg-primary/10 text-primary text-sm hover:bg-primary/20"
         >
           🔄 浏览全部卡片
@@ -130,15 +150,15 @@ export default function CardsClient({ notes }: { notes: Note[] }) {
     );
   }
 
-  const pct = Math.round(((index + 1) / dueNotes.length) * 100);
+  const pct = Math.round(((index + 1) / displayNotes.length) * 100);
 
   return (
     <div className="max-w-lg mx-auto px-4 py-4 flex flex-col min-h-[calc(100vh-5rem)]">
       {/* Header stats */}
       <div className="mb-3">
         <div className="flex items-center justify-between text-xs text-muted mb-1">
-          <span>{index + 1} / {dueNotes.length} 张待复习</span>
-          <span>🔥 {dueToday} 待复习 · ✅ {reviewedToday} 今日已评</span>
+          <span>{index + 1} / {displayNotes.length} 张{showAll ? "卡片" : "待复习"}</span>
+          <span>🔥 {dueToday} 待复习 · ✅ {reviewedToday} 今日已评{showAll ? " (浏览模式)" : ""}</span>
         </div>
         <div className="h-1 rounded-full bg-card-hover overflow-hidden">
           <div

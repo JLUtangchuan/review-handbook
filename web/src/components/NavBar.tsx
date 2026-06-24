@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -12,6 +13,15 @@ const navItems = [
 
 export default function NavBar() {
   const pathname = usePathname();
+  const [isDev, setIsDev] = useState(false);
+
+  useEffect(() => {
+    fetch("/api/ping").then(r => r.ok && setIsDev(true)).catch(() => {});
+  }, []);
+
+  const items = isDev
+    ? [...navItems, { label: "管理", href: "/admin", icon: "⚙" }]
+    : navItems;
 
   return (
     <>
@@ -22,7 +32,7 @@ export default function NavBar() {
           <span className="font-semibold text-base">复习手册</span>
         </div>
         <nav className="flex flex-col gap-0.5 px-3 py-3 flex-1">
-          {navItems.map((item) => {
+          {items.map((item) => {
             const isActive =
               pathname === item.href || pathname.startsWith(item.href + "/");
             return (
@@ -49,7 +59,7 @@ export default function NavBar() {
       {/* Mobile: Bottom tab bar */}
       <nav className="md:hidden fixed bottom-0 inset-x-0 z-30 bg-surface/95 backdrop-blur border-t border-border safe-bottom">
         <div className="flex items-center justify-around h-14 max-w-lg mx-auto">
-          {navItems.map((item) => {
+          {items.map((item) => {
             const isActive =
               pathname === item.href || pathname.startsWith(item.href + "/");
             return (
