@@ -1,26 +1,319 @@
 1:"$Sreact.fragment"
-2:I[83855,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
-3:I[75752,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
-4:I[19449,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-5:I[39756,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-6:I[37457,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-7:I[5278,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-9:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+2:I[83855,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
+3:I[75752,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
+4:I[19449,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[39756,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[37457,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[5278,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+9:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
-d:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
-f:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
-11:I[68027,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
-:HL["/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","style"]
-0:{"P":null,"c":["","week","3"],"q":"","i":false,"f":[[["",{"children":["week",{"children":[["id","3","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],null]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Y2rbXJ9FAR_QYc1COTCaR"}
+d:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+f:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+11:I[68027,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","style"]
+0:{"P":null,"c":["","week","3"],"q":"","i":false,"f":[[["",{"children":["week",{"children":[["id","3","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/28-evnhkoub7g.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],null]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qGs-v4gzfOS06h0eFRT_0"}
 12:[]
 c:"$W12"
-8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-6","children":[["$","div",null,{"style":{"marginBottom":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","span",null,{"style":{"fontSize":"12px","fontWeight":700,"padding":"4px 10px","borderRadius":"99px","background":"#3b82f6","color":"#fff"},"children":["Week ",3," / ",15]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":["06-30"," ~ ","07-06"]}]]}],["$","h1",null,{"style":{"fontSize":"1.25em","fontWeight":700,"color":"#ededed","marginBottom":"12px"},"children":"基础模型架构：大模型技术报告精读（面试必问）"}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"4px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#3b82f6","borderRadius":"2px"}}]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":["完成 ",0,"/",6," 项"]}]]}],["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","marginBottom":"16px"},"children":[["$","a",null,{"href":"/week/2","style":{"fontSize":"12px","padding":"6px 12px","borderRadius":"8px","border":"1px solid #262626","color":"#ededed","textDecoration":"none"},"children":"← 上一周"}],["$","a",null,{"href":"/week/4","style":{"fontSize":"12px","padding":"6px 12px","borderRadius":"8px","border":"1px solid #262626","color":"#ededed","textDecoration":"none"},"children":"下一周 →"}]]}],[["$","div","foundations",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["📖"," ","基础知识",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[2," 条"]}]]}],[["$","div","fnd-week03-deepseek",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"📖"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"基础知识"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","DeepSeek",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"DeepSeek"}],["$","span","MLA",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"MLA"}],["$","span","MoE",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"MoE"}],["$","span","技术报告",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"技术报告"}]]}],null]}]]}]}],["$","div","fnd-week03-kimi-glm",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"📖"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"Kimi-MoE与GLM-4技术架构对比"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"基础知识"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","MoE",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"MoE"}],["$","span","技术报告",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"技术报告"}],["$","span","Kimi",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"Kimi"}],"$L13"]}],"$L14"]}]]}]}]]]}],"$L15","$L16","$L17"]]}]
-13:["$","span","GLM",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"GLM"}]
-14:null
-15:["$","div","interview_qa",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["💬"," ","面试问答",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[2," 条"]}]]}],[["$","div","qa-week03-deepseek-mla",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"💬"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"DeepSeek MLA如何将KV Cache压缩到极致"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"面试问答"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","MLA",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"MLA"}],["$","span","DeepSeek",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"DeepSeek"}],["$","span","KV Cache",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"KV Cache"}]]}],null]}]]}]}],["$","div","qa-week03-moe-routing",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"💬"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"面试问答"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","MoE",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"MoE"}],["$","span","负载均衡",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"负载均衡"}],["$","span","面试高频",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"面试高频"}]]}],null]}]]}]}]]]}]
-16:["$","div","advanced",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["🚀"," ","进阶知识",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[2," 条"]}]]}],[["$","div","adv-week03-mamba",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🚀"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"进阶知识"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","Mamba",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"Mamba"}],["$","span","SSM",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"SSM"}],["$","span","Titans",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"Titans"}],["$","span","架构创新",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"架构创新"}]]}],null]}]]}]}],["$","div","adv-week03-moe-zh",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🚀"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"MoE环游记：3、换个思路来分配"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"进阶知识"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","来自知乎",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"来自知乎"}]]}],null]}]]}]}]]]}]
-17:["$","div","papers",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["📄"," ","推荐论文",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[0," 条"]}]]}],["$","p",null,{"style":{"fontSize":"13px","color":"#737373","textAlign":"center","padding":"24px"},"children":["待整理（",1," 个占位）"]}]]}]
+13:I[80875,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js"],"default"]
+14:Tbaa,## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+DeepSeek系列三阶段技术演进：
+**V2 — MLA + DeepSeekMoE**（2024.05）： - MLA（Multi-head Latent Attention）：将K/V投影到低维latent空间（d_latent << d_head×n_heads），推理时只存latent表示，KV Cache压缩比可达10× - DeepSeekMoE：细粒度专家（fine-grained）+ 共享专家（shared expert）。每个token激活top-k细粒度专家+固定shared expert - Aux-loss-free Load Balance：动态调整expert bias而非依赖aux loss
+**V3 — FP8训练 + Multi-Token Prediction**（2024.12）： - FP8混合精度训练：首次在超大规模MoE上使用FP8，配合细粒度block-wise scaling - Multi-Token Prediction（MTP）：每个位置预测后续多个token，提升数据效率 - DualPipe：前后向+通信计算重叠的流水线并行策略 - 671B总参数，37B激活参数（每次推理只激活约5.5%参数） - 训练成本：2.7M GPU hours on H800（约$5.5M），仅为同等规模模型的1/10
+**R1 — GRPO + 推理能力**（2025.01）： - 首次将GRPO从数学推理推广到通用推理任务 - 纯RL训练（无SFT冷启动）即可涌现CoT（思维链）能力 - Group Relative Policy Optimization：每个prompt采样一组response，组内做相对优势估计 - R1-Zero完全不用SFT数据，纯RL训练即可呈现推理行为 - R1保留SFT冷启动+RL的混合策略（DeepSeekMath的方法延续）
+
+
+## 关键要点
+- MLA核心公式：KV = W_down_kv(x) → c_kv（latent）；推理时attention计算：Q·(W_up_k(c_kv))^T
+- DeepSeekMoE架构：1个shared expert + 256个routed experts，每token激活8个（1 shared + 7.5 routed平均）
+- Expert负载均衡：Aux-loss-free策略用bias修正而非梯度惩罚，专家亲和度score加learnable bias
+- FP8训练关键：block-wise量化（1×128 tile）使FP8 E4M3的动态范围覆盖99.9%的激活值
+- MTP实现：每个Transformer层后接n个额外的输出head，预测未来第1~n个token，训练时辅助loss加权
+- DualPipe：将forward、backward、通信三个阶段通过精细调度重叠
+- R1奖励设计：accuracy reward（数学结果）+ format reward（格式奖励，鼓励结构化输出）
+- 最终蒸馏：R1作为teacher蒸馏到Qwen/Llama等小模型（7B/14B/32B）
+
+## 自测问题
+- MLA的down-projection和up-projection具体如何工作？为什么推理时只需要存latent？
+- DeepSeekMoE的shared expert + routed expert设计相比传统MoE有什么优势？
+- FP8训练在数值稳定性方面面临哪些挑战？DeepSeek如何解决？
+- GRPO与PPO在reward estimation上的核心区别？
+
+## 图片
+![DeepSeek V3架构全景](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*DeepSeek V3架构全景*
+
+## 相关笔记
+- [[adv-week03-mamba]]
+- [[qa-week03-deepseek-mla]]
+- [[qa-week03-moe-routing]]15:T93a,## 来源
+- [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
+
+## 内容
+国内三强大模型技术路线对比：
+**DeepSeek V3**： - 架构：MLA + DeepSeekMoE（细粒度+共享专家） - 参数：671B总/37B激活 - 创新点：FP8训练、Multi-Token Prediction、DualPipe、Aux-loss-free load balance - 成本：$5.5M训练，推理成本极低（MLA的KV压缩）
+**Kimi（Moonshot）— MoE路线**： - 架构：Transformer + MoE，重点在大规模长上下文（支持128K→1M tokens） - Kimi K2采用MoE架构，总参数量达1T级别 - 核心创新：长上下文扩展技术（Long2Short、位置编码优化）、高效MoE路由 - 与DeepSeek对比：更侧重长上下文能力，MoE路由策略不同
+**GLM-4（智谱）— All-Task路线**： - 架构：标准Dense Transformer（非MoE），注重通用能力 - GLM-4-Plus版本对标GPT-4 - 核心创新：RLHF后训练（ChatGLM的技术积累）、多模态扩展（CogView+CogVLM） - 与MoE路线对比：Dense模型推理更简单（无专家调度），但模型容量受限
+**三条路线的核心trade-off**： - DeepSeek：极致效率（训练+推理成本最低），技术最激进 - Kimi：长上下文优先（应用场景差异化），MoE规模化 - GLM：通用能力优先（All-task），稳健迭代
+
+
+## 关键要点
+- DeepSeek独占MLA技术，KV Cache效率领先同行2-5倍
+- Kimi长上下文技术栈：位置编码外推+注意力改造+长文本训练策略
+- GLM坚守Dense路线，强调通用能力与多模态融合
+- MoE vs Dense的核心trade-off：专家容量/路由偏差 vs 参数效率
+- 三家训练数据来源与配比差异显著（DeepSeek强调数学/代码数据）
+- 开源策略：DeepSeek完全开源→推动社区生态，GLM开源部分版本
+
+## 自测问题
+- 为什么DeepSeek采用MoE而GLM坚持Dense？各自的考量是什么？
+- Kimi的超长上下文（128K+）技术栈包含哪些关键组件？
+- 三家模型的技术路线反映了对大模型发展的什么判断差异？
+
+## 图片
+![DeepSeek V3技术报告精华](http://sns-webpic-qc.xhscdn.com/202606222257/e8e1c256229729de7bbbcfed18acc416/notes_pre_post/1040g3k031c1gqskkh0005no10lvg8f4hia26e1o!nc_n_webp_mw_1)
+*DeepSeek V3技术报告精华*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]16:T879,> **💡 问题**: DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 回答
+MLA通过将K/V投影到低维latent空间实现KV Cache极致压缩。
+**标准MHA的KV Cache**： - 每层每token存储：n_heads × d_head × 2(K+V)个float - 例如LLaMA-70B: 64 heads × 128 d_head × 2 = 16384 floats/token/layer
+**MLA的KV Cache压缩（三步压缩法）**：
+Step 1 — Latent Down-Projection（压缩）：c_KV = W_down · h。将hidden_size(h)投影到极低维的latent空间(d_c，通常为512维)。这是核心压缩步骤。
+Step 2 — Up-Projection for Attention（训练时）：K = W_uk · c_KV, V = W_uv · c_KV。从latent展开到完整的K/V用于attention计算。
+Step 3 — Cache only Latent（推理时）：推理时只存储c_KV（1个latent向量，而非2×n_heads×d_head个向量）。每个token的KV Cache从 O(n_heads × d_head) 降为 O(d_c)。
+**压缩比计算**： - 标准MHA per-token KV: n_heads × d_head × 2 - MLA per-token KV: d_c（仅一个latent向量） - 压缩比 ≈ 2×n_heads×d_head / d_c ≈ 10-20×
+**为什么信息不丢失**： - Up-projection矩阵(learnable)学会从压缩的latent中恢复注意力所需的关键信息 - 低秩假设：K和V的信息冗余度很高，可以用低维latent表示 - 类似LoRA思路：实际信息秩远小于矩阵维度，低秩近似有效
+**与RoPE的兼容性**： - 对Q单独施加RoPE（Q需要位置信息），K可选择是否加RoPE - DeepSeek方案：部分K维度保留RoPE，其余从latent生成
+**面试回答要点**：先解释KV Cache瓶颈→MLA的压缩思想→低秩假设的合理性→具体实现
+
+
+## 延伸思考
+- MLA的低秩假设在什么情况下会失效？
+- 为什么Q不需要压缩而K/V需要？
+- MLA与GQA可以叠加使用吗？
+
+## 图片
+![MLA架构详解](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*MLA架构详解*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
+- [[fnd-week10-kv-cache]]17:T99e,> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 回答
+MoE负载均衡是MoE架构的核心挑战——如果专家负载不均，会导致部分专家过载（token堆积→延迟高）、部分专家闲置（浪费算力）。
+**问题本质**： - 路由网络倾向于反复选择相同专家（富者愈富效应），导致专家利用不均 - 极端情况：90%的token流向5%的专家
+**三种主流解决方案**：
+**1. Auxiliary Loss（辅助损失）— 传统方案**： - 在训练loss中加一项惩罚专家不均衡程度的辅助loss - L_aux = α × Var(f_i) （专家处理token数的方差） - 问题：(a) α需要调参→太大会损害模型效果；(b) 只在训练时起作用，推理时可能不均衡
+**2. Expert Choice（让专家选token）— Google Switch Transformer**： - 反过来：每个专家选择top-k个token（而非token选专家） - 保证每个专家恰好处理相同数量的token - 问题：token可能被多个专家选中或遗漏
+**3. DeepSeek方案（Shared Expert + Aux-loss-free）— 业界最优**： - Shared Expert：一个所有token都会经过的共享专家，提供基础能力 - Routed Experts：细粒度专家（256个），token选择top-k个 - Aux-loss-free Load Balance：动态调整每个专家的bias项（非梯度更新），亲和度score = softmax(W_r·x + b_expert)，周期性调整b使专家负载均衡 - 优势：(a) 不损害模型效果（bias调整不在计算图中）；(b) 推理时也有效
+**DeepSeekMoE具体配置**： - 1 Shared Expert + 256 Routed Experts - 每token激活：1 shared（固定）+ top-8 routed（共9个专家） - 细粒度：每个routed expert的hidden_dim仅为标准MoE专家的1/4→更多专家+更细粒度
+**面试回答要点**：解释问题→列举三种方案→重点说明DeepSeek方案的创新
+
+
+## 延伸思考
+- Token Choice vs Expert Choice的通信复杂度对比？
+- Aux-loss-free bias调整的频率如何确定？
+- 推理时如果某个专家过载怎么办？（capacity factor/overflow策略）
+
+## 图片
+![MoE路由与负载均衡](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*MoE路由与负载均衡*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]18:Tbc9,## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+Transformer统治了深度学习五年，但其O(n²)的attention复杂度始终是长序列的瓶颈。State Space Model（SSM）家族提供了一条线性复杂度的替代路线。
+**Mamba（2023.12）— SSM的质变**： - 核心思想：用State Space Model替代Attention - SSM建模：h_t = A·h_{t-1} + B·x_t（状态方程）；y_t = C·h_t（输出方程） - 关键创新Selective Scan：A、B、C参数随输入x_t变化（输入依赖），解决了固定SSM无法做content-based reasoning的问题 - 复杂度O(n·d)（线性！），且可以用parallel scan高效计算 - Mamba-2（2024.05）：将Selective SSM重新表述为structured matrix multiplication，与FlashAttention共享底层优化
+**Mamba与Attention的关系**： - Attention: y = softmax(QK^T/√d)·V，显式建模token间交互 - SSM: h_t = A_t·h_{t-1} + B_t·x_t，隐式通过state传递信息 - Mamba-2统一视角：SSM可以看作Attention的special case（Q=1, K和V由state dynamics定义） - 互补性：Attention擅长精确检索（lookup），SSM擅长序列建模（上下文压缩）
+**Titans（Google, 2025）— 记忆力的系统化**： - 提出三种记忆模块：Persistent Memory（长期固定知识）、Contextual Memory（当前上下文）、Neural Memory（可学习的记忆机制） - 核心创新：将记忆作为一等公民纳入架构设计，而非attention的副作用 - 神经记忆模块使用surprise-based写入机制：模型对其预测误差大的token做更强的记忆编码
+**应用建议**： - 超长序列（>100K）：优先考虑Mamba-2或Hybrid（Mamba前几层+Attention后几层） - 标准长度（<32K）：Transformer（FlashAttention足够高效） - 机器人/实时系统：Mamba的低延迟、线性复杂度有优势
+
+
+## 关键要点
+- SSM的核心三参数：A（状态转移）、B（输入投影）、C（输出投影）
+- Selective Scan：让A、B、C成为输入的线性函数，用parallel scan O(n log n)实现
+- Mamba-2的SSD算法：structured matrix duality，将SSM转化为半可分矩阵乘法
+- Hybrid Mamba-Attention：Jamba/Mamba2-Hybrid等将Mamba和Attention层交替使用
+- Titans的记忆架构：Persistent + Contextual + Neural记忆的三层金字塔
+- Surprise-based memory写入：高预测误差→重要性高→强记忆编码
+- Attention vs SSM的核心trade-off：O(n²)精确检索 vs O(n)线性建模
+- 具身智能中SSM可能特别有用：实时控制需要低延迟+长序列历史
+
+## 自测问题
+- Mamba的Selective Scan如何实现content-based reasoning？与标准SSM的关键区别？
+- Mamba-2如何将SSM与Attention统一？SSD算法的核心insight？
+- 在具身智能场景中，Mamba/SSM相比Transformer有什么优势？
+- Titans的surprise-based记忆机制与Attention的KV Cache有什么本质不同？
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
+- [[qa-week03-moe-routing]]19:T345e,> 作者: 苏剑林 | 来源: https://zhuanlan.zhihu.com/p/32372010801
+
+---
+
+最佳排版请看原博客：
+
+这篇文章我们继续探讨MoE的负载均衡问题。在上一篇文章《MoE环游记：2、不患寡而患不均》中，我们主要讨论了通过Aux Loss来促进负载均衡的思路。Aux Loss固然简单直观，但它也有一个明显的缺点——权重不好调——调低了无法促进均衡，调高了容易损害LM Loss，所以业界一直有寻找替代方案的尝试。
+
+本文要分享的是名为“Loss-Free”的方案，由DeepSeek在《Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts》提出。和DeepSeek众多耀眼的开源作品相比，这篇论文也许不算起眼，但在笔者看来，它潜在的学术影响力可能远超其他工作，因为所提方法不仅简单有效，而且极具普适性，堪称经典。
+
+方法大意
+
+面对负载不均衡，Aux Loss的应对思路是通过额外的损失引导Router给出均衡的打分，而Loss-Free的想法则是换个新的分配思路，即不改变Router现有打分结果，而是改变\mathop{\text{argtop}}_k \boldsymbol{\rho}这个分配方式。
+
+其实这个方向此前也有过一些努力。比如2021年Facebook提出了BASE Layer，将Expert的分配视为线性指派问题，即以负载均衡为约束条件，求在该约束之下Router总打分尽可能高的分配结果，这可以用匈牙利算法等来解决。但该方案需要知道全体Token的打分，所以对于自回归式LLM来说，它只适用于训练，推理还是只能用\mathop{\text{argtop}}_k \boldsymbol{\rho}，训练推理存在不一致性，并且由于目前求解算法的限制，它只适用于k=1的场景。
+
+相比之下，Loss-Free的做法非常简单且有效，它留意到一个事实，即我们总可以引入一个偏置项\boldsymbol{b}，使得\mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}的分配是均衡的，所以它将MoE的形式改为
+
+\boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho}} \rho_i \boldsymbol{e}_i\qquad\to\qquad \boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}} \rho_i \boldsymbol{e}_i \\
+
+这里的\boldsymbol{b}是输入无关的向量，由训练过程确定下来，训练完后它就保持不变，因此推理阶段也可以用，换言之训练和推理具有一致的形式。注意乘以\boldsymbol{e}_i的还是\rho_i而不是\rho_i + b_i，也就是说\boldsymbol{b}仅仅参与分配过程而不参与MoE的前向计算，所以我们对\boldsymbol{b}或\boldsymbol{\rho} + \boldsymbol{b}的正负性都没有特殊要求。
+
+手搓梯度
+
+怎么训练\boldsymbol{b}呢？我们知道，\boldsymbol{b}的优化方向自然是促进负载均衡，为此按照上一篇的记号，我们先定义\boldsymbol{f}=[f_1,f_2,\cdots,f_n]：
+
+f_i = \left\{\begin{aligned}1/k, \quad i\in \mathop{\text{argtop}}\nolimits_k \boldsymbol{\rho}+\boldsymbol{b} \\ 0, \quad i\not\in \mathop{\text{argtop}}\nolimits_k \boldsymbol{\rho}+\boldsymbol{b}\end{aligned}\right.\\
+
+以及\boldsymbol{F}=\mathbb{E}[\boldsymbol{f}]，这里的\boldsymbol{F}自然就是在\boldsymbol{b}偏置下Expert当前的负载分布了。借着我们定义均匀分布为\boldsymbol{Q}=(1/n,1/n,\cdots,1/n)，那么负载均衡就相当于最小化
+
+\mathcal{L}_{\text{aux}} = \frac{1}{2}\Vert\boldsymbol{F} - \boldsymbol{Q}\Vert^2 = \frac{1}{2}\sum_{i=1}^n (F_i - 1/n)^2 \\
+
+这个目标是不可导的，但有了上一篇的经验，我们知道STE（Straight-Through Estimator）可以解决这个问题。STE的关键是找一个可导且跟\boldsymbol{F}具有同增减趋势的量作为\boldsymbol{F}的光滑近似，这里我们的优化参数只有\boldsymbol{b}，而它正好具有我们期望的性质（增大b_i，i被选中的概率就更高，那么F_i就更大），所以答案就呼之欲出了：
+
+\mathcal{L}_{\text{aux}} = \frac{1}{2}\Vert\boldsymbol{b} + \text{sg}[\boldsymbol{F}-\boldsymbol{b}] - \boldsymbol{Q}\Vert^2 = \frac{1}{2}\sum_{i=1}^n (b_i + \text{sg}[F_i - b_i] - 1/n)^2 \\
+
+它的梯度是
+
+\nabla_{\boldsymbol{b}}\mathcal{L}_{\text{aux}} = \frac{1}{2}\nabla_{\boldsymbol{b}}\Vert\boldsymbol{b} + \text{sg}[\boldsymbol{F}-\boldsymbol{b}] - \boldsymbol{Q}\Vert^2 = \boldsymbol{F} - \boldsymbol{Q} \\
+
+所以用梯度下降（SGD）来更新\boldsymbol{b}就是
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha (\boldsymbol{F} - \boldsymbol{Q}) \\
+
+这里\alpha是\boldsymbol{b}的学习率。不过Loss-Free最终选择的更新规则略有不同，它选择的是符号梯度下降（SignSGD）：
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha \mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})\label{eq:aux-loss-free} \\
+
+这个结果其实也很好理解，就是如果F_i比1/n大，那么就调小一点b_i，否则就增大一点b_i。
+
+改良版本
+
+除了加\mathop{\text{sign}}外，笔者发现直接对\boldsymbol{F} - \boldsymbol{Q}做RMS Norm，在相同的\alpha下往往能达到更好的均衡效果：
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha\frac{\boldsymbol{F} - \boldsymbol{Q}}{\text{RMS}(\boldsymbol{F} - \boldsymbol{Q})} \\
+
+这里的\text{RMS}是“Root Mean Square”，定义为
+
+\text{RMS}(\boldsymbol{F} - \boldsymbol{Q}) = \sqrt{\frac{1}{n}\sum_{i=1}^n (F_i - Q_i)^2} \\
+
+注意\mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})和\frac{\boldsymbol{F} - \boldsymbol{Q}}{\text{RMS}(\boldsymbol{F} - \boldsymbol{Q})}的\text{RMS}都是1，因此它们俩尺度上是大致相同的，所以允许使用相同的\alpha。
+
+简单来说，\mathop{\text{sign}}的问题在于不论F_i与目标Q_i的远近都使用同样的更新幅度，这导致原本就已经跟Q_i比较接近的F_i反而容易偏离原本已经达到的均衡，从而产生震荡；而RMS Norm则保留了F_i-Q_i之间的相对大小，更新幅度更加自适应一些，理论上更有助于促进均衡，实测效果也多是它更好。
+
+一脉相承
+
+原论文在介绍Loss-Free时，并没有上述Aux Loss的推导过程，而是直接给出式\eqref{eq:aux-loss-free}的更新规则，给人的感觉是给\boldsymbol{b}“手搓”了梯度\mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})，这也是它Loss-Free这个名字的来源。
+
+然而，从本文给出的推导可以看出，更新规则\eqref{eq:aux-loss-free}也完全可以从Aux Loss视角得到，两者是一脉相承的。看起来Loss-Free最直接的好处是不用调Aux Loss权重了，但它实际上也有个学习率参数\alpha要调，尽管原论文已经帮我们搜好\alpha=0.001这个默认值，但不可否认这个超参数是存在的。
+
+在笔者看来，Loss-Free的本质创新并不是没有Aux Loss，而是隔离了Aux Loss和LM Loss的优化参数，从而达到了负载均衡和模型能力两不误的效果。其中最关键一步，是留意到“一个偏置项足以达到负载均衡”这一事实，然后就让Aux Loss只优化新引入的偏置\boldsymbol{b}，而LM Loss则优化剩余参数，让Aux Loss对LM Loss的负面作用降到最低。
+
+相比之下，常规的Aux Loss方案需要全体参数来促进负载均衡，而LM Loss优化的也是全体参数，两者的优化方向可能并不完全兼容，因此想找到一个最优的平衡点相对来说就更为困难。所以，Loss-Free基于“一个偏置项足以达到负载均衡”将两个Loss的优化参数隔离开来，是负载均衡问题的一个绝妙的解决办法。
+
+相关细节
+
+尽管Loss-Free已经足够简单明了，但是在使用的时候还要稍微注意一些细节。
+
+首先，对于每个Batch的数据，我们应当先根据LM Loss来更新模型参数，然后再根据式\eqref{eq:aux-loss-free}来更新\boldsymbol{b}。这是因为\boldsymbol{b}的更新依赖于全体Token的统计信息\boldsymbol{F}，先更新\boldsymbol{b}再更新模型其余参数的话，原则上会有泄漏未来信息的风险。虽然直观看来就一个向量\boldsymbol{b}泄漏不了多少信息，但这个风险终归是存在的，因此要尽量去规避它。
+
+其次，刚才我们说原论文已经调好\alpha=0.001，但这个结果可能跟原论文用Sigmoid作为Router \boldsymbol{\rho}激活函数的选择是绑定的。原因也不难想，经过Sigmoid后，每个\rho_i相对比较独立，并且都在(0,1)内，\alpha=0.001相当于说每一步的更新幅度约为千分之一，如果换Softmax、ReLU或者其他激活函数，那么就可能需要重调\alpha了。
+
+针对这个问题，笔者建议的做法是结构Gate和Bias所用的激活函数，即
+
+\boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}} \rho_i \boldsymbol{e}_i\qquad\to\qquad \boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho}^{(\sigma)} + \boldsymbol{b}} \rho_i^{(h)} \boldsymbol{e}_i \\
+
+其中\boldsymbol{\rho}^{(\sigma)} = \sigma(\boldsymbol{x}\boldsymbol{W}^{(R)}), \boldsymbol{\rho}^{(h)} = h(\boldsymbol{x}\boldsymbol{W}^{(R)})，\sigma(\cdot)是Sigmoid函数，h(\cdot)是任意单调且值域非负的函数，说白了就是加上\boldsymbol{b}的是Sigmoid激活的打分，这样我们就可以复用\alpha=0.001，至于乘上Expert的Gate，我们可以用其他激活函数，只要它的单调性跟Sigmoid一致就行。
+
+此外，由于更新规则\eqref{eq:aux-loss-free}加了\text{sign}函数，因此有可能训出绝对值大于1的b_i，整体绝对值还可能越来越大，这些都是正常的，对模型效果不会有影响。实际上\boldsymbol{b}有一个冗余的自由度，因为全体b_i都加上同一个常数后，\mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}的结果不变。这个额外的自由度我们可以用来做其他好玩的事情（且听下回分解）。
+
+延伸思考
+
+除了MoE的负载均衡之外，Loss-Free的思想还可以应用到很多类似问题，比如VQ-VQE的编码表坍缩（Codebook Collapse），就可以用同样思路解决，而且相比之前介绍的“旋转技巧”、“线性变换技巧”显得更自然和普适。事实上，本文开篇的评价“Loss-Free潜在的学术影响力可能远超其他工作”，正是基于Loss-Free的普适性考虑的。
+
+抛开具体的应用背景，从数学上来看，Loss-Free的贡献可以理解为给出了用梯度下降来求解指派问题的方法。一个经典的线性指派问题可以表示为：
+
+\min_f \sum_{i=1}^n c_{i, f(i)} \\
+
+其中c_{i,j}是给定的成本函数，f是\{1,2,\cdots,n\}到自身的双射。放到本文的背景下，c_{i,j}不就相当于n个Token、n个Expert的打分，所求f不就是一个负载均衡的分配方案？求解此类问题的一般想法是在满足约束条件的空间里搜索尽可能优的解，而Loss-Free则反过来，先构建一个最优但不一定满足约束条件的解：
+
+f(i) = \mathop{\text{argmin}}_j c_{i,j} \\
+
+这个解在分数上肯定是最优的，但不一定满足双射的条件，这里不满足双射就等价于负载不均衡。于是我们引入偏置
+
+f(i) = \mathop{\text{argmin}}_j c_{i,j} + b_j \\
+
+b_j初始化为零，然后根据式\eqref{eq:aux-loss-free}来更新，更新规则说白了就是哪个j出现出现次数多，那减少相应的b_j，反之增加，直到出现双射为止。
+
+文章小结
+
+本文介绍了MoE负载均衡问题的Loss-Free方法，它由DeepSeek提出，其核心在于通过引入一个简单的偏置项来实现负载均衡。本文进一步思考了它与Aux Loss的联系，以及它在类似数学问题上的应用潜力。
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic4.zhimg.com/v2-d14507f4ddf8d03a3d51006f53ec0c87.webp)
+
+![图片](https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/2db3518da5ab1ea3a846fa0c44719470_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=06d4cd63)
+
+![图片](https://pic4.zhimg.com/v2-bffb2bf11422c5ef7d8949788114c2ab.png)
+
+![图片](https://picx.zhimg.com/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=06d4cd63)
+
+![图片](https://pic4.zhimg.com/v2-3bb879be3497db9051c1953cdf98def6.png)
+
+![图片](https://pica.zhimg.com/e8fe28ca33371a84459acd603d059085_l.jpg?source=06d4cd63)
+
+![图片](https://pica.zhimg.com/v2-309b651fd65d15a6b74590c6c82e00cf_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-5fc67a2efe2e8f52b40fac8a80da1442_l.jpg?source=06d4cd63)8:["$","$L13",null,{"weekPlan":{"week":3,"theme":"基础模型架构：大模型技术报告精读（面试必问）","start_date":"2026-06-30","end_date":"2026-07-06","day_range":[15,21],"topics":["llm-architecture","architecture-innovation","loss-functions"],"content":{"foundations":[{"note_id":"fnd-week03-deepseek","title":"DeepSeek技术报告全景：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","topics":["llm-architecture","architecture-innovation"]},{"note_id":"fnd-week03-kimi-glm","title":"Kimi-MoE vs GLM-4 vs Qwen：国内大模型架构对比","topics":["llm-architecture"]}],"interview_qa":[{"note_id":"qa-week03-deepseek-mla","question":"DeepSeek MLA如何将KV Cache压缩10-20倍？低秩假设为什么合理？","topics":["llm-architecture","kv-cache"]},{"note_id":"qa-week03-moe-routing","question":"MoE负载均衡：Aux-loss vs Expert Choice vs DeepSeek Shared Expert策略？","topics":["architecture-innovation","llm-architecture"]}],"advanced":[{"note_id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","topics":["architecture-innovation"]},{"note_id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","topics":[]}],"coding":[],"papers":[{"note_id":"pap-week03-deepseek-v3","title":"DeepSeek-V3 Technical Report","arxiv_id":"2412.19437","topics":["llm-architecture"],"cool_papers_url":"https://papers.cool/arxiv/kimi?paper=2412.19437"}]}},"notes":[{"id":"fnd-week03-deepseek","title":"DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"DeepSeek","initial_weight":1.8},{"name":"MLA","initial_weight":1.5},{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.3}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["adv-week03-mamba","qa-week03-deepseek-mla","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$14","code_snippet":"$undefined","images":[]},{"id":"fnd-week03-kimi-glm","title":"Kimi-MoE与GLM-4技术架构对比","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.2},{"name":"Kimi","initial_weight":1.3},{"name":"GLM","initial_weight":1.2}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d","title":"年度最牛逼论文：DeepSeek-V3技术报告","saved_at":"2026-06-22"}],"summary":"$15","code_snippet":"$undefined","images":[]},{"id":"qa-week03-deepseek-mla","title":"DeepSeek MLA如何将KV Cache压缩到极致","type":"interview_qa","week":3,"topics":["llm-architecture","kv-cache"],"tags":[{"name":"MLA","initial_weight":1.6},{"name":"DeepSeek","initial_weight":1.5},{"name":"KV Cache","initial_weight":1.4}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？","summary":"$16","code_snippet":"$undefined","images":[]},{"id":"qa-week03-moe-routing","title":"MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略","type":"interview_qa","week":3,"topics":["architecture-innovation","llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.5},{"name":"负载均衡","initial_weight":1.4},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？","summary":"$17","code_snippet":"$undefined","images":[]},{"id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"Mamba","initial_weight":1.5},{"name":"SSM","initial_weight":1.4},{"name":"Titans","initial_weight":1.3},{"name":"架构创新","initial_weight":1.2}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$18","code_snippet":"$undefined","images":[]},{"id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/32372010801","title":"MoE环游记：3、换个思路来分配","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$19","code_snippet":"$undefined","images":[]}],"weekNum":3,"hasPrev":true,"hasNext":true,"totalWeeks":15}]
 e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}]]
-18:I[27201,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+1a:I[27201,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
 b:null
-10:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L18","3",{}]]
+10:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1a","3",{}]]

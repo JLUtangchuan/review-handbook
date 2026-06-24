@@ -1,21 +1,287 @@
 1:"$Sreact.fragment"
-2:I[83855,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
-3:I[75752,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
-4:I[19449,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-5:I[39756,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-6:I[37457,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-7:I[5278,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-9:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+2:I[83855,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
+3:I[75752,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
+4:I[19449,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[39756,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[37457,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[5278,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+9:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 a:"$Sreact.suspense"
-d:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
-f:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
-11:I[68027,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
-:HL["/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","style"]
-0:{"P":null,"c":["","week","4"],"q":"","i":false,"f":[[["",{"children":["week",{"children":[["id","4","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",null,["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],null]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Y2rbXJ9FAR_QYc1COTCaR"}
+d:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+f:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+11:I[68027,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","style"]
+0:{"P":null,"c":["","week","4"],"q":"","i":false,"f":[[["",{"children":["week",{"children":[["id","4","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/28-evnhkoub7g.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L8",[["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],{},null,false,null]},null,false,"$@c"]},null,false,"$@c"]},null,false,null],["$","$1","h",{"children":[null,["$","$Ld",null,{"children":"$Le"}],["$","div",null,{"hidden":true,"children":["$","$Lf",null,{"children":["$","$a",null,{"name":"Next.Metadata","children":"$L10"}]}]}],null]}],false]],"m":"$undefined","G":["$11",[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qGs-v4gzfOS06h0eFRT_0"}
 12:[]
 c:"$W12"
-8:["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-6","children":[["$","div",null,{"style":{"marginBottom":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","span",null,{"style":{"fontSize":"12px","fontWeight":700,"padding":"4px 10px","borderRadius":"99px","background":"#3b82f6","color":"#fff"},"children":["Week ",4," / ",15]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":["07-07"," ~ ","07-13"]}]]}],["$","h1",null,{"style":{"fontSize":"1.25em","fontWeight":700,"color":"#ededed","marginBottom":"12px"},"children":"强化学习基础：从MDP到PPO完整推导（手撕代码）"}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"4px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#3b82f6","borderRadius":"2px"}}]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":["完成 ",0,"/",1," 项"]}]]}],["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","marginBottom":"16px"},"children":[["$","a",null,{"href":"/week/3","style":{"fontSize":"12px","padding":"6px 12px","borderRadius":"8px","border":"1px solid #262626","color":"#ededed","textDecoration":"none"},"children":"← 上一周"}],["$","a",null,{"href":"/week/5","style":{"fontSize":"12px","padding":"6px 12px","borderRadius":"8px","border":"1px solid #262626","color":"#ededed","textDecoration":"none"},"children":"下一周 →"}]]}],[["$","div","foundations",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["📖"," ","基础知识",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[0," 条"]}]]}],["$","p",null,{"style":{"fontSize":"13px","color":"#737373","textAlign":"center","padding":"24px"},"children":["待整理（",2," 个占位）"]}]]}],["$","div","interview_qa",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["💬"," ","面试问答",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[1," 条"]}]]}],[["$","div","qa-week04-rl-interview-zh",{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px","marginBottom":"8px"},"children":["$","div",null,{"style":{"display":"flex","alignItems":"flex-start","gap":"12px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"💬"}],["$","div",null,{"style":{"flex":1},"children":[["$","div",null,{"style":{"fontWeight":600,"color":"#ededed","marginBottom":"4px"},"children":"“面试造火箭”之 强化学习（具身/自驾）总结"}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px","marginBottom":"6px"},"children":[["$","span",null,{"style":{"fontSize":"11px","padding":"2px 6px","borderRadius":"4px","background":"rgba(59,130,246,0.1)","color":"#60a5fa"},"children":"面试问答"}],["$","span",null,{"style":{"fontSize":"11px","color":"#737373"},"children":"⭐⭐⭐"}],false]}],"$undefined",["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"4px","marginTop":"8px"},"children":[["$","span","来自知乎",{"style":{"fontSize":"10px","padding":"1px 6px","borderRadius":"4px","background":"rgba(139,92,246,0.1)","color":"#a78bfa"},"children":"来自知乎"}]]}],null]}]]}]}]]]}],["$","div","coding",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["💻"," ","Coding",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[0," 条"]}]]}],["$","p",null,{"style":{"fontSize":"13px","color":"#737373","textAlign":"center","padding":"24px"},"children":["待整理（",1," 个占位）"]}]]}],["$","div","papers",{"style":{"marginBottom":"24px"},"children":[["$","h2",null,{"style":{"fontSize":"14px","fontWeight":600,"color":"#a3a3a3","marginBottom":"8px","paddingBottom":"8px","borderBottom":"1px solid #262626"},"children":["📄"," ","推荐论文",["$","span",null,{"style":{"fontSize":"11px","marginLeft":"8px","color":"#737373"},"children":[0," 条"]}]]}],["$","p",null,{"style":{"fontSize":"13px","color":"#737373","textAlign":"center","padding":"24px"},"children":["待整理（",1," 个占位）"]}]]}]]]}]
+13:I[80875,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","/review-handbook/_next/static/chunks/0nn2k6-01tx8b.js"],"default"]
+14:T5dd5,> 作者: 健壮壮 | 来源: https://zhuanlan.zhihu.com/p/2043620037890769967
+
+---
+
+具身领域目前处于类似于早起自动驾驶2012年-2015期间，外加我国15规划“集中力量办大事”催熟性资本注入，当前收到资本的青睐，蓬勃发展，但技术目前还没收敛。但不可否认，具身的市场远比自动驾驶大，因为具身的本体可能随着工厂、家庭、康养等场景前差万别，天然铸就了较大的差异化，可能最后活下来的公司远比自动驾驶公司多
+
+最近在做pi 0.6/0.7的后训练，p0.7技术范式将VLA 与 世界模型进行融合，实现zero-shot的能力，全程没有针对场景强化微调；当然强化学习在模型领域占据比较重要位置，主要可以让模型更加精通某一领域，成为专才（前提是预训练具备一定的基础能力）。pi 0.6 重点刚好在于强化学习技术，实现扩散模型与rl的结合；目前强化学习技术五花八门，且理论基础相对较难，本着把“先把书读薄，再把书读厚，再把书读薄”的原则（先大概关注此书的目的，然后深度分析研读推导，最后在总结），想把强化学习这门理论大概总结一下，方便理解。
+PS:总结又不到位的地方，请指教学习，整体文档包括绘图都将会公开（并会同步更新知识库），链接：
+
+总览
+1 离散空间（贝尔曼方程）
+1.1贝尔曼方程（基于模型）
+
+贝尔曼方程（给定策略）：数值迭代求解、求解逆矩阵
+贝尔曼最优方程（贝尔曼最优方程是一个特殊的贝尔曼方程，即给定最优策略的贝尔曼方程）
+贝尔曼最优方程求解：值迭代和策略迭代
+
+1.2 贝尔曼方程（基于数据）
+
+贝尔曼最优方程求解：值迭代和策略迭代（前提条件是需要知道模型参数）；
+当没有模型怎么办，那么转向基于数据；
+方法一：MC蒙特卡罗（期望估计）
+统计平均值，必须一个回合结束之后，然后计算折扣回报；比较耗时，但估计准确
+方法二：时序差分方法（增量式算法 + 离散表格法）
+TD算法求解贝尔曼方程 或 贝尔最优方程的随机近似算法
+具体有2个算法：
+sarsa算法(on policy算法)
+只能估计给定策略的动作值（贝尔曼方程的随机近似算法求解），必须配合策略改进才能得到最优策略
+Q learning算法（off policy算法）
+直接估计最优动作值（贝尔曼最优方程的随机近似算法求解），找到最优策略；
+Q learning算法是off policy的本质原因是：用随机近似算法求解贝尔曼最优方程
+
+1.3 贝尔曼方程（离散表格法转函数法）
+
+问题：离散的状态比较多的话，效率不高
+
+大型状态空间效率不高
+神经网络是很好的拟合器 优化目标就是拟合：
+1 目标函数
+J(w) = E[(v_{\pi}(s) - \check{v}(S,w))^2] ... (7.1)
+v_{\pi}(s)真实状态值, \check{v}(S,w)估计状态值
+2 优化算法（梯度下降算法）
+w_{k+1} = w_{k} - \alpha_{k}\bigtriangledown_{w} J(w_{k})
+那么就有函数法版本的SARA 和 Q_Learning；关于Q_learning需要注意：
+\begin{matrix} J = E [(R + \gamma \max_{a}\check{q}(S^{'} , a , w) - \check{q} (S , A , w) )^2] \\ q(s ,a ) = E [R_{t+1} + \gamma \max_{a} \check{q}(S^{'},a , w) - \check{q}(S,A , w) ] \end{matrix}
+贝尔曼最优方程 由于目标函数中有个参数的函数，导致计算梯度并非易事。将参数固定一个，更新一个，来回迭代
+J = E [(R + \gamma \max_{a}\check{q}(S^{'} , a , w_{T}) - \check{q} (S , A , w) )^2]
+技巧一：主干网络和目标网络（方便更新计算梯度） 初始w , w_{T}参数一样 不用显示计算上面的梯度，因为神经网络会自动反向传播更新参数
+技巧二：经验回放 我们对采样过程没有先验知识，最简单的方法就是均匀分布。实际上采样不可能是均匀的（样本之间有关联性），为了服从均匀分布，需要将样本顺序打乱，让其服从均匀分布，经验回放的好处：每个样本都会被利用多次，提高利用效率。
+2 连续空间（策略梯度）
+
+之前贝尔曼方程的一个前提是动态规划，离散之后得到贝尔曼方程，贝尔曼方程只能处理离散空间，那么sara\Q_learning只能处理离散状态。 现在直接不从动态规划入手，直接优化策略函数 优化目标：
+\max_{\theta} \ J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ R(\tau) \right]
+把期望写成积分形式：
+
+\begin{matrix} J(\theta) = \int p_{\theta}(\tau) R(\tau) d\tau \\ \nabla_{\theta} J(\theta) = \int \nabla_{\theta} p_{\theta}(\tau) R(\tau) d\tau \\ \nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ R(\tau) \cdot \sum_{t=0}^{\infty} \nabla_{\theta} \log \pi_{\theta}(a_t \mid s_t) \right] \end{matrix}
+为了降低方差选择（期望保持不变），引入基线b(s） = v(s)
+
+\nabla_{\theta}J(\theta)=\mathbb{E}\left[\ \nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-v_{\pi}(S)\big)\right].
+为了去掉期望，采样随机梯度下降RM
+\theta_{t+1}=\theta_{t}+\alpha_{\theta}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta_{t})\big(q_{t}(s _{t},a_{t})-v_{t}(s_{t})\big)
+估计价值，采样随机梯度下降RM
+
+\begin{matrix} q_{t}(s_{t},a_{t})-v_{t}(s_{t})\approx r_{t+1}+\gamma v_{t}(s_{t+1})-v_{t}(s_{ t})\doteq\delta_{t}(s_{t},a_{t}). \\ \theta_{t+1}=\theta_{t}+\alpha_{\theta}{\beta(a _{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta)\delta_{t}(s_{t},a_{t}). \end{matrix}
+
+2.1 异策略PG(多一层重要性采样)
+Off policy 策略梯度对额外的基准函数b(s)是不变的，因为\mathbb{E}\left[\tfrac{\pi(A|S,\theta)}{\beta(A|S)}\nabla_{\theta}\ln\pi(A|S, \theta)b(S)\right]=0
+
+\nabla_{\theta}J(\theta)=\mathbb{E}_{S\sim\rho,A\sim\beta}\left[\frac{\pi(A|S, \theta)}{\beta(A|S)}\nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-b(S) \big)\right]
+为了降低方差选择b(s） = v(s)
+
+\nabla_{\theta}J(\theta)=\mathbb{E}\left[\frac{\pi(A|S,\theta)}{\beta(A|S)} \nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-v_{\pi}(S)\big)\right].
+为了去掉期望，采样随机梯度下降RM
+\theta_{t+1}=\theta_{t}+\alpha_{\theta}\frac{\pi(a_{t}|s_{t},\theta_{t})}{ \beta(a_{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta_{t})\big(q_{t}(s _{t},a_{t})-v_{t}(s_{t})\big)
+
+估计价值，采样随机梯度下降RM
+
+\begin{matrix} q_{t}(s_{t},a_{t})-v_{t}(s_{t})\approx r_{t+1}+\gamma v_{t}(s_{t+1})-v_{t}(s_{ t})\doteq\delta_{t}(s_{t},a_{t}). \\ \theta_{t+1}=\theta_{t}+\alpha_{\theta}\frac{\pi(a_{t}|s_{t},\theta)}{\beta(a _{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta)\delta_{t}(s_{t},a_{t}). \end{matrix}
+
+2.2 TRPO(理论天花板)
+
+2.2.1 问题构建（新旧策略性能比较）
+
+策略性能 \eta_{old}一定不会比\eta_{old}差，因此需要知道差异在哪里，好方便实现单调改进 新策略 \tilde{\pi}的性能\eta(\tilde{\pi})与旧策略的性能\eta(\pi),具体差距在哪里？
+
+\eta(\tilde{\pi}) =\eta(\pi)+\mathbb{E}_{{s}_{\mathsf{0}},\bm{a}_{\mathsf{0}}, {s}_{\mathsf{1}},\bm{a}_{\mathsf{1}},\cdots\sim\tilde{\pi}}\left[\sum_{t=0} ^{\infty}\gamma^{t}A_{\pi}(\bm{s}_{t},{a}_{t})\right]\newline \eta(\tilde{\pi}) =\eta(\pi)+\sum_{{s}}\rho_{\tilde{\pi}}(\bm{s})\sum_{a}\tilde {\pi}({a}|{s})A_{\pi}(\bm{s},{a})
+
+直观理解： 新策略的性能等于旧策略的性能，加上一个“修正项”。这个修正项是：在新策略访问到的每个状态上，新策略选择的动作相对于旧策略的平均优势，并按其访问频率进行加权。 如果在新策略访问的所有状态上，新策略选择的动作平均来看都比旧策略好（即\sum_{a} \widetilde{ \pi} \left( a|s \right) A_{ \pi} \left( s,a \right)>0）,那么总性能就会提升。
+
+问题在于：公式中的\bm{\rho_{\tilde{\pi}}(s)}赖于我们想要优化的新策略 \tilde{\pi}本身，这使得直接优化这个公式非常困难（成了一个循环依赖问题）。为了解决上述难题，论文引入一个局部近似,L_{\pi}(\tilde{\pi})=\eta(\pi)+\sum_{\bm{s}}\rho_{\pi}(\bm{s})\sum_{a}\tilde{ \pi}(\bm{a}|\bm{s})A_{\pi}(\bm{s},\bm{a}),它做了一個关键的替换，将新策略\bm{\rho_{\tilde{\pi}}(s)}替换为旧策略\bm{\rho_{{\pi}}(s)}
+
+原理：L_{ \pi} \left( \tilde{ \pi} \right) \text{} 是\eta \left( \tilde{ \pi} \right)的一阶近似，也就是说在\boldsymbol{\tilde{\pi}}=\boldsymbol{\pi}这一点，两者函数值相等，且梯度相同：
+
+{L_{\pi_{\theta_{old}}}(\pi_{\theta_{old}})}={\eta(\pi_{ \theta_{old}})}\newline {\nabla_{\theta}L_{\pi_{\theta_{old}}}(\pi_{\theta})|_{\theta= \theta_{old}}}={\nabla_{\theta}\eta(\pi_{\theta})|_{\theta=\theta_{old}}}
+
+这意味着，在旧策略附近一个无限小的区域内，优化L_{ \pi} \left( \tilde{ \pi} \right) \text{} 就等价于优化真实的\eta \left( \tilde{ \pi} \right)
+
+2.2.2 近似的优化问题距离真实问题有多远？
+
+虽然L_{ \pi} \left( \tilde{ \pi} \right) \text{} 是局部准确的，但我们想知道，当策略更新步长不是无限小时，真实性能\eta \left( \tilde{ \pi} \right)和替代损失L_{ \pi} \left( \tilde{ \pi} \right) \text{} 之间到底会差多少？ 保守策略迭代的启发：Kakade & Langford (2002) 针对一种特殊的策略更新方式——混合策略
+
+{\pi_{new}=(1-\alpha)\pi_{old}+\alpha\pi^{\prime}}
+
+证明了一个重要的性能下界:
+
+\eta \left( \pi_{new} \right) \leq L_{ \pi_{old}} \left( \pi_{new} \right)+ \frac{2 \epsilon \gamma}{ \left( 1- \gamma \right)^{2}} \alpha^{2}
+
+其中：
+
+\bm{\epsilon=\max_{s}|\mathbb{E}_{a\sim\pi^{\prime}}[A_{\pi}(s,a)]|}
+
+{\eta(\pi_{\mathrm{new}})}\leq L_{\pi_{\mathrm{old}}}(\pi_{\mathrm{ new}})+C\boldsymbol{\alpha^{2}}\quad\boldsymbol{}
+
+现在，我们在每一步迭代中，都尝试去最小化这个上界的右边部分。也就是说，我们求解以下优化问题：
+
+L_{\pi_{\text{old}}}(\pi_{\text{new}})+C\alpha^{2}\leq L_{\pi_{\text{old}}}( \pi_{\text{old}})+C\cdot 0^{2}
+
+因为当{\pi}={\pi}_{\mathbf{old}} , \alpha = 0时刻，L_{ \pi_{old}} \left( \pi_{old} \right)= \eta \left( \pi_{old} \right)，所以上式变为
+
+{L_{\pi_{\text{old}}}(\pi_{\text{new}})+C\alpha^{2}\leq\eta(\pi_{ \text{old}})}
+
+因此结合上面证明：
+
+\boldsymbol{\eta(\pi_{\mathrm{new}})}\leq\underbrace{\boldsymbol{L_{\pi_{ \mathrm{old}}}(\pi_{\mathrm{new}})+C\alpha^{2}}}_{\text{性能上界}}\leq \underbrace{\boldsymbol{\eta(\pi_{\mathrm{old}})}}_{\text{旧性能}}
+
+最终结论：
+
+\boldsymbol{\eta(\pi_{\mathrm{new}})}\leq\boldsymbol{\eta(\pi_{\mathrm{old}})}
+
+由于我们是在最小化一个成本函数，所以“更小”意味着“更好”。因此，这个不等式意味着新策略的性能保证不差于旧策略。 更准确地说，只要优化过程能使上界下降，真实性能就一定会单调改进。
+
+\eta \left( \pi_{new} \right)（真实性能）：是您房间的实际高度。您无法直接看到它
+
+L_{\pi_{\mathrm{old}}}(\pi_{\mathrm{ new}})+C\boldsymbol{\alpha^{2}}\quad\boldsymbol{}（性能上界）：是您房间的天花板高度。您知道实际高度绝不会超过天花板。
+
+\eta \left( \pi_{old} \right)（旧性能）：是您之前待的另一个房间的已知高度。
+
+TRPO的算法过程就是： 每一步，您都想办法降低新房间的天花板，确保这个新天花板比您旧房间的高度还要低。那么，即使您看不到新房间的实际高度，您也百分之百地确信，新房间的实际高度肯定比旧房间的高度要低（即性能更好）。
+
+为了防止策略更新差别过大，引入KL散度在上述公式中： 将上述结论推广到了任意的随机策略，而不仅仅是混合策略。它指出，只要将混合系数\alpha替换为两个策略之间的最大总变分散度
+{\alpha=D_{TV}^{\max}(\pi_{old},\pi_{new})}
+（证明见原文） 利用 Pinsker 不等式：
+\left(D_{{}_{T V}} \left(p || q\right)\right)^{{}_{2}} \leq \frac{1}{2}D _{{}_{KL}} \left(p || q\right)
+
+将更直观的TV散度转换为更便于优化的KL散度，得到最终的理论基础：
+{\eta(\tilde{\pi})}\leq{L_{\pi}(\tilde{\pi})}+ {C\cdot D_{KL}^{\max}(\pi,\tilde{\pi})}
+其中：
+C=\tfrac{2\epsilon\gamma}{(1-\gamma)^{2}},\ D_{\textit{KL}}^{\max}(\pi,\tilde{ \pi})=\max\nolimits_{s}D_{\textit{KL}}(\pi(\cdot|\bm{s})\parallel\tilde{\pi}( \cdot|\bm{s}))
+
+2.2.3 优化问题的形成
+
+求解优化问题：
+\underset{\theta}{\text{minimize}}\left[L_{\theta_{\mathit{old}}}(\theta)+C \cdot D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\right]
+通过最小化这个带有惩罚项的目标，我们可以保证真实目标\eta \left( \pi_{new} \right)
+不会变差 为什么不能直接用这个公式？ 因为理论给出的惩罚系数 C 通常非常大，这会导致优化器采取极其保守的微小步长，学习速度极慢。（数值病态） TRPO 的巧妙转换：惩罚项 → 约束项 与其使用一个大常数 CC 来惩罚KL散度，不如直接约束KL散度的大小，在这个信任区域内尽情地优化
+L_{\theta_{\mathit{old}}}(\theta)
+
+优化问题变形为：
+\underset{\theta}{\text{minimize}} L_{\theta_{\mathit{old}}}(\theta)\quad\text{subject to} D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\leq\delta
+
+\bm{D_{KL}^{\max}}:约束要求每个状态的KL散度都小于\delta ，这有无数个约束，不现实。因此，TRPO 将其松弛为对平均KL散度的约束：\overline{D}_{\textit{KL}}^{\rho_{\theta_{\textit{old}}}}(\theta_{\textit{old}}, \theta)=\mathbb{E}_{\textit{s}\sim\rho_{\theta_{\textit{old}}}}[D_{\textit{KL}}( \pi_{\theta_{\textit{old}}}(\cdot|\textit{s})\parallel\pi_{\theta}(\cdot| \textit{s}))]\leq\delta;这个约束只有一个，并且可以通过采样来估计，非常实用。
+
+2.2.4 重要性采样（提升数据利用率）
+
+目标函数展开：
+L_{{}_{\theta_{old}}}(\theta)=\eta(\theta_{{}_{old}}) + \sum_{s}\rho_{{}_{ \theta_{old}}}(s) \sum_{a}\pi_{{}_{\theta}}(a | s)\mathit{A}_{{}_{\theta_{ old}}}(s,a)
+优化问题进一步等于（无关项去除）：
+\begin{array}{l}\max\limits_{\theta}\sum\limits_{s}\rho_{{}_{\theta_{old}}}( s) \sum\limits_{a}\pi_{{}_{\theta}}(a | s)\textit{A}_{{}_{\theta_{old}}}(s,a)\\ \qquad s.t. \bm{\bar{D}}_{{}_{KL}}^{{}_{\rho_{\theta_{old}}}}(\theta_{{}_{old }},\theta) {\leq} \delta\end{array}
+利用重要性采样（数据利用率提升），评估动作分布
+L_{\theta_{old}} = \sum_{a} \pi_{a} \left( a|s \right) A_{ \theta_{old}} \left( s,a \right)= \left[ \pi_{a \sim q} \left[ \frac{ \pi_{a} \left( a|s \right)}{q \left( a|s \right)} A_{ \theta_{old}} \left( s,a \right) \right] \right.
+\frac{ \pi_{ \theta}}{ \pi_{ \theta_{old}}}重要性权重。因为我们是用旧策略\pi_{ \theta_{old}}采样的数据\boldsymbol{(s_{t},a_{t})}来评估新策略\pi_{ \theta}
+
+A_{ \pi} \left( s,a \right)=Q_{ \pi} \left( s,a \right)-V_{ \pi} \left( s \right) \approx {r_{t}+\gamma V(s_{t+1})-V(s_{t})}
+优势函数(RM随机梯度下降算法+base line减小方差)，GAE的核心思想是：将蒙特卡洛估计（高方差、低偏差）和时序差分估计（低方差、高偏差）结合起来，通过一个参数 λ来平滑地控制权衡。 优化问题进一步：
+\begin{split}&\max_{\theta}J_{{}_{\theta_{old}}}(\theta) {=} \mathbb{E}_{{}_{s\sim\rho_{{}_{\theta_{old}}},a\sim q}}\left[\frac{\pi_{{}_{ \theta}}(a | s)}{q(a | s)}A_{{}_{\theta_{old}}}(s,a)\right]\\ & s.t. \mathbb{E}_{{}_{s\sim\rho_{{}_{\theta_{old}}}}}\left[ \left.D_{{}_{KL}}\left(\pi_{{}_{\theta_{old}}}(\cdot | s) \right\|\pi_{{}_{ \theta}}(\cdot | s)\right)\right]{\leq} \delta\end{split}
+
+2.2.5 优化加速（问题一阶/二阶近似利用共轭梯度求解加速）
+
+带约束的问题直接求解困难
+
+局部近似（类似于SQP） 在{\theta_{old}}处，对目标函数做一阶泰勒展开，对约束函数（平均KL散度）做二阶泰勒展开（因为它在{\theta_{old}}处取最小值0，一阶导为0）。 利用泰勒展开：
+f \left( x \right)= \sum_{n=0}^{ \infty} \frac{f^{ \left( n \right)} \left( x_{0} \right)}{n!} \left( x-x_{0} \right)^{n}=f \left( x_{0} \right)+f^{ \prime} \left( x_{0} \right) \left( x-x_{0} \right)+ \frac{1}{2}f^{ \prime \prime} \left( x_{0} \right) \left( x-x_{0} \right)^{2}+ \frac{f^{ \left( 3 \right)} \left( \varepsilon \right)}{3!} \left( x-x_{0} \right)^{3}
+近似后的问题变为（函数）：
+\begin{matrix} L_{ \theta_{old}}( \theta) \approx \nabla_{ \theta}L_{ \theta_{old}}( \theta) \left|_{ \theta= \theta_{old}} \cdot( \theta- \theta_{old}) \right. \\ \mathbb{E}_{{}_{s\sim\rho_{\theta_{old}}}}\left[D_{{}_{KL}}\left(\pi_{{}_{ \theta_{old}}}(\cdot | s) \| \pi_{{}_{\theta}}(\cdot | s)\right)\right] \approx \frac{1}{2}(\theta- \theta_{{}_{old}})^{{}^{T}} \cdot I(\theta_{ {}_{old}}) \cdot (\theta - \theta_{{}_{old}}) \end{matrix}
+其中：
+I_{ij} \left( \theta_{old} \right)= \left. \frac{ \partial^{2}E_{s \sim \rho_{ \theta_{old}}} \left[ D_{KL} \left( \pi_{ \theta_{old}} \left( \cdot|s \right)| \pi_{ \theta} \left( \cdot|s \right) \right) \right]}{ \partial \theta_{i} \partial \theta_{j}} \right|_{ \theta= \theta_{old}}
+那么近似之后的优化问题变成：
+\left.\begin{aligned} &\max_{\theta}\ \left.\nabla_{\theta}L_{{}_{ \theta_{ old}}}(\theta)\right|_{\theta = \theta_{ old}} \cdot (\theta - \theta_{ old})\\ & s.t.\ \frac{1}{2}(\theta - \theta_{ old})^{{}_{T}} \cdot I( \theta_{ old}) \cdot (\theta - \theta_{ old}) \leq \delta\end{aligned}\right.
+
+更新方向—-二次规划问题的解析解(利用共梯度法，避免显式求逆，加速计算)
+
+共轭梯度
+
+\theta - \theta_{ old} = \frac{1}{ \lambda} I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+\frac{1}{ \lambda}是步长，\left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}是梯度 \frac{1}{ \lambda} I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}自然梯度方向，它考虑了策略空间的曲率，比普通梯度方向更好。直接求逆计算量巨大，TRPO使用共轭梯度法来(近似)高效求解方程\nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta= \theta_{old}} = I^{} \left( \theta_{old} \right) \cdot x，得到 x \approx I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+而无需显式存储或求逆 \hat{g} = I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+
+更新步长（先求最大，然后回溯搜索，带约束） 解析解给出的步长可能仍然违反KL约束，因此，TRPO进行回溯线搜索：
+
+精确线搜索：(最大步长，但可能不满足约束)
+\frac{\delta L(\theta,\lambda)}{\delta\lambda} = 0\Rightarrow\delta- c = \frac{1}{2}(\beta\hat{g})^{{}_{T}} \cdot I(\theta_{{}_{old}}) \cdot ( \beta\hat{g}) = \frac{1}{2} \beta^{{}_{2}}\hat{g}^{{}_{T}}I(\theta_{{}_{old }})\hat{g}\ \text{则}\beta = \sqrt{ \frac{2(\delta - c)}{|\hat{g}^{{}^{T}}I( \theta_{{}_{old}})\hat{g}|}}
+回溯线搜索：（带约束） 回溯二分检查约束：
+\overline{D}_{\textit{KL}}\left(\theta_{\textit{old}},\theta_{\textit{}} \right)\leq\delta.
+2.3 PPO(TRPO工程近似版)
+
+信任域策略优化 (TRPO):
+
+理论坚实: 基于保守策略迭代 理论，提供了单调性能改进的保证。其核心是约束新旧策略之间的KL散度，确保新策略不会偏离旧策略太远。
+实现复杂: 为了实现KL约束，TRPO需要计算Fisher信息矩阵（FIM）的近似，并使用共轭梯度法 来求解带约束的优化问题。这带来了两大问题：
+计算开销大： 计算FIM和运行共轭梯度法比标准的随机梯度下降要复杂和耗时。TRPO的计算虽然稳定，但二阶优化过程非常耗时，工业界经常无法承受这么高的开销
+不兼容性： 难以应用于有Dropout、参数共享（如策略网络和价值网络共享底层特征提取器）或辅助任务的架构，因为这些技术会破坏对优化问题的线性/二次近似所需的假设。 优化问题经过近似之后的问题，求解优化问题：
+\underset{\theta}{\text{minimize}}\left[L_{\theta_{\mathit{old}}}(\theta)+C \cdot D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\right]
+为了解决约束耗时的问题：
+L^{CLIP}(\theta)=\hat{\mathbb{E}_{t}}\left[\min\left(\underbrace{r_{t}(\theta )\hat{A}_{t}}_{\text{未裁剪项}},\underbrace{\operatorname{clip}(r_{t}( \theta),1-\epsilon,1+\epsilon)\hat{A}_{t}}_{\text{裁剪项}}\right)\right]
+方案(裁剪方案）：PPO同样想使两个策略间差异不要过大， PPO放弃了精确的KL约束，转而采用一种启发式但极其有效的“软约束”——概率比裁剪
+clip
+PPO：只用一阶梯度 + 裁剪，没有 Fisher、没有 CG、没有线搜索，一轮就一次反向，快很多。
+TRPO：每轮 = 多次二阶乘积 + 多次 CG 迭代 + 多次线搜索，速度通常是 PPO 的 1/5～1/20。
+2.4 GRPO
+
+GRPO通过优化PPO算法，解决了计算优势值时需要同时依赖奖励模型（reward model）和价值模型（value model）的问题，成功移除了value model（价值模型），显著降低了推理时的内存占用和时间开销。Advantage（优势值）的核心价值在于为模型输出提供更精准的评估，不仅衡量答案的绝对质量，还通过相对比较（与其他回答的对比）来更全面地定位其优劣。 当时价值模型的提出，主要是策略梯度估计方差过高这一核心瓶颈。后面也证明了，最优的偏置就是价值函数，价值函数RM近似就是TD差分
+
+GRPO
+
+计算损失 这一步的目标是最大化优势，同时确保模型保持在参考策略附近。因此，损失定义如下：
+
+\begin{array}{l}\mathcal{L}_{\text{GRPO}}\hskip-1.0pt\left(\theta\right)=- \frac{1}{G}\sum_{i=1}^{G}\frac{1}{\left|o_{i}\right|}\sum_{t=1}^{\left|o_{i} \right|}\left[\frac{\pi_{\theta}\left(o_{i,t}|q,o_{i,<t}\right)}{\left[\pi_{ \theta}\left(o_{i,t}|q,o_{i,<t}\right)\right]_{\text{no grad}}}\hat{A}_{i,t} \hskip 1.0pt-\beta\mathbb{D}_{\text{KL}}\left[\pi_{\theta}\|\pi_{\text{ref}} \right]\right]\end{array}
+
+其中第一项表示缩放后的优势，第二项通过KL散度惩罚与参考策略的偏离 在原始论文中，该公式被推广为在每次生成后通过利用裁剪替代目标（clipped surrogate objective）进行多次更新：
+
+\begin{array}{l}\mathcal{L}_{\mathrm{GRPO}}\big(\theta\big)=-\frac{1}{G} \sum_{l=1}^{G
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pica.zhimg.com/v2-6532db27969756feb5a5380a1d68dfb0_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-4b2eae6eed5254df81e5edb9230070f8_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-1f5de55645826dff97afd5336c7cb24e_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-64b351ca02cb0fb295b16b1c05c04394_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-124f8c76510c81e86863df1a6664334e_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-2ec5728cebfc736d1626476e4f6ea4df_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-c690d64d7e4918261821f89d5b38aa2e_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-ea25777123bc7ac6cff2ae80d1be54e2_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-192b0d3bcac4ccf88f228105ae52b1a6_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-71194be145afeb83581b0827168f04d3_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-a65badb53119ac04346911d809ea9179_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-db4775f06463ea4f1d3db5bfb4550030_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-fc20705a7fb7b81fb83182e6131ebe99.webp)
+
+![图片](https://picx.zhimg.com/v2-9cf8b2995ccbffc25559bf968911906f_250x0.jpg?source=172ae18b)
+
+![图片](https://pica.zhimg.com/v2-6a669b2e6fceaa108618a228efc032e5_250x0.jpg?source=172ae18b)8:["$","$L13",null,{"weekPlan":{"week":4,"theme":"强化学习基础：从MDP到PPO完整推导（手撕代码）","start_date":"2026-07-07","end_date":"2026-07-13","day_range":[22,28],"topics":["rl-fundamentals","ppo-variants","rl-coding"],"content":{"foundations":[{"note_id":"fnd-week04-mdp","title":"MDP/Bellman方程/Value Iteration/Policy Iteration理论推导","topics":["rl-fundamentals"]},{"note_id":"fnd-week04-pg-ac-gae","title":"Policy Gradient→Actor-Critic→GAE：从公式到代码","topics":["rl-fundamentals"]}],"interview_qa":[{"note_id":"qa-week04-ppo-clip","question":"PPO-Clip vs PPO-Penalty vs TRPO：信任域方法的三种实现与对比？","topics":["ppo-variants"]},{"note_id":"qa-week04-on-vs-off","question":"On-Policy vs Off-Policy区别？Importance Sampling在PPO中的作用？","topics":["rl-fundamentals","ppo-variants"]},{"note_id":"qa-week04-rl-interview-zh","title":"“面试造火箭”之 强化学习（具身/自驾）总结","topics":[]}],"advanced":[],"coding":[{"note_id":"cod-week04-ppo","title":"手写PPO训练Loop（含GAE + Experience Buffer + Multi-epoch Update + Critic）","topics":["ppo-variants","rl-coding"]}],"papers":[{"note_id":"pap-week04-ppo","title":"Proximal Policy Optimization Algorithms","arxiv_id":"1707.06347","topics":["ppo-variants"],"cool_papers_url":"https://papers.cool/arxiv/kimi?paper=1707.06347"}]}},"notes":[{"id":"qa-week04-rl-interview-zh","title":"“面试造火箭”之 强化学习（具身/自驾）总结","type":"interview_qa","week":4,"topics":["rl-fundamentals"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/2043620037890769967","title":"“面试造火箭”之 强化学习（具身/自驾）总结","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$14","code_snippet":"$undefined","images":[]}],"weekNum":4,"hasPrev":true,"hasNext":true,"totalWeeks":15}]
 e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}]]
-13:I[27201,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+15:I[27201,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
 b:null
-10:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L13","3",{}]]
+10:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L15","3",{}]]

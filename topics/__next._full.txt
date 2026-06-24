@@ -1,36 +1,2444 @@
 1:"$Sreact.fragment"
-2:I[83855,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
-3:I[75752,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
-4:I[19449,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-5:I[39756,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-6:I[37457,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-7:I[5278,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
-18:I[68027,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
-:HL["/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","style"]
-0:{"P":null,"c":["","topics"],"q":"","i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","div",null,{"className":"max-w-3xl mx-auto px-4 py-6","children":[["$","h1",null,{"style":{"fontSize":"1.5em","fontWeight":700,"color":"#ededed","marginBottom":"4px"},"children":"学习进度"}],["$","p",null,{"style":{"fontSize":"13px","color":"#737373","marginBottom":"16px"},"children":["按话题查看学习覆盖情况 · ",22," 条笔记"]}],[["$","div","foundation-model",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🏗️"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"基础模型架构"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",18," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","attention-arch",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["注意力架构（MHA→MQA→GQA→MLA演进/复杂度分析/手撕代码）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",4]}]]}],["$","span","position-encoding",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["位置编码（Sinusoidal→RoPE→ALiBi→NoPE/NTK-aware外推）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",4]}]]}],["$","span","activation-functions",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["激活函数（SwiGLU/GELU/GeGLU/SiLU对比/门控机制/梯度分析）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",2]}]]}],"$L8","$L9","$La","$Lb","$Lc","$Ld","$Le"]}]]}]}],"$Lf","$L10","$L11","$L12","$L13","$L14"]]}],null,"$L15"]}],{},null,false,null]},null,false,"$@16"]},null,false,null],"$L17",false]],"m":"$undefined","G":["$18",["$L19"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Y2rbXJ9FAR_QYc1COTCaR"}
-1a:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
-1b:"$Sreact.suspense"
-1e:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
-20:I[97367,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
-8:["$","span","normalization",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["归一化与正则（LayerNorm→RMSNorm→DeepNorm/Pre-LN vs Post-LN/Dropout）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",1]}]]}]
-9:["$","span","llm-architecture",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["大模型架构报告（DeepSeek V2/V3/R1→Kimi-MoE→GLM→Qwen技术报告）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",4]}]]}]
-a:["$","span","architecture-innovation",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["架构创新（MoE路由与负载均衡/Mamba/SSM/Titans记忆力/Linear Attention）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",3]}]]}]
-b:["$","span","optimizers",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["优化器（SGD→Adam→AdamW→Lion→Sophia→Muon/解耦Weight Decay）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",2]}]]}]
-c:["$","span","loss-functions",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["损失函数（CE/NTP/Contrastive/Aux-loss/Z-loss/RLHF-loss）",false]}]
-d:["$","span","training-regularization",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["训练正则（Weight Decay/EMA/Gradient Clip/Label Smoothing/Loss Spike分析）",false]}]
-e:["$","span","flash-attention",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["FlashAttention（V1/V2/V3原理/Tiling策略/IO-Awareness/面试高频）",false]}]
-f:["$","div","reinforcement-learning",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🎮"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"强化学习"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",4," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","rl-fundamentals",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["RL基础（MDP/Bellman方程/Value Iteration/Policy Gradient/Actor-Critic/GAE推导）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",1]}]]}],["$","span","ppo-variants",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["PPO全解（PPO-Clip/PPO-Penalty/TRPO/Importance Sampling/Critic设计）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",1]}]]}],["$","span","grpo-variants",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["GRPO及其变体（GRPO推导/DAPO/SAPO/GSPO/Group Relative Advantage）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",1]}]]}],["$","span","rlhf-pipeline",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["RLHF全流程（Reward Model训练→PPO→DPO→GRPO→RLVR→Evaluation）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",1]}]]}],["$","span","reward-design",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["Reward设计（Bradley-Terry/Ensemble RM/Process vs Outcome Reward/Overoptimization）",false]}],["$","span","rl-coding",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["RL Coding（手写PPO/GRPO/GAE/Reward Model/Training Loop/verl源码阅读）",false]}]]}]]}]}]
-10:["$","div","vla-architecture",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🤖"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"VLA模型架构"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",0," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","vlm-backbone",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["VLM基座（CLIP/SigLIP/InternVL/Llava/Qwen-VL/DINOv2）",false]}],["$","span","rt-series",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["RT系列（RT-1→RT-2→RT-X/Co-fine-tuning/Web-to-Robot迁移）",false]}],["$","span","open-vla",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["开源VLA（OpenVLA/Octo/π0/RDT/GR-1/架构对比与选型）",false]}],["$","span","action-representation",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["动作表示（Tokenization/Flow Matching/Diffusion Policy/Action Chunking）",false]}],["$","span","vla-training",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["VLA训练范式（全量微调→LoRA→MoE插件/Co-training/Sim-to-Real）",false]}],["$","span","vla-interview",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["VLA面试（架构选型/动作空间设计/推理延迟优化/多Embodiment泛化/Scaling Law）",false]}]]}]]}]}]
-11:["$","div","world-models",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🌍"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"世界模型（WAM）"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",0," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","wm-fundamentals",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["世界模型基础（Dyna→Model-based RL→Latent Imagination→RSSM）",false]}],["$","span","video-generation-wm",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["视频生成世界模型（Sora/Genie/UniSim/GameNGen/Occupancy WM）",false]}],["$","span","robot-wm",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["机器人世界模型（DreamerV3/GR-1/SuSIE/DayDreamer/DriveWAM）",false]}],["$","span","wam-application",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["WAM应用（规划/数据增强/Sim-to-Real/Policy Rollout/自动驾驶WAM）",false]}]]}]]}]}]
-12:["$","div","model-optimization",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"⚡"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"模型优化与加速"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",2," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","kv-cache",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["KV Cache优化（PagedAttention/vLLM/GQA→MLA/RadixAttention/Prefix Caching）",["$","span",null,{"style":{"marginLeft":"4px","color":"#60a5fa"},"children":[0,"/",2]}]]}],["$","span","quantization",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["量化（QAT vs PTQ/GPTQ/AWQ/FP8 E4M3/INT4/GGUF/KV Cache量化）",false]}],["$","span","peft",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["PEFT（LoRA/QLoRA/AdaLoRA/DoRA/IA3/VeRA/理论和实现）",false]}],["$","span","inference-opt",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["推理优化（FlashAttention/TensorRT-LLM/SGLang/Speculative Decoding/显存计算）",false]}],["$","span","distillation",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["知识蒸馏（Logit-based/Feature-based/Online Distillation/模型压缩）",false]}]]}]]}]}]
-13:["$","div","training-frameworks",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🔧"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"训练框架与工程"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",0," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","verl",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["Verl框架（PPO/GRPO Pipeline/Hybrid Engine/SGLang+FSDP/源码解析）",false]}],["$","span","distributed-training",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["分布式训练（DDP/FSDP/TP/PP/SP/CP/通信与计算重叠）",false]}],["$","span","deepspeed",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["DeepSpeed（ZeRO-1/2/3→ZeRO-Offload→ZeRO++/显存优化策略）",false]}],["$","span","megatron",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["Megatron-LM（TP+PP Pipeline/Sequence Parallel/Context Parallel）",false]}],["$","span","embodied-frameworks",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["具身框架（IsaacSim/ManiSkill/RLBench/LIBERO/Genesis/GPU并行仿真）",false]}],["$","span","data-pipeline",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["数据管线（OXE数据集/RoboSet/数据配比与增强/Scaling Law）",false]}]]}]]}]}]
-14:["$","div","system-integration",{"style":{"marginBottom":"12px"},"children":["$","div",null,{"style":{"background":"#171717","border":"1px solid #262626","borderRadius":"12px","padding":"16px"},"children":[["$","div",null,{"style":{"display":"flex","justifyContent":"space-between","alignItems":"center","marginBottom":"8px"},"children":[["$","div",null,{"style":{"display":"flex","alignItems":"center","gap":"8px"},"children":[["$","span",null,{"style":{"fontSize":"1.2em"},"children":"🎯"}],["$","span",null,{"style":{"fontWeight":600,"color":"#ededed"},"children":"系统设计与面试实战"}]]}],["$","span",null,{"style":{"fontSize":"12px","color":"#737373"},"children":[0,"/",0," 完成 · ",0,"%"]}]]}],["$","div",null,{"style":{"height":"4px","background":"#262626","borderRadius":"2px","overflow":"hidden","marginBottom":"8px"},"children":["$","div",null,{"style":{"height":"100%","width":"0%","background":"#262626","borderRadius":"2px"}}]}],["$","div",null,{"style":{"display":"flex","flexWrap":"wrap","gap":"6px"},"children":[["$","span","system-design",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["系统设计（端到端推理Pipeline/延迟优化SLA/吞吐-成本平衡/千人服务架构）",false]}],["$","span","robot-foundations",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["机器人基础（运动学/手眼标定/ROS2/URDF/Real2Sim/传感器融合）",false]}],["$","span","latest-trends",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["前沿趋势（具身AGI/Foundation Model for Robotics/多Embodiment/Sim-to-Real新范式）",false]}],["$","span","mock-interview",{"style":{"fontSize":"11px","padding":"4px 8px","borderRadius":"6px","background":"#0d0d0d","border":"1px solid #262626","color":"#a3a3a3"},"children":["模拟面试（算法推导手撕/项目深挖/系统设计/行为面试/公司面试题汇总）",false]}]]}]]}]}]
-15:["$","$L1a",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@1c"}]}]
-1d:[]
-16:"$W1d"
-17:["$","$1","h",{"children":[null,["$","$L1e",null,{"children":"$L1f"}],["$","div",null,{"hidden":true,"children":["$","$L20",null,{"children":["$","$1b",null,{"name":"Next.Metadata","children":"$L21"}]}]}],null]}]
-19:["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/0ki_qpl0mk-an.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
-1f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}]]
-22:I[27201,["/review-handbook/_next/static/chunks/0li92lx_e7e9x.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
-1c:null
-21:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L22","3",{}]]
+2:I[83855,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ReviewProvider"]
+3:I[75752,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"WeightProvider"]
+4:I[19449,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+5:I[39756,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[37457,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+7:I[5278,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+8:I[88790,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","/review-handbook/_next/static/chunks/3ht_gmg46x-0q.js"],"default"]
+23:I[68027,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","style"]
+9:T74f,## 来源
+- [xiaohongshu] [MHA/MQA/GQA 一张图看懂！](https://www.xiaohongshu.com/explore/6950e1de000000001e00e177)
+
+## 内容
+MHA（Multi-Head Attention）每个head有独立的K/V，计算量大但效果最好； MQA（Multi-Query Attention）所有head共享一组K/V，省显存但表达能力弱； GQA（Grouped Query Attention）折中方案，将head分组，每组共享K/V，是大模型推理首选； MLA（Multi-head Latent Attention，DeepSeek）将K/V压缩到低维latent空间再展开，极致压缩KV Cache。
+**核心结论**： - 训练：MHA（精度优先） - 推理：GQA（显存与效果平衡） - 极致压缩：MLA（DeepSeek专属）
+
+
+## 关键要点
+- {'MHA': '每个attention head有独立的Q、K、V投影，参数量=3×d_model×d_kv×n_heads'}
+- {'MQA': '所有head共享K、V，参数量大幅减少，但不同head无法关注不同语义空间'}
+- {'GQA': 'n_heads个Q分成n_groups组，每组共享K、V，n_groups=1即MQA，n_groups=n_heads即MHA'}
+- GQA在LLaMA2/3、Mistral等主流模型中广泛使用，通常n_groups=8
+- MLA核心思想：将K、V先投影到低维latent，再通过up-projection恢复，训练时存full KV，推理时只存latent
+- KV Cache大小对比：MHA(1x) > GQA(1/group_ratio) > MQA(1/n_heads) ≈ MLA(约1/4~1/10)
+
+## 自测问题
+- MHA、MQA、GQA的区别？各自参数量和KV Cache大小如何计算？
+- 为什么GQA是当前大模型推理的主流选择？
+- MLA如何做到比GQA更极致的KV压缩？其核心insight是什么？
+- 实际训练中如何处理GQA的group分配？
+
+## 图片
+![MHA vs MQA vs GQA 对比图](http://sns-webpic-qc.xhscdn.com/202606222256/75157530ea33be96bb66eaa23afb6eb1/spectrum/1040g0k031qklje3ogm0040to5t11l9rtq78eg1o!nc_n_webp_mw_1)
+*MHA vs MQA vs GQA 对比图*
+
+## 相关笔记
+- [[fnd-week01-transformer-block]]
+- [[qa-week01-attn-complexity]]a:T9ab,## 来源
+- [xiaohongshu] [手撕Attention](https://www.xiaohongshu.com/explore/69ad304c000000002202302a)
+
+## 内容
+完整覆盖Attention家族所有变体的代码实现与原理： 1. Self-Attention（单头标准实现，Q=K=V来自同一输入） 2. Cross-Attention（Q来自decoder，K/V来自encoder） 3. Multi-Head Attention（并行多头，concat后投影） 4. MHA with KV Cache（推理时缓存历史K/V，避免重复计算） 5. Multi-Query Attention（所有head共享K/V） 6. Grouped Query Attention（分组共享K/V） 7. MLA原理/代码（DeepSeek的极致KV压缩方案） 8. 配套知识点：Softmax数值稳定（减max防溢出）、Cross Entropy Loss、RoPE旋转位置编码、KL散度
+**实现要点**： - Attention公式：O = softmax(QK^T/√d_k) · V - 除以√d_k防止内积过大导致softmax梯度消失 - KV Cache：推理时每个token的K/V只算一次，存下来复用 - Python/PyTorch实现：矩阵运算 + einops/einsum
+这篇笔记覆盖了16页精华内容，从基础到进阶的Attention全家桶。
+
+
+## 关键要点
+- {'Self-Attention': 'Q/K/V通过三个线性层从同一输入投影，计算Scaled Dot-Product Attention'}
+- {'Cross-Attention': 'decoder的Q关注encoder输出的K/V，应用于Encoder-Decoder架构'}
+- {'MHA': 'n_head个独立的Attention并行计算，输出concat后经W_o投影，参数量=4×d_model²'}
+- KV Cache原理：自回归解码时，已生成token的K/V不需要重复计算，直接拼接到当前输入前
+- {'MQA': '所有head共享K/V矩阵，参数量降至(2+2/n_head)×d_model²，训练速度提升但精度略降'}
+- {'GQA': '将head分成n_groups组，组内共享K/V，trade-off最优'}
+- {'MLA': 'K/V→down_proj(latent)→up_proj，推理时只存latent表示，大幅减少KV Cache体积'}
+- Softmax稳定技巧：x - max(x)避免e^x数值溢出
+- {'CE Loss': '-∑y_true·log(softmax(logits))，与softmax组合有梯度简化'}
+
+## 自测问题
+- 手写Scaled Dot-Product Attention的PyTorch代码，包含mask处理
+- KV Cache为什么能加速推理？具体减少了多少计算量？
+- MQA和GQA在代码实现上的区别是什么？
+- MLA的down/up projection如何保证语义不丢失？
+
+## 图片
+![Attention家族全景图](http://sns-webpic-qc.xhscdn.com/202606222256/360e082cd28a9ec0ba1d90a5659c6c50/spectrum/1040g34o31tdt5h1256105no6jgq08o4hiqdu920!nc_n_webp_mw_1)
+*Attention家族全景图*
+
+## 相关笔记
+- [[fnd-week01-attention]]
+- [[cod-week01-mha]]b:T8ec,## 来源
+- [xiaohongshu] [大模型激活函数为什么是swiGLU？](https://www.xiaohongshu.com/explore/6921761f000000001f0061d8)
+
+## 内容
+大模型FFN中激活函数的演进：ReLU → GELU → SiLU(Swish) → SwiGLU → GeGLU
+**GLU（Gated Linear Unit）家族**： GLU = (x·W₁ + b₁) ⊗ σ(x·W₂ + b₂)，即输入通过两个线性变换，一个做激活后与另一个逐元素相乘（门控）。不同GLU变体的区别在于激活函数σ的选择。
+- **SwiGLU**（LLaMA/Qwen/DeepSeek）：σ = SiLU(Swish) = x·σ(x)。门控用Swish代替sigmoid，平滑可导，梯度流动更好 - **GeGLU**：σ = GELU = x·Φ(x)（Φ是标准正态CDF），理论上更接近ReLU的统计特性 - **ReGLU**：σ = ReLU，最简单但非平滑 - **为什么用GLU**：相比标准FFN（2个权重矩阵），GLU用3个权重矩阵但保持参数量不变（通过调整hidden_dim），引入了门控机制使模型能选择性传递信息
+**为什么SwiGLU优于ReLU**： 1. 平滑性：处处可导，优化更稳定 2. 非单调：允许小的负值通过，防止神经元"死亡" 3. 门控机制：动态控制信息流，增强表达能力 4. 实证结果：LLaMA论文中SwiGLU在perplexity上显著优于ReLU 5. 梯度：SiLU的梯度在正值区域保持较大值，缓解梯度消失
+
+
+## 关键要点
+- SwiGLU = Swish(xW_gate) ⊗ (xW_up)，然后down_proj
+- GLU参数量计算：3×d_model×d_ff（vs 标准FFN的2×d_model×d_ff），通过调整d_ff保持总参数量一致
+- {'GELU': 'x·Φ(x) ≈ 0.5x(1+tanh(√(2/π)(x+0.044715x³)))'}
+- {'SiLU/Swish': 'x·σ(x)，与GELU形状相似但计算更简单'}
+- {'LLaMA中实际使用': 'SwiGLU + d_ff = 8/3 × d_model（补偿3个权重矩阵）'}
+- 对比：ReLU(d_ff=4d) vs SwiGLU(d_ff≈2.7d)，参数量等效
+
+## 自测问题
+- SwiGLU的门控机制为什么有效？从梯度和表达能力的角度分析
+- GeGLU vs SwiGLU vs ReGLU的对比，为什么SwiGLU最流行？
+- FFN中用GLU后参数量如何保持与标准FFN一致？
+
+## 图片
+![SwiGLU激活函数原理图](http://sns-webpic-qc.xhscdn.com/202606222257/fd92c98c779ae534ffbe50ebf2b58a4f/1040g2sg31p6brbn6jcgg5nvg187g8477mc261m8!nc_n_webp_mw_1)
+*SwiGLU激活函数原理图*
+
+## 相关笔记
+- [[qa-week02-swiglu]]
+- [[fnd-week02-norm]]c:Ta36,## 来源
+- [xiaohongshu] [大模型NLP面试题：LLaMA模型结构](https://www.xiaohongshu.com/explore/650c5d97000000001f00701d)
+
+## 内容
+归一化（Normalization）技术是Transformer训练稳定性的关键。演进路线：
+**1. BatchNorm → LayerNorm**： - BatchNorm沿batch维度归一化，不适用于变长序列和batch size小的场景 - LayerNorm沿feature维度归一化，独立于batch size，适合NLP
+**2. LayerNorm → RMSNorm**（LLaMA）： - RMSNorm只计算均方根（RMS），去掉了均值中心化 - RMSNorm(x) = x / RMS(x) · γ，其中RMS=√(mean(x²)) - 计算量约为LayerNorm的60-70%，效果相当 - 几乎所有现代LLM（LLaMA/Mistral/Qwen/DeepSeek）都用RMSNorm
+**3. DeepNorm**（DeepNet，千层Transformer）： - 在残差连接前对输入做缩放：x + α·Sublayer(LN(x)) - 初始化时α<1，控制残差方差 - 使1000+层Transformer稳定训练成为可能
+**4. Pre-LN vs Post-LN**： - Post-LN（原始Transformer）：x + LN(Sublayer(x))，梯度容易发散 - Pre-LN（现代Transformer）：x + Sublayer(LN(x))，梯度流经残差直接传播 - 几乎所有现代LLM使用Pre-LN（实际上Pre-RMSNorm + Residual）
+**5. 其他归一化技术**： - QK Norm（Gemma/某些VLM）：对Q、K单独做LayerNorm，防止attention logits过大 - Sandwich Norm（Pre+Post）：Pre-LN + Post-LN组合，一些大模型使用
+
+
+## 关键要点
+- {'LayerNorm': 'y = (x-μ)/σ · γ + β，两个统计量+两个可学习参数'}
+- {'RMSNorm': 'y = x/√(mean(x²)+ε) · γ，只有RMS统计量+一个可学习参数（无β bias）'}
+- RMSNorm去掉re-centering的原因：实证表明中心化对性能影响极小，去掉减少计算量
+- {'DeepNorm': 'x_{l+1} = x_l + α·F(LN(x_l))，α在初始化时<1控制方差'}
+- Pre-LN优势：梯度从顶层通过残差直达底层，训练更稳定，允许更大学习率
+- {'QK Norm': '对Q和K的head维度做归一化，防止attention logits过大导致softmax饱和'}
+- 层归一化位置影响：Pre-LN对Sublayer输入做归一化，Post-LN对输出做归一化
+
+## 自测问题
+- RMSNorm相比LayerNorm去掉了什么？为什么不影响性能？
+- Pre-LN vs Post-LN的训练稳定性差异的根本原因？
+- DeepNorm如何解决千层Transformer的训练问题？
+- QK Norm的使用场景？什么时候需要？
+
+## 图片
+![LLaMA结构中的RMSNorm](http://sns-webpic-qc.xhscdn.com/202606222257/07c548f48af47a52f60cddafcf98c8df/1040g00830p9old0ojs005n1f8vhhntdmqgeebuo!nc_n_webp_mw_1)
+*LLaMA结构中的RMSNorm*
+
+## 相关笔记
+- [[fnd-week02-activation]]
+- [[fnd-week01-transformer-block]]d:T266c,> 作者: 苏剑林 | 来源: https://zhuanlan.zhihu.com/p/1958228593369921194
+
+---
+
+最佳排版请看原博客：
+
+前两篇文章《重新思考学习率与Batch Size（一）：现状》和《重新思考学习率与Batch Size（二）：平均场》中，我们主要是提出了平均场方法，用以简化学习率与Batch Size的相关计算。当时我们分析的优化器是SGD、SignSGD和SoftSignSGD，并且主要目的是简化，本质上没有新的结论。
+
+然而，在如今的优化器盛宴中，怎能少得了Muon的一席之地呢？所以，这篇文章我们就来尝试计算Muon的相关结论，看看它的学习率与Batch Size的关系是否会呈现出新的规律。
+
+基本记号
+
+众所周知，Muon的主要特点就是非Element-wise的更新规则，所以之前在《当Batch Size增大时，学习率该如何随之变化？》和《Adam的epsilon如何影响学习率的Scaling Law？》的Element-wise的计算方法将完全不可用。但幸运的是，上篇文章介绍的平均场依然好使，只需要稍微调整一下细节。
+
+我们先引入一些记号。设损失函数为\mathcal{L}(\boldsymbol{W})，\boldsymbol{W}\in\mathbb{R}^{n\times m}是矩阵向量（设n\geq m），\boldsymbol{G}是它的梯度，单个样本的梯度记为\tilde{\boldsymbol{G}}，它的均值就是\boldsymbol{G}，而方差为\sigma^2；当Batch Size为B时，梯度记为\tilde{\boldsymbol{G}}_B，它的均值还是\boldsymbol{G}，但方差变为\sigma^2/B。注意，这里的方差只是一个标量\sigma^2，并不像之前那样考虑了完整的协方差矩阵。
+
+之所以这样简化，最核心的原因是这里的随机变量本身就已经是一个矩阵，那么它对应的协方差矩阵实际上已经是一个4阶张量，这讨论起来比较麻烦。那么简化为单个标量会严重损失准确性吗？其实不会，前两篇文章我们虽然考虑了完整的协方差矩阵\boldsymbol{\Sigma}，但仔细观察就会发现最后结果只依赖于\mathop{\text{tr}}(\boldsymbol{\Sigma})，这跟开始就将它简化为标量是等价的。
+
+海森矩阵
+
+类似地，我们设更新量为-\eta\tilde{\boldsymbol{\Phi}}_B，考虑损失函数的二阶展开
+
+\mathcal{L}(\boldsymbol{W} - \eta\tilde{\boldsymbol{\Phi}}_B) \approx \mathcal{L}(\boldsymbol{W}) - \eta \mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{G}) + \frac{1}{2}\eta^2\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B)\tag{1}
+
+前两项应该都没什么疑问，比较难理解的第三项。跟协方差矩阵类似，这里的Hessian矩阵\boldsymbol{H}是一个4阶张量，理解起来比较麻烦。
+
+这里最简单的切入方式应该是线性算子视角，即将\boldsymbol{H}理解为一个输入输出都是矩阵的线性算子。我们不用知道\boldsymbol{H}长什么样，也不用知道\boldsymbol{H}与\tilde{\boldsymbol{\Phi}}_B怎么运算，只需要知道\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B关于\tilde{\boldsymbol{\Phi}}_B是线性的。这样一来，我们要处理的对象依然还是矩阵，不需要增加心智负担。任何符合条件的线性算子，都可以作为Hessian矩阵的近似，但不需要写出具体的高阶张量形式。
+
+本文的主角是Muon，我们取\tilde{\boldsymbol{\Phi}}_B=\mathop{\text{msign}}(\tilde{\boldsymbol{G}}_B)作为它的近似来进行计算。根据定义，我们写出\mathop{\text{msign}}(\tilde{\boldsymbol{G}}_B)=\tilde{\boldsymbol{G}}_B(\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B)^{-1/2}，从牛顿法视角看，这相当于假设\boldsymbol{H}^{-1}\boldsymbol{X} = \eta_{\max}\boldsymbol{X}(\boldsymbol{G}^{\top}\boldsymbol{G})^{-1/2}，于是有\boldsymbol{H}\boldsymbol{X} = \eta_{\max}^{-1}\boldsymbol{X}(\boldsymbol{G}^{\top}\boldsymbol{G})^{1/2}，这将用于后面的计算。
+
+计算期望
+
+对式(1)两边求期望，得到
+
+\mathbb{E}[\mathcal{L}(\boldsymbol{W} - \eta\tilde{\boldsymbol{\Phi}}_B)] \approx \mathcal{L}(\boldsymbol{W}) - \eta \mathop{\text{tr}}(\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]^{\top}\boldsymbol{G}) + \frac{1}{2}\eta^2\mathbb{E}[\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B)] \\
+
+先求\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]：
+
+\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]=\mathbb{E}[\tilde{\boldsymbol{G}}_B(\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B)^{-1/2}]\approx\mathbb{E}[\tilde{\boldsymbol{G}}_B](\mathbb{E}[\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B])^{-1/2} = \boldsymbol{G}(\mathbb{E}[\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B])^{-1/2} \\
+
+\mathbb{E}[\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B]我们按分量写出来，并且假设不同分量之间独立，那么
+
+\mathbb{E}[\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B]_{i,j} = \mathbb{E}\left[\sum_{k=1}^n (\tilde{G}_B)_{k,i}(\tilde{G}_B)_{k,j}\right] = \left\{\begin{aligned} \mathbb{E}\left[\sum_{k=1}^n (\tilde{G}_B)_{k,i}^2\right] = \left(\sum_{k=1}^n G_{k,i}^2\right) + n\sigma^2/B,\quad (i=j) \\[6pt] \sum_{k=1}^n \mathbb{E}[(\tilde{G}_B)_{k,i}] \mathbb{E}[(\tilde{G}_B)_{k,j}] = \sum_{k=1}^n G_{k,i}G_{k,j},\quad (i\neq j) \end{aligned}\right.\\
+
+组合起来就是\mathbb{E}[\tilde{\boldsymbol{G}}{}_B^{\top}\tilde{\boldsymbol{G}}_B]=\boldsymbol{G}^{\top}\boldsymbol{G} + (n\sigma^2/B) \boldsymbol{I}，所以
+
+\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]\approx \boldsymbol{G}(\boldsymbol{G}^{\top}\boldsymbol{G} + (n\sigma^2/B) \boldsymbol{I})^{-1/2} = \mathop{\text{msign}}(\boldsymbol{G})(\boldsymbol{I} + (n\sigma^2/B) (\boldsymbol{G}^{\top}\boldsymbol{G})^{-1})^{-1/2} \\
+
+为了进一步简化B的依赖形式，我们用\mathop{\text{tr}}(\boldsymbol{G}^{\top}\boldsymbol{G})\boldsymbol{I}/m近似\boldsymbol{G}^{\top}\boldsymbol{G}，也就是只保留\boldsymbol{G}^{\top}\boldsymbol{G}的对角线部分，然后再降对角线部分替换成它们的平均。这样一来，我们得到
+
+\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]\approx \mathop{\text{msign}}(\boldsymbol{G})(1 + \mathcal{B}_{\text{simple}}/B)^{-1/2} \\
+
+其中\mathcal{B}_{\text{simple}} = mn\sigma^2/\mathop{\text{tr}}(\boldsymbol{G}^{\top}\boldsymbol{G})= mn\sigma^2/\Vert\boldsymbol{G}\Vert_F，这其实跟把\boldsymbol{G}当成向量，算前两篇文章的\mathcal{B}_{\text{simple}}是一样的。上式的形式跟SignSGD如出一辙，由此我们可以猜测，Muon在学习率与Batch Size的关系上不会有太多新鲜结果。
+
+相同规律
+
+至于\mathbb{E}[\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B)]，我们只计算刚才推出的Muon对应的假设，即\boldsymbol{H}\boldsymbol{X} = \eta_{\max}^{-1}\boldsymbol{X}(\boldsymbol{G}^{\top}\boldsymbol{G})^{1/2}，那么
+
+\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B) = \eta_{\max}^{-1}\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\tilde{\boldsymbol{\Phi}}_B(\boldsymbol{G}^{\top}\boldsymbol{G})^{1/2}) \\
+
+留意到\tilde{\boldsymbol{\Phi}}_B是\mathop{\text{msign}}的结果，它一定是正交矩阵（满秩），所以\tilde{\boldsymbol{\Phi}}{}_B^{\top}\tilde{\boldsymbol{\Phi}}_B=\boldsymbol{I}，即在这个case下\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B)是一个确定的常数\eta_{\max}^{-1}\mathop{\text{tr}}((\boldsymbol{G}^{\top}\boldsymbol{G})^{1/2})=\eta_{\max}^{-1}\mathop{\text{msign}}(\boldsymbol{G})^{\top}\boldsymbol{G}，于是我们可以得到
+
+\eta^* \approx \frac{\mathop{\text{tr}}(\mathbb{E}[\tilde{\boldsymbol{\Phi}}_B]^{\top}\boldsymbol{G})}{\mathbb{E}[\mathop{\text{tr}}(\tilde{\boldsymbol{\Phi}}{}_B^{\top}\boldsymbol{H}\tilde{\boldsymbol{\Phi}}_B)]}\approx \frac{\eta_{\max}}{\sqrt{1 + \mathcal{B}_{\text{simple}}/B}} \\
+
+果不其然，它跟SignSGD结果的形式完全一样，没有什么新鲜规律。
+
+其实仔细想想就会发现这也是情理之中，因为SignSGD是直接对梯度加\mathop{\text{sign}}，而Muon的\mathop{\text{msign}}则是给奇异值加\mathop{\text{sign}}，直觉上就相当于换了个坐标系加\mathop{\text{sign}}，它带来的是新的矩阵更新规则，而学习率\eta^*和Batch Size B只是一个标量，在大家背后核心都是\mathop{\text{sign}}的前提下，这些标量的渐近关系极有可能不会发现明显变化。
+
+当然，我们现在只算了一个特殊的\boldsymbol{H}，如果考虑更一般的\boldsymbol{H}，那么也有可能跟SignSGD一样出现“Batch Size增大，学习率反而应该减少”的Surge现象。但正如我们在上一篇文章的“原因反思”一节说的，如果真观察到Surge现象了，也许更应该要更换优化器，而不是修正\eta^*与B的关系。
+
+文章小结
+
+这篇文章我们尝试用平均场近似对Muon进行了简单分析，结论是它学习率与Batch Size的关系跟SignSGD一致，并无新鲜规律。
+
+
+## 图片
+
+![图片](https://pic1.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://pic1.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=172ae18b)
+
+![图片](https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://picx.zhimg.com/v2-25c9966d55d8c293a5c55bb43d323141.webp?source=7e7ef6e2&needBackground=1)
+
+![图片](https://pic4.zhimg.com/v2-e96a4bab27e85a39f1d74582cf1c0c61.webp)e:T2d8d,> 作者: 假如给我一只AI | 来源: https://zhuanlan.zhihu.com/p/1894384438206505105
+
+---
+
+前言：假期翻看了一年前总结的有关位置编码的笔记，发现在某些角度上有了新的理解，本次也分享出来。本文讲解的顺序是：SIN->ALiBi->RoPE->PI->NTK->YARN，公式较多，建议pc端食用。
+
+一、SIN（正弦位置编码）
+图1-1：正弦位置编码形式的由来
+图1-2：正弦位置编码中θ的由来
+图1-3：正弦位置编码的特点+推导
+
+缺点：sin位置编码表示相对位置关系时仍然比较间接。
+
+二、ALiBi（Attention with Linear Biases）
+
+思路：ALiBi（基于线性偏差的注意力机制） 不向word embedding中添加positional embedding，而是"根据token之间的距离给 attention score 加上一个预设好的偏置矩阵"，即直接引入相对位置。
+
+举例：两个token之间存在一个相对位置差1，就加上一个 -1 的偏置，如果token之间的距离越远则这个负数就越大，代表它们之间的相关性更低。
+
+图2-1：ALiBi如何引入MHA中
+图2-2：ALiBi的示例代码和结果
+三、RoPE（Rotary Position Embedding）
+
+2021年，RoPE（旋转位置编码）诞生，它借助了复数的思想，出发点是通过绝对位置编码的方式实现相对位置编码。
+
+设计思路：在NLP中，通常会通过向量q和k的内积来计算注意力系数（ATTN），如果能够对q、k向量注入位置信息，然后用更新的q、k向量做内积就能丝滑地引入位置信息了。
+
+图3-1：RoPE的两种解释（左：直观解释，右：原始推导）
+图3-2：RoPE的操作示意图
+
+在transformer模型中RoPE如何使用：
+
+
+q = x @ Wq  # [batch_size, seq_len, d_model] -> [batch_size, seq_len, d_head]
+k = x @ Wk
+
+
+q_rotated = apply_rotary_pos_emb(q, position_ids)
+k_rotated = apply_rotary_pos_emb(k, position_ids)
+
+def apply_rotary_pos_emb(q, position_ids):
+    # q shape: [batch_size, seq_len, dim]
+    seq_len = q.shape[1]
+    dim = q.shape[2]
+    # 生成位置编码的角度
+    theta = 1.0 / (10000 ** (torch.arange(0, dim, 2).float() / dim))
+    # 计算每个位置的旋转角度
+    pos_emb = position_ids.unsqueeze(-1) * theta
+    # 生成cos和sin值
+    cos = torch.cos(pos_emb)
+    sin = torch.sin(pos_emb)
+    # 将q分成两半，便于旋转操作
+    q_even = q[:, :, 0::2]  # 偶数维度
+    q_odd = q[:, :, 1::2]   # 奇数维度
+    # 应用旋转变换
+    q_out_even = q_even * cos - q_odd * sin
+    q_out_odd = q_odd * cos + q_even * sin
+    # 重新组合
+    q_out = torch.stack([q_out_even, q_out_odd], dim=-1)
+    q_out = q_out.flatten(-2)
+    return q_out
+四、PI（Position Interpolation）
+
+PI（位置插值）是基于旋转位置编码RoPE进行改进，优化了外推性的问题：使用RoPE，以长度为L训练完成模型后，当输入超过L会发生性能剧烈下降，一些论文提出可以通过给模型喂一些长度大于L的输入来微调模型，进而逐步将原始窗口长度扩大，但其代价和成效不佳（实验结果如下图4-1）。
+
+图4-1：以微调来提升上下文窗口的实验
+
+思路：将超出L部分编码值压缩到L内。
+
+图4-2：PI思路+公式+外推性证明
+
+注意：上图4-2中，外推bound的计算是用了aber变换，完整证明见原论文。
+
+论文针对外推（Extrapolation）和内插（ interpolation），也给出了一些实验，见图4-3：
+
+图4-3：外推和内插的可视化实验
+
+图4-3的实验代码如下：
+
+import torch
+import matplotlib.pyplot as plt
+
+
+d = 4096 // 32
+theta = 10000
+
+freqs = 1.0 / (theta ** (torch.arange(0, d, 2).float() / d))
+
+L = 2048
+x = torch.arange(0, L)
+
+xfreq = torch.outer(x, freqs)
+print(xfreq.shape)
+y = torch.randn(x.shape[0])
+
+X = torch.cat([xfreq.sin(), xfreq.cos()], dim=1)
+
+eps = 1e-5  # small regularization term
+
+coeffs = torch.linalg.solve(X.t() @ X + torch.eye(X.shape[1]) * eps, X.t() @ y)
+
+x2 = torch.arange(0, 2*L)
+xfreq2 = torch.outer(x2, freqs)
+X2 = torch.cat([xfreq2.sin(), xfreq2.cos()], dim=1)
+y2 = X2 @ coeffs
+
+x3 = torch.arange(25, 75, 0.125)
+xfreq3 = torch.outer(x3, freqs)
+X3 = torch.cat([xfreq3.sin(), xfreq3.cos()], dim=1)
+y3 = X3 @ coeffs
+
+plt.figure(figsize=(16, 5))
+
+plt.subplot(1, 3, 1)
+plt.plot(x2[:L], y2[:L], "r")
+plt.scatter(x, y)
+plt.ylabel("attention score $a(s)$")
+plt.xlabel("Positional difference $s$")
+
+plt.subplot(1, 3, 2)
+plt.plot(x2, y2, "r")
+plt.scatter(x, y)
+plt.axvline(L, color="k", linestyle="--", linewidth=0.5)
+plt.title("Effect of Extrapolation")
+plt.xlabel("Positional difference $s$")
+
+plt.subplot(1, 3, 3)
+plt.plot(x3, y3, "r")
+for i in range(25, 75):
+    plt.axvline(i, color="k", linestyle="--", linewidth=0.5)
+plt.title("Effect of Interpolation")
+plt.xlabel("Positional difference $s$")
+plt.savefig('PI.png',dpi=300, bbox_inches='tight')
+
+五、NTK（Neural Tangent Kernel）
+
+现状：PI会在扩展倍数特别大时显著降低位置编码区分不同位置的能力，这种现象称之为高频信息的损失。
+
+图5-1：PI的缺点和问题所在
+
+NTK（Neural Tangent Kernel）的思想：高频外推+低频内插，即将 \color{blue}{\theta_{i}=b^{-2i/d}改为\theta_{i}=(b\cdot S^{d/(d-2)})^{-2i/d}}，也就是改变了基底（这里b=10000， \color{blue}{S=L'/L} ）。推导见图5-2和图5-3：
+
+图5-2：NTK推导1——位置编码的本质是求位置n的β进制数
+图5-3：NTK推导2——统一高频外推和低频内插
+
+在代码上修改很小，如下11行：
+
+from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
+import torch
+import transformers
+
+old_init = transformers.models.llama.modeling_llama.LlamaRotaryEmbedding.__init__
+def ntk_scaled_init(self, dim, max_position_embeddings=2048, base=10000, device=None):
+    #The method is just these three lines
+    max_position_embeddings = 16384
+    a = 8 #Alpha value
+    base = base * a ** (dim / (dim-2)) #Base change formula # NTK-Aware
+    old_init(self, dim, max_position_embeddings, base, device)
+transformers.models.llama.modeling_llama.LlamaRotaryEmbedding.__init__ = ntk_scaled_init
+六、YARN（Yet another RoPE extensioN method）
+6.1 波长的引入
+
+在某个维度i下，波长被定义为： \lambda_{i}=\frac{2π}{\theta_{i}}=\frac{2\pi}{b^{-2i/d}}=2\pi b^{2i/d} ，因此，有如下结论：
+
+波长可描述为：在维度i处嵌入的旋转位置执行全旋转2π所需的token长度。
+维度越高波长越长。
+
+证明见下图6-1：
+
+图6-1：波长描述了维度i处执行全旋转2π所需的token长度
+
+像PI和NTK这种类型的插值方案不关心波长的维数，可以将其称为“盲”插值方法（blind interpolation），因为它们面对所有RoPE隐藏维度没有做任何针对性的处理。而本次要讲解的YaRN，可将其归类为“有针对性的”插值方法，即对RoPE的不同维度做出不同处理。
+
+6.2 NTK-by-parts（局部NTK）
+
+关于RoPE中不同维度的波长，有如下结论：存在某些维度i，其波长 \lambda_{i} 大于在预训练期间看到的最大上下文长度L。也就是说：在训练期间，存在某一个维度，旋转一圈后超过了token最大上下文长度L。具体每个维度的波形可以参考图1-3，即Sin方法的绘图，其中 d=20,pos\in{[0,100]} 。
+
+如果某些维度的波长大于上下文长度L（ \lambda_{i}>L ），这说明该维度无法执行全旋转。在这种情况下，由于维度在预训练期间至少不会完全旋转一次，如果我们选择第一个token作为基准，那么在预训练期间每隔一个token到它的距离是唯一的，NTK可以用来确定它的绝对位置信息。
+相反，如果某个维度波长小于L（ \lambda_{i}<L ），那该维度就执行了至少一次全旋转，我们就无法在这个维度描述绝对距离，只能描述相对位置信息。
+
+因此，作者认为，不要对『只编码相对位置信息的维度』（ \lambda_{i}<L ）进行内插破坏，因为它们对于模型区分附近token的相对顺序至关重要。同时，应该始终对仅编码绝对位置信息的维度（ \lambda_{i}>L ）进行内插，因为较大的距离将超出之前模型能够编码的距离。综上，可以制定一种考虑以上所有因素的显式且有针对性的插值方法，即：
+
+如果波长远小于L，此时编码了相对位置的维度，因此不进行内插；
+如果波长大于L，此时编码了绝对位置的维度，应该进行内插以防止超出绝对位置的最大可编码范围；
+波长介于上述之间的维度，采用NTK-aware方法。
+
+公式如下：
+
+图6-2：NTK-by-parts公式
+6.3 YARN
+图6-3：YARN的提出
+
+在实际使用过程中，为了实现该公式，只需要将m位置和n位置的旋转位置嵌入各自缩放为原来的 1/\sqrt{t} 即可。
+
+6.4 Dynamic NTK
+
+在NTK中 S=\frac{L'}{L} ，在推理时，这里的 S 是固定的（ L' 是固定的扩展上下文大小， L 是预训练时候的最大上下文长度）。但是，这可能导致推理的序列长度 <L 时会损失模型性能。
+
+因此，作者提出了动态的NTK，公式为 \color{blue} {S=\max({1,{l'/L}})} ，其中 l' 为当前输入的长度，这就允许模型在达到训练的上下文限制时较为缓慢地退化性能，避免了骤降。
+
+如果不好理解，进一步解释分析如下：
+
+图6-4：Dynamic NTK的分析和公式解释
+七、总结
+图7-1：六种位置编码方法总结
+八、参考文献
+SIN：https://arxiv.org/pdf/1706.03762
+RoPE：https://arxiv.org/pdf/2104.09864
+ALiBi：https://arxiv.org/pdf/2108.12409
+PI：https://arxiv.org/pdf/2306.15595
+Linsight：理解LLM位置编码:RoPE
+barely：上下文长度扩展：从RoPE到YARN
+https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/, https://zhuanlan.zhihu.com/p/704569344
+Cyril-KI：LLM上下文长度扩展方案：NTK-aware interpolation
+https://zhuanlan.zhihu.com/p/897061302,
+YARN：https://arxiv.org/pdf/2309.00071
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-3f2dfd33c820cfa09975120d579b85c4_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic4.zhimg.com/v2-87e557d9f1c3c573cdc0285c8063328b_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-759b3265a480c9a5e8eabeaf75dd2d91_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-4954ab00effae7a7bb7a45e0f3eb193d_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-4f6646bdb34518df14b06694bdd93d5e_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-738db622c55efef93d0cd6598eaa4c53_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-e8a81dcfd90ee6132babe37287c1e3a8_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-b6ca4ba3ee000a58dfd44170505f318b_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-c5b556ceecc21dc53d58cb234f7ecf4f_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-a2cf85761195ec4b46ec034b390de90f_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-f190a9f6e9caa9e5967f188867a2737c_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-0042401122b54ec47ddb25125ddca6c6_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-eb637641a5c7539f4e181640155e612b_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-bc9f37aadf9e341075edeb7b4919fb26_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-e2c7950bb91c3fff488b7b24d461c9a3_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-f57ef8dcc2e3802ced0479ee67e2dd89_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-4e69f966c75afcee308d6a3b055d2736_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-c5a773dfe062cfbe5698561b5535813b_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-bbe84075b05db5377d1ce2ad65d20a1d_1440w.jpg)f:T9eb,## 来源
+- [xiaohongshu] [面试必备：旋转位置编码 RoPE](https://www.xiaohongshu.com/explore/695b6e5c000000001a030087)
+
+## 内容
+**位置编码演进路线**： 1. Sinusoidal（Transformer原始论文）：固定正弦编码，PE(pos,2i)=sin(pos/10000^(2i/d))。优点是不需要学习参数，有一定外推能力；缺点是相对位置信息隐含、不够灵活 2. Learned Positional Embedding（BERT/GPT）：可学习的位置向量，优点是灵活；缺点是无法处理超过训练长度的序列 3. RoPE（Rotary Position Embedding，LLaMA/Qwen/DeepSeek）：通过旋转矩阵将位置信息融入Q/K向量。核心公式：q_m = R^m·q，k_n = R^n·k，attention score = q_m^T·k_n = q^T·R^{n-m}·k，只依赖相对位置(n-m) 4. ALiBi（Attention with Linear Biases）：直接在attention score上加线性衰减偏置，(i-j)·m，简单有效 5. NoPE：最新研究发现，足够大的模型可以不使用显式位置编码
+**RoPE核心优点**： - 天然编码相对位置（attention score只依赖位置差） - 可以外推到训练时未见过的长度（通过NTK-aware scaling等方法） - 与线性attention兼容 - 代码实现简洁：构造旋转矩阵→对Q/K施加旋转
+
+
+## 关键要点
+- {'Sinusoidal': 'PE(pos,2i)=sin(pos/theta^(2i/d)), PE(pos,2i+1)=cos(pos/theta^(2i/d))'}
+- {'RoPE旋转矩阵': '将d维向量拆成d/2对2D向量，每对用位置m的旋转角m·theta_i进行旋转'}
+- {'RoPE的attention score内积': 'q^T·R^{n-m}·k，仅依赖相对位置差(n-m)'}
+- {'实现核心': 'precompute cos/sin频率表 → 对Q、K分别施加旋转 → 计算attention'}
+- {'NTK-aware外推': '调整base频率(10000→更大值)让高频rotation更稀疏，支持更长序列'}
+- {'YaRN方法': '结合NTK-aware scaling + temperature tuning，是目前最优的RoPE外推方案'}
+- {'ALiBi优势': '无额外参数、训练推理一致、天然支持任意长度'}
+
+## 自测问题
+- RoPE的数学推导：为什么旋转后内积只依赖相对位置？
+- RoPE相比Sinusoidal PE的优势是什么？为什么大模型几乎都用RoPE？
+- 如何将RoPE推广到超出训练长度的序列？NTK-aware scaling的原理？
+- ALiBi为什么可以替代位置编码？其局限性是什么？
+
+## 图片
+![RoPE旋转位置编码原理图](http://sns-webpic-qc.xhscdn.com/202606222257/f6bf694b23b65e81c2cb3766df5c745f/spectrum/1040g0k031quvdpqb0m005opl5ifmbnrodc3emlo!nc_n_webp_mw_1)
+*RoPE旋转位置编码原理图*
+
+## 相关笔记
+- [[qa-week02-rope]]
+- [[fnd-week02-activation]]10:Tbaa,## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+DeepSeek系列三阶段技术演进：
+**V2 — MLA + DeepSeekMoE**（2024.05）： - MLA（Multi-head Latent Attention）：将K/V投影到低维latent空间（d_latent << d_head×n_heads），推理时只存latent表示，KV Cache压缩比可达10× - DeepSeekMoE：细粒度专家（fine-grained）+ 共享专家（shared expert）。每个token激活top-k细粒度专家+固定shared expert - Aux-loss-free Load Balance：动态调整expert bias而非依赖aux loss
+**V3 — FP8训练 + Multi-Token Prediction**（2024.12）： - FP8混合精度训练：首次在超大规模MoE上使用FP8，配合细粒度block-wise scaling - Multi-Token Prediction（MTP）：每个位置预测后续多个token，提升数据效率 - DualPipe：前后向+通信计算重叠的流水线并行策略 - 671B总参数，37B激活参数（每次推理只激活约5.5%参数） - 训练成本：2.7M GPU hours on H800（约$5.5M），仅为同等规模模型的1/10
+**R1 — GRPO + 推理能力**（2025.01）： - 首次将GRPO从数学推理推广到通用推理任务 - 纯RL训练（无SFT冷启动）即可涌现CoT（思维链）能力 - Group Relative Policy Optimization：每个prompt采样一组response，组内做相对优势估计 - R1-Zero完全不用SFT数据，纯RL训练即可呈现推理行为 - R1保留SFT冷启动+RL的混合策略（DeepSeekMath的方法延续）
+
+
+## 关键要点
+- MLA核心公式：KV = W_down_kv(x) → c_kv（latent）；推理时attention计算：Q·(W_up_k(c_kv))^T
+- DeepSeekMoE架构：1个shared expert + 256个routed experts，每token激活8个（1 shared + 7.5 routed平均）
+- Expert负载均衡：Aux-loss-free策略用bias修正而非梯度惩罚，专家亲和度score加learnable bias
+- FP8训练关键：block-wise量化（1×128 tile）使FP8 E4M3的动态范围覆盖99.9%的激活值
+- MTP实现：每个Transformer层后接n个额外的输出head，预测未来第1~n个token，训练时辅助loss加权
+- DualPipe：将forward、backward、通信三个阶段通过精细调度重叠
+- R1奖励设计：accuracy reward（数学结果）+ format reward（格式奖励，鼓励结构化输出）
+- 最终蒸馏：R1作为teacher蒸馏到Qwen/Llama等小模型（7B/14B/32B）
+
+## 自测问题
+- MLA的down-projection和up-projection具体如何工作？为什么推理时只需要存latent？
+- DeepSeekMoE的shared expert + routed expert设计相比传统MoE有什么优势？
+- FP8训练在数值稳定性方面面临哪些挑战？DeepSeek如何解决？
+- GRPO与PPO在reward estimation上的核心区别？
+
+## 图片
+![DeepSeek V3架构全景](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*DeepSeek V3架构全景*
+
+## 相关笔记
+- [[adv-week03-mamba]]
+- [[qa-week03-deepseek-mla]]
+- [[qa-week03-moe-routing]]11:T93a,## 来源
+- [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
+
+## 内容
+国内三强大模型技术路线对比：
+**DeepSeek V3**： - 架构：MLA + DeepSeekMoE（细粒度+共享专家） - 参数：671B总/37B激活 - 创新点：FP8训练、Multi-Token Prediction、DualPipe、Aux-loss-free load balance - 成本：$5.5M训练，推理成本极低（MLA的KV压缩）
+**Kimi（Moonshot）— MoE路线**： - 架构：Transformer + MoE，重点在大规模长上下文（支持128K→1M tokens） - Kimi K2采用MoE架构，总参数量达1T级别 - 核心创新：长上下文扩展技术（Long2Short、位置编码优化）、高效MoE路由 - 与DeepSeek对比：更侧重长上下文能力，MoE路由策略不同
+**GLM-4（智谱）— All-Task路线**： - 架构：标准Dense Transformer（非MoE），注重通用能力 - GLM-4-Plus版本对标GPT-4 - 核心创新：RLHF后训练（ChatGLM的技术积累）、多模态扩展（CogView+CogVLM） - 与MoE路线对比：Dense模型推理更简单（无专家调度），但模型容量受限
+**三条路线的核心trade-off**： - DeepSeek：极致效率（训练+推理成本最低），技术最激进 - Kimi：长上下文优先（应用场景差异化），MoE规模化 - GLM：通用能力优先（All-task），稳健迭代
+
+
+## 关键要点
+- DeepSeek独占MLA技术，KV Cache效率领先同行2-5倍
+- Kimi长上下文技术栈：位置编码外推+注意力改造+长文本训练策略
+- GLM坚守Dense路线，强调通用能力与多模态融合
+- MoE vs Dense的核心trade-off：专家容量/路由偏差 vs 参数效率
+- 三家训练数据来源与配比差异显著（DeepSeek强调数学/代码数据）
+- 开源策略：DeepSeek完全开源→推动社区生态，GLM开源部分版本
+
+## 自测问题
+- 为什么DeepSeek采用MoE而GLM坚持Dense？各自的考量是什么？
+- Kimi的超长上下文（128K+）技术栈包含哪些关键组件？
+- 三家模型的技术路线反映了对大模型发展的什么判断差异？
+
+## 图片
+![DeepSeek V3技术报告精华](http://sns-webpic-qc.xhscdn.com/202606222257/e8e1c256229729de7bbbcfed18acc416/notes_pre_post/1040g3k031c1gqskkh0005no10lvg8f4hia26e1o!nc_n_webp_mw_1)
+*DeepSeek V3技术报告精华*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]12:T5786,> 作者: Tim在路上 | 来源: https://zhuanlan.zhihu.com/p/2047023571269165830
+
+---
+
+OpenAI 用 PPO 训练了 InstructGPT，Anthropic 用 DPO 简化了流程，DeepSeek 用 GRPO 拿掉了 Critic，阿里千问将 GRPO 升级为适配 MoE 的 GSPO，字节跳动则推出 DAPO 为 GRPO 打上补丁，RL算法一直在发展进化。但市面上的资料常常两端跑偏:
+
+一种是公式堆山, 只讲推导, 不告诉你工程上到底怎么实现;
+另一种是 demo 调包, 只会 trainer.train()；
+
+这篇文章想做的事很简单: 把每个算法的原理讲清楚, 然后立刻翻到 verl 里看它是怎么实现的。
+
+为了让阅读不痛苦,我会:
+
+每节先讲”这算法解决什么问题”,再讲公式,最后看代码;
+代码片段尽量控制在 5-10 行,带文件行号,可复核;
+
+verl 仓库地址: https://github.com/volcengine/verl
+
+1. verl 设计哲学
+1.1 先把 verl 的”工程脊柱”摸清
+
+理解 4 个算法之前,先看一眼 verl 是怎么组织代码的 —— 这非常重要,因为 verl 的设计哲学就是把”算法”做成可插拔模块,所有算法共用同一套训练循环,只是替换其中两个组件:
+
+优势估计器(adv_estimator)—— 怎么算 advantage
+策略损失函数(policy_loss)—— 怎么把 advantage 变成 loss
+1.2 注册表设计: 算法就是一个装饰器
+
+打开 verl/trainer/ppo/core_algos.py, 会看到这样的模式:
+
+
+  def register_adv_est(name_or_enum):
+      def decorator(fn):
+          name = name_or_enum.value if isinstance(name_or_enum, Enum) else name_or_enum
+          ADV_ESTIMATOR_REGISTRY[name] = fn
+          return fn
+      return decorator
+
+  # core_algos.py:53
+  def register_policy_loss(name):
+      def decorator(func):
+          POLICY_LOSS_REGISTRY[name] = func
+          return func
+      return decorator
+
+两个注册表,所有算法都通过装饰器挂上去:
+
+
+  @register_adv_est(AdvantageEstimator.GAE)         # ← PPO 用的
+  def compute_gae_advantage_return(...): ...
+
+  @register_adv_est(AdvantageEstimator.GRPO)        # ← GRPO/Dr.GRPO 用的
+  def compute_grpo_outcome_advantage(...): ...
+
+  @register_policy_loss("vanilla")                  # ← PPO 用的
+  def compute_policy_loss_vanilla(...): ...
+
+  @register_policy_loss("gspo")                     # ← GSPO 用的
+  def compute_policy_loss_gspo(...): ...
+
+这意味着什么? 你想跑 GRPO,只需要在配置文件里写:
+
+algorithm:
+    adv_estimator: grpo          # 切换优势估计
+  actor_rollout_ref:
+    actor:
+      policy_loss:
+        loss_mode: vanilla       # 用普通 PPO 风格的 clip loss
+
+想跑 GSPO?改一行:
+
+policy_loss:
+        loss_mode: gspo          # 改成 GSPO 序列级 loss
+
+整个训练流程一行代码都不用改。这种设计是后面我们能轻松对比算法的基础。
+
+1.3 训练主循环长什么样
+
+verl 的 PPO 训练循环在 verl/trainer/ppo/ray_trainer.py 的 fit() 方法,我把它精简成伪代码:
+
+for batch in dataloader:
+      # 1. Rollout:用当前策略生成回答
+      responses = actor.generate_sequences(batch)
+
+      # 2. 算 old_log_probs(为重要性采样准备)
+      old_log_prob = actor.compute_log_prob(responses)
+
+      # 3. 算 ref_log_prob(为 KL 约束准备)
+      if use_reference_policy:
+          ref_log_prob = ref_policy.compute_log_prob(responses)
+
+      # 4. 算 values(仅 PPO 需要,GRPO/GSPO 不需要)
+      if use_critic:
+          values = critic.compute_values(responses)
+
+      # 5. 算 reward(可能来自 RM 或 rule)
+      reward = reward_fn(responses)
+
+      # 6. (可选)把 KL 加进 token-level reward
+      if use_kl_in_reward:
+          reward = apply_kl_penalty(reward, old_log_prob, ref_log_prob)
+
+      # 7. 算 advantage(GAE / GRPO / RLOO / ...)
+      advantages = compute_advantage(reward, values, adv_estimator=...)
+
+      # 8. 更新 critic(GRPO/GSPO 跳过)
+      if use_critic:
+          critic.update(advantages, returns)
+
+      # 9. 更新 actor
+      actor.update(advantages, old_log_prob, policy_loss=...)
+
+这是所有算法共用的骨架。PPO、GRPO、GSPO 的区别就是第 4、7、8、9 步用不用, 以及用哪个实现。
+
+下面我们正式进入算法。
+
+2. PPO: 经典中的经典但贵
+2.1 它要解决什么问题
+
+策略梯度算法最朴素的形式是 REINFORCE:
+
+
+
+
+\nabla_\theta J = \mathbb{E}{\tau \sim \pi\theta}\left[\sum_t \nabla_\theta \log \pi_\theta(a_t | s_t) \cdot R(\tau)\right]
+
+
+
+
+直接拿去训,会爆。原因有两个:
+
+方差太大:用整条轨迹的回报当系数,噪声极强;
+步长难控:一次更新可能把策略推到离原来很远的地方,新策略采样的数据不再可靠,训练崩盘。
+
+TRPO(Trust Region Policy Optimization)用”信赖域”约束新旧策略 KL 距离,理论漂亮但要算 Hessian、用共轭梯度,工程上太重。
+
+PPO 的思路:用一阶方法近似 TRPO 的信赖域。具体来说:
+
+• 降低方差:引入 value function 做 baseline,改用 advantage(GAE); • 限制步长:用 clip 把重要性比 r_t(\theta) = \pi_\theta(a_t|s_t) / \pi_{\theta_{old}}(a_t|s_t) 截断在 [1-\epsilon, 1+\epsilon] 内。
+
+### 2.2 PPO 涉及的 4 个模型
+
+这是 PPO 最被诟病的地方 —— 4 个模型同时在线:
+
+模型	作用	训练时	显存压力
+Actor（策略模型）	生成回答	更新参数	高
+Critic（价值模型）	估计 V(s)，给 baseline	更新参数	高
+Reward Model	给回答打分	冻结	中（可量化）
+Reference Model	约束 actor 不要跑偏	冻结	高（全精度）
+
+注意：参考模型主要是约束 KL,让策略不要离 SFT 太远,从而防止 reward hacking。KL 约束本身不直接判断”无意义”,而是通过”不让你离SFT 分布太远”这个间接手段来防止策略学到无意义但高分的 token 序列。
+
+2.3 GAE 的核心: 递推算 advantage
+
+GAE(Generalized Advantage Estimation)是 PPO 算 advantage 的标配。直接看 verl 实现:
+
+
+  with torch.no_grad():
+      nextvalues = 0
+      lastgaelam = 0
+      advantages_reversed = []
+      gen_len = token_level_rewards.shape[-1]
+
+      for t in reversed(range(gen_len)):
+          delta = token_level_rewards[:, t] + gamma * nextvalues - values[:, t]
+          lastgaelam_ = delta + gamma * lam * lastgaelam
+          # ... 处理 mask
+          advantages_reversed.append(lastgaelam)
+      advantages = torch.stack(advantages_reversed[::-1], dim=1)
+      returns = advantages + values
+      advantages = verl_F.masked_whiten(advantages, response_mask)
+
+10 行代码,核心就两个公式:
+
+
+
+
+\delta_t = r_t + \gamma V(s_{t+1}) - V(s_t)
+
+A_t^{GAE} = \delta_t + \gamma\lambda A_{t+1}^{GAE}
+
+
+
+
+\delta_t 是 TD-error,\lambda 控制偏差-方差权衡:
+
+• \lambda = 0 → 退化成 TD(0),高偏差低方差 • \lambda = 1 → 退化成蒙特卡洛,低偏差高方差 • 一般取 \lambda = 0.95
+
+注：这里的 TD 误差，可以理解为实际收到的 - 之前预期的； GAE 可以理解为 当前的 advantage = 当前的 TD error + 衰减后的下一个 advantage
+
+最后一行 masked_whiten 是把 advantage 做 batch 内归一化(均值 0、方差 1),这是 PPO 训练稳定性的小技巧,很多复现忘了加就训不起来。
+
+2.4 Reward 计算 + KL 注入
+
+要把”RM 输出的标量分”变成”token-level reward 序列”,中间至少要做两件事:
+
+verl 默认把 RM 给出的序列级标量直接写到最后一个 valid token 的位置上,其他 token 都是 0。
+
+reward_tensor[i, valid_response_length - 1] = reward
+
+所以 reward 张量的 shape 是 (batch_size, response_length),但只有 EOS 那个位置非零。GAE 是从后往前递推的,这个稀疏 reward 会沿时间步反向传播,自然就分布到了前面的 token 上。
+
+KL 进 reward(经典 PPO)
+
+\tilde{r}t = r_t - \beta \cdot \text{KL}(\pi\theta | \pi_{ref})_t
+
+verl 实现:
+
+
+  def compute_rewards(token_level_scores, old_log_prob, ref_log_prob, kl_ratio):
+      kl = old_log_prob - ref_log_prob
+      return token_level_scores - kl * kl_ratio
+
+  # ray_trainer.py:149
+  kld = core_algos.kl_penalty(
+      data.batch["old_log_probs"], data.batch["ref_log_prob"], kl_penalty=kl_penalty
+  )
+  kld = kld * response_mask
+  beta = kl_ctrl.value
+  token_level_rewards = token_level_scores - beta * kld
+2.5 Clip 机制: PPO 的精髓
+
+看 vanilla policy loss:
+
+
+  negative_approx_kl = log_prob - old_log_prob
+  ratio = torch.exp(negative_approx_kl)              # r_t(θ) = π_new / π_old
+
+  pg_losses1 = -advantages * ratio                   # 不 clip 的项
+  pg_losses2 = -advantages * torch.clamp(
+      ratio, 1 - cliprange_low, 1 + cliprange_high
+  )                                                  # clip 后的项
+  clip_pg_losses1 = torch.maximum(pg_losses1, pg_losses2)  # 取更"保守"的那个
+
+数学上对应:
+
+
+
+
+L^{CLIP}(\theta) = \mathbb{E}_t\left[\min(r_t(\theta) A_t,; \text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon) A_t)\right]
+
+
+
+
+为什么取 min? 因为我们要做的是最小化负的 loss(即最大化目标),所以取两个负项的 max(也就是更小的目标值)。这就是”取更保守的更新”。
+
+示意图(用文字表达):
+
+情况1: A > 0 (这个 token 是好的)
+    ├─ r ↑ → 鼓励生成 → 但 r > 1+ε 时被截断,梯度=0
+    └─ r ↓ → 不鼓励   → 无截断,正常下降
+
+  情况2: A < 0 (这个 token 是坏的)
+    ├─ r ↑ → 强化坏 token → 无截断,正常上升 loss
+    └─ r ↓ → 抑制         → 但 r < 1-ε 时被截断,梯度=0
+
+核心思想:只在”想往坏方向走”的时候才允许大幅更新,“已经往好方向走得够多”的时候就截断,避免一步走太远。
+
+2.6 Value Loss(critic)
+
+critic 学习目标是让 V_\phi(s_t) 拟合实际 return R_t = A_t + V(s_t)_{old}。最朴素的形式是 MSE:
+
+
+
+
+\mathcal{L}^{VF} = \mathbb{E}t[(V\phi(s_t) - R_t)^2]
+
+
+
+
+但 PPO 给 value 也加了 clip,防止 critic 一步更新太多:
+
+
+
+
+\mathcal{L}^{VF}{clipped} = \mathbb{E}t[\max((V\phi - R_t)^2, (V\phi^{clipped} - R_t)^2)]
+
+
+
+
+其中 V_\phi^{clipped} = V_\phi^{old} + \text{clip}(V_\phi - V_\phi^{old}, -\epsilon_v, +\epsilon_v)。
+
+verl 实现:
+
+
+  vpredclipped = verl_F.clip_by_value(vpreds, values - cliprange_value, values + cliprange_value)
+  vf_losses1 = (vpreds - returns) ** 2
+  vf_losses2 = (vpredclipped - returns) ** 2
+  clipped_vf_losses = torch.max(vf_losses1, vf_losses2)        # 取更大的(更保守)
+  vf_loss = 0.5 * agg_loss(loss_mat=clipped_vf_losses, ...)
+
+注意 vf 这里取 max 不是 min:因为 value loss 本身是个正数(MSE),取 max 等价于”对悲观的预测更狠地惩罚”,防止 critic 单步飘太远。
+
+2.7 Entropy Bonus
+
+熵奖励是 RL 老套路了:鼓励策略不要过早 collapse 成一个 delta 分布。
+
+
+
+
+\mathcal{S}\pi_\theta (s_t) = -\sum_a \pi_\theta(a|s_t) \log \pi_\theta(a|s_t)
+
+
+
+
+verl 把 entropy 计算和应用拆开。计算在 compute_entropy_loss:
+
+
+  def compute_entropy_loss(logits, response_mask, loss_agg_mode="token-mean"):
+      token_entropy = verl_F.entropy_from_logits(logits)        # (bs, response_len)
+      entropy_loss = agg_loss(loss_mat=token_entropy, loss_mask=response_mask,
+                              loss_agg_mode=loss_agg_mode)
+      return entropy_loss
+
+应用在 actor 训练循环:
+
+
+  if calculate_entropy and entropy is not None:
+      entropy_agg = agg_loss(loss_mat=entropy, loss_mask=response_mask, loss_agg_mode=loss_agg_mode)
+      if entropy_coeff != 0:
+          policy_loss -= entropy_agg * entropy_coeff
+
+注意是 policy_loss -= entropy_agg * coeff —— 熵在目标函数里是要最大化的(鼓励探索),所以在 loss(最小化)里要减去。
+
+2.8 verl 里的”双 clip”小彩蛋
+
+继续看 compute_policy_loss_vanilla:
+
+
+  pg_losses3 = -advantages * clip_ratio_c          # clip_ratio_c=3.0 默认
+  clip_pg_losses2 = torch.min(pg_losses3, clip_pg_losses1)
+  pg_losses = torch.where(advantages < 0, clip_pg_losses2, clip_pg_losses1)
+
+这是 Dual-clip PPO(论文 https://arxiv.org/pdf/1912.09729),解决一个边角问题:当 advantage 是负的、且 ratio 很大时,-A \cdot r 会变成巨大的正数,产生异常梯度。Dual-clip 用 \text{clip_ratio_c}=3 在下方再加一层硬截断。
+
+pg_losses1 = -advantages * ratio        # 这是 Loss 的一部分，不是 Objective
+
+工程上的微小细节,但在长 CoT 或推理模型训练时很救命。
+
+2.9 PPO 在 verl 怎么跑
+
+  python3 -m verl.trainer.main_ppo \
+      algorithm.adv_estimator=gae \
+      algorithm.gamma=1.0 \
+      algorithm.lam=0.95 \
+      actor_rollout_ref.actor.policy_loss.loss_mode=vanilla \
+      actor_rollout_ref.actor.clip_ratio=0.2 \
+      actor_rollout_ref.actor.use_kl_loss=False \
+      ...
+
+  adv_estimator=gae + loss_mode=vanilla 就是经典 PPO。
+2.10 PPO 完整公式及理解
+
+PPO-Clip 的核心目标函数：
+
+L^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( r_t(\theta) A_t,\; \text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon) A_t \right) \right]
+
+其中：
+
+r_t(\theta) = \frac{\pi_\theta(a_t \mid s_t)}{\pi_{\theta_{\text{old}}}(a_t \mid s_t)} \quad \text{（新旧策略概率比）}
+
+A_t = 优势函数（advantage）
+
+\epsilon = clip 范围，通常 0.1~0.2
+
+加上价值函数 loss 和熵正则化后的完整 PPO 损失：
+
+L^{\text{PPO}}(\theta) = \mathbb{E}_t \left[ L^{\text{CLIP}}(\theta) - c_1 L^{VF}(\theta) + c_2 S[\pi_\theta](s_t) \right]
+
+其中：
+
+L^{VF}(\theta) = \left( V_\theta(s_t) - V_{\text{target}} \right)^2 \quad \text{（价值函数回归 loss）}
+
+S[\pi_\theta](s_t) = 策略熵（鼓励探索）
+
+一个形象的例子是，假设你是一个学生，正在学习写作文。给定一个题目 x（prompt），你需要写出一段回答 y （response）。
+
+教科书：\pi_{\text{ref}}（SFT 初始模型，永远不变的标准参考）
+你当前的写作习惯：\pi_\theta（策略模型，正在优化）
+昨天的你：\pi_{\text{old}}（上一次更新前的版本，用于限制变化幅度）
+
+PPO 策略就是，每次你写完一篇作文，老师会：
+
+给一个分数：r(x, y)（来自 Reward Model）
+指出哪里写得好、哪里写得差：A_t（优势函数，告诉你在某个词的位置是加分还是扣分）
+允许你调整习惯，但有严格限制：对比“今天的你”和“昨天的你”，每个词的写作习惯最多改变 \epsilon = 10\%
+
+老师不允许你突然从一个习惯跳到另一个习惯：
+
+r_t(\theta) = \frac{\pi_\theta(\text{这个词} \mid \text{上下文})}{\pi_{\text{old}}(\text{这个词} \mid \text{上下文})} \in [0.9,\; 1.1]
+
+如果 r_t 想跳出这个区间，老师会强行 clip 回来。
+
+L^{\text{CLIP}}(\theta) = \mathbb{E}_t\left[ \min\left(r_t A_t,\; \text{clip}(r_t, 0.9, 1.1) \cdot A_t\right) \right]
+
+如果某个词写得好（A_t > 0）：鼓励你多用，但最多增加 10%
+如果某个词写得差（A_t < 0）：惩罚你少用，但最多减少 10%
+同时，不能偏离教科书太远：\text{KL}(\pi_\theta \| \pi_{\text{ref}}) \leq \delta
+3. DPO: 把 RL 变成监督学习
+3.1 DPO 要解决什么问题
+
+PPO 太贵 —— 4 个模型同时在线, 显存爆炸,工程复杂度高。能不能不显式训练 reward model, 直接从偏好数据学策略?
+
+DPO(Direct Preference Optimization, Rafailov et al., 2023)的答案是:可以。
+
+3.2 数学推导(简化版)
+
+PPO 的目标可以写成约束优化:
+
+\max_\pi \mathbb{E}{x, y \sim \pi}[r(x, y)] - \beta \cdot \text{KL}(\pi(\cdot|x) | \pi{ref}(\cdot|x))
+
+这个约束优化问题有闭式解:
+
+\pi^*(y|x) = \frac{1}{Z(x)} \pi_{ref}(y|x) \exp\left(\frac{1}{\beta} r(x, y)\right)
+
+
+
+
+反解出 reward:
+
+r(x, y) = \beta \log \frac{\pi^*(y|x)}{\pi_{ref}(y|x)} + \beta \log Z(x)
+
+
+
+
+把这个 reward 代入 Bradley-Terry 偏好模型 P(y_w \succ y_l) = \sigma(r(x, y_w) - r(x, y_l)),\log Z(x) 项会神奇地抵消,得到:
+
+\mathcal{L}{DPO} = -\mathbb{E}{(x, y_w, y_l)} \left[\log \sigma\left(\beta \log\frac{\pi_\theta(y_w|x)}{\pi_{ref}(y_w|x)} - \beta \log\frac{\pi_\theta(y_l|x)}{\pi_{ref}(y_l| x)}\right)\right]
+
+
+
+
+核心观察: reward model 隐式包含在 \log \pi_\theta / \pi_{ref} 这个比值里。这就是 DPO 的精髓 —— 最优策略本身就是 reward 的充分统计量, 不需要单独的 RM。
+
+继续上面的例子，对于 DPO 策略来说，老师从不打分，只给你看两份你自己写的作文，然后告诉你：
+
+“这一份比那一份好。自己琢磨为什么，然后改进。”
+
+你拿到的学习材料是：(x, y_w, y_l)
+
+同一道题 x （prompt）
+y_w：写得更好的那份 （response1）
+y_l：写得更差的那份 （response2）
+
+你学到的核心原则
+
+“相对于教科书，我应该在好作文上提升更多，在坏作文上提升更少（甚至降低）。”
+
+数学上，你要让这个差值尽可能大：
+
+\log\frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \log\frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)} > 0
+
+最终的教学目标
+
+\mathcal{L}_{\text{DPO}} = -\log \sigma\left(\beta \cdot \underbrace{\left[\log\frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \log\frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)}\right]}_{\text{好作文的相对优势}}\right)
+
+\sigma 是 sigmoid 函数，把差值转成“好作文更优”的概率
+\beta 控制对偏好的敏感度（\beta 越大，越严格遵循偏好）
+DPO 从数学上等价于 RLHF 的闭式最优解,只是优化的路径不同。它确实把 RL 问题转化成了监督学习形式,但说它”不是真正的 RL”会让人误以为它放弃了 RL 的某些性质,事实上它和 PPO RLHF 解的是同一个目标函数,只是 PPO 用采样+梯度上升、DPO 用闭式解+监督学习。
+3.3 verl 支持跑 DPO 吗？
+
+verl 主线训练流程是 on-policy RL(rollout → reward → advantage → update), DPO 是 off-policy 的偏好学习。
+
+不过在 verl 仓库里提供支持 DPO 的扩展和 online DPO 的实现，当然也可以参考 TRL 中的实现：
+
+• HuggingFace TRL:https://github.com/huggingface/trl(DPOTrainer)
+
+@ray.remote(num_cpus=1)
+def main_task(config):
+    # construct SampleGenerator
+    resource_pool = RayResourcePool(process_on_nodes=[8] * 2)  # 16 GPUs
+    ray_cls = RayClassWithInitArgs(SampleGenerator, config=config)
+    # put SampleGenerator onto resource pool
+    sample_gen = RayWorkerGroup(resource_pool, ray_cls)
+
+    # construct reference policy
+    ray_cls = RayClassWithInitArgs(ReferencePolicy)
+    ref_policy = RayWorkerGroup(resource_pool, ray_cls)
+
+    # construct actor
+    ray_cls = RayClassWithInitArgs(DPOActor)
+    dpo_policy = RayWorkerGroup(resource_pool, ray_cls)
+
+    dataloader = DataLoader()
+
+    for data in dataloader:
+        # generate data
+        data = sample_gen.generate_sequences(data)
+        # generate scores for each data
+        data = generate_scores(data)
+        # generate pairwise data using scores
+        data = generate_pairwise_data(data)
+        # generate ref_log_prob
+        data.batch['ref_log_prob'] = ref_policy.infer(data)
+        # update using dpo
+        dpo_policy.update(data)
+        # logging
+
+3.4 DPO 的隐藏陷阱
+
+虽然 DPO 简单,但实际用起来有几个坑:
+
+长度偏置: DPO 会倾向于生成更长的回答(因为更长的回答 \log \pi 累加项数多,容易拉大差距)→ 衍生出 IPO、KTO、SimPO 等改进
+过拟合 reference model: \beta 太大会锁死在 SFT 附近,\beta 太小会偏离过多
+依赖高质量偏好数据: offline 数据的分布偏移没法在训练中纠正
+4. GRPO: DeepSeek 的”省钱小能手”
+4.1 GRPO 要解决什么问题
+
+PPO 的 4 个模型里, critic 是个老大难:
+
+• 训练 critic 需要单独的 value head 和反向传播,显存翻倍; • value function 学不准就会拖累 advantage 估计,雪上加霜; • 在 LLM 这种稀疏奖励(只有回答结束才给分)场景下,critic 学习信号极少,估值噪声巨大。
+
+DeepSeek 在 DeepSeekMath 论文里提出 GRPO(Group Relative Policy Optimization):干掉 critic, 用同一 prompt 下多次采样的组内相对得分当 baseline。
+
+4.2 GRPO 的数学公式
+
+对同一个 prompt x,采样 G 个回答 {y_1, ..., y_G},得到组内 reward {r_1, ..., r_G}。
+
+每个回答的 advantage:
+
+A_i = \frac{r_i - \text{mean}({r_j})}{\text{std}({r_j})}
+
+(可选项) 再把这个标量 advantage 广播到该回答的每个 token 上:
+
+\hat{A}{i,t} = A_i \cdot \text{mask}{i,t}
+
+
+
+
+policy loss 用普通的 PPO clip:
+
+L^{GRPO} = \mathbb{E}t\left[\min(r{i,t}(\theta) \hat{A}{i,t},; \text{clip}(r{i,t}(\theta), 1-\epsilon, 1+\epsilon) \hat{A}_{i,t})\right]
+
+这一次，老师不再给你单独打分，也不直接给两份作文比较。而是：
+
+一次给你布置 G=4 道相同的题目 x，你写出 4
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-166762cf2e286787215c211c1961fa5d_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c)
+
+![图片](https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae)
+
+![图片](https://picx.zhimg.com/v2-cab132bcbb54363d3a84664c28de24e1_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-ed8a349182ac1b1eb131f3c6d4b0a285_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://pic1.zhimg.com/v2-166762cf2e286787215c211c1961fa5d_l.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c)
+
+![图片](https://pic4.zhimg.com/v2-fc20705a7fb7b81fb83182e6131ebe99.webp)
+
+![图片](https://picx.zhimg.com/v2-10b20470e80a6274affe25aeba407dce_l.jpg?source=06d4cd63)
+
+![图片](https://pic2.zhimg.com/v2-c99cdc3629ff004f83ff44a952e5b716.png)
+
+![图片](https://picx.zhimg.com/5d43a39255b96b59f17c353066ad35c2_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-53e091aa9f23d170583110b0a6fbb32b_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-75b4ad260809e60e4feeff71661c3ef2_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-694cac2ec9f3c63f774e723f77d8c840.png)
+
+![图片](https://picx.zhimg.com/v2-166762cf2e286787215c211c1961fa5d_l.jpg?source=06d4cd63)
+
+![图片](https://pic2.zhimg.com/v2-419a1a3ed02b7cfadc20af558aabc897.png)
+
+![图片](https://picx.zhimg.com/v2-32d78529c5caf98d2feef100695ce251_250x0.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-706c240b0f8b7d2e637fbc3421b1583f_250x0.jpg?source=172ae18b)13:T2b43,> 作者: 曹宇 | 来源: https://zhuanlan.zhihu.com/p/718913850
+
+---
+
+DPO 的论文引用最近已经破千了，成了斯坦福的Chelsea Finn组的机器人超猛PhD学生R.M. Rafailov的第一被引论文。又由于第二梯队的大模型频繁提及DPO的变种，DPO+RM的用法未来估计机器人界的思潮对于LLM的正向影响不会削弱。
+
+按照我平时使用的体验，我们可以将当前的主要头部三强划分为第一梯队，头部开源三强划分成为第二梯队，再加上我一直比较关心的应用侧玩家Apple:
+
+模型	对齐算法	使用 Reward Model	多阶段对齐
+Claude Sonnet 3.5	RL PPO	是	未知
+OpenAI GPT-4o	RL PPO	是	未知
+Gemini Pro	RL REINFORCE	是	是
+Deepseek-V2	RL GRPO	是	是
+Llama3.1	DPO+RM	是	是
+Qwen2	DPO+RM	是	是
+Apple Intelligence	RL MDLOO	是	是
+
+可以发现几点：
+
+超头部玩家的对齐策略清一色的还是RL类方法
+开源头部玩家采用DPO的较多
+不论是什么PO，基本都是采用了和RM结合的xPO + RM的做法，没有纯原始DPO的玩法
+大多数对齐玩家都使用了多阶段对齐的策略
+
+这个其实就让很多小伙伴很疑惑了，明明DPO的宣言是Your language model is secretly a reward model为啥在实际操作的过程中还是需要一个训练好的RM才能work呢？DPO原始论文中的做法，也是直接将偏好对在SFT之后的LLM上训练就取得了甚至超过PPO的做法，为什么在实际的实操中几乎没有头部大模型复现出来这个成果呢？同时更为让人吃惊的是DPO作为off-policy算法，原理上可以直接使用专家示教做类似imitation learning的，但是实际上几乎所有的训练范式都在朝着on-policy的方向走呢？
+
+带着这些疑问，我们可以尝试从最近的一些非常确定的技术趋势和研究来看一看，以帮助我们真正理解什么是大语言模型的对齐，从而帮助我们在实操的过程中积累正确的技术判断能力。
+
+Discriminator-Generator Gap，现代偏好学习的基础
+
+我们知道在老的GAN时代，训练一个模型的方法是使用generator和discriminator对抗的方式完成的。generator尽量产生让discriminator无法判别出好坏的的样本，而discriminator D则尽量尝试识别generator G的样本。
+
+这里面有一个细节，就是我们在利用D-G gap的时候，D和G的更新不是同步做的。D的更新在内环，第三步就做了，而G的更新在外环第五步才做。为什么要这么做呢？因为如果同时更新D和G，对抗的loss会同时反向传播到这两个网络，从梯度上来看D和G的微小gap就弥散在了整个网络里，对抗的效率容易打折扣。
+
+那么传统的RLHF是怎么做的呢，最早版本的online PPO（InstructGPT）之前的早古版本。是通过固定训练时的discriminator实现的，generator做完整个epoch的rollout之后再样本送人标。后期由于online版本的送标成本高，就采用了offline的RM代替了人类discriminator。这种做法也是在一定时间段内固定discriminator的方式，来留给generator足够的时间机会进行偏好学习。
+
+直接同时学习偏好（discriminator）和行为（generator）的方式在原始的DPO论文中，被认为是超越PPO学习效率和效果的一种好的方式。
+
+DPO在相同KL散度条件下的Reward更好，相同Temperature下的win rate更高
+
+看起来从效果方面妥妥吊打了PPO这种比较复杂的算法，同时由于不需要训练单独的Reward Model似乎也是一个比较快见效的业务算法。
+
+深入研究DPO和RL
+https://openreview.net/pdf?id=lNEFatlsQb
+
+针对DPO在纸面上效果很好，打榜上效果很好，但是在实际业务中仍然需要RM辅助的状况。Ziniu博士比较早期的理论建模工作给出了一些解释：其中最主要的聚焦点在于三个（1）Reward Model建模任务的区别，（2）偏好数据不足导致的可能迁移，（3）纯离线数据推理的offline performance gap
+
+第一点其实非常好理解，Reward Model作为一个神经网络而言，他的输入是state和action。也就是对应着之前的所有状态（对话历史），action则是模型最近一轮的输出，他的目标是输出对于state和action的reward估计。
+
+而Policy network则是根据state输出对应token的概率，再加上合适的解码策略之后，变成合适的action。这两个网络从结构上看起来就不太一样，而这种不一样正是前面讲的discriminator和generator拥有gap的基础。
+
+第二点则是在于Reward Model本身的泛化性，使得其能够在一定程度上外插一个没有见过的state和action给出自己的reward判断。这更多的是大语言模型本身的一些能力，加上足够的领域数据泛化出来的。对于DPO而言，要同时学行为和判断就已经不容易了，还要同时学行为和判断泛化就是难上加难了。不过这里更多的是理论上的，实验上的结论后面有。
+
+最后一点则是RL领域的基本sense，在同样on-policy的条件下训练的online程度越高，对于模型来说学习的效果越好。传统DPO采用了比较大量的数据在训练早期进行了offline inference，这样的推理虽然可以很高效地获得大量样本，但是越到训练后期这些offline数据的off-policy程度越高。会造成生产的数据与正在优化的policy之间距离过大的问题，难以取得较好的效果。
+
+一些近期实验上的例子
+
+Yong Lin在Apple实习期间详细研究了DPO的泛化性问题：
+
+这里面主要是对于刚刚第二点进行了实验中的比较和理论阐释，implicit reward model这个比较抽象，其实简单点理解就是我们采用DPO的方法直接同时学偏好和行为的方式。
+
+其实Apple做这种研究还是比较有道理的，对于这样海量的用户而言，用户的意图极为复杂，同时在prompt和response程度都会存在distribution shift的可能。同时目标也不是为了打各种In-distribution的榜，所以我们可以看看他的实验结论作为参考。
+
+我们首先再解释一下这里造出来的概念：EXRM就是RL方法中单独训练出来的RM，DPORM是假设BT loss之后的DPO训练之后 recover出来的Reward值（DPO也可以得到reward的哦，很多同学忽视了这一点，直接拿着policy就去评测了）。
+
+EXRM: r(x,y) = \max_\phi(-\mathbb{E}_{(x, y_w, y_l)\sim D}[\log \sigma(r_\phi (x, y_w) - \log \sigma(r_\phi (x, y_l))])
+
+DPORM: r(x,y) = \beta \log \dfrac{\pi_{dpo}(y|x)}{\pi_{ref}(y|x)}
+
+这个实验是怎么做的呢？就是在控制变量的条件下，对于这两种RM建模的方式，混合了prompt shift（Reward Model没见过这种 prompt）， 以及 response shift（Reward Model 没见过这种回答）之后RM能达到的精度。可以发现用DPORM这种方式在ID（in-distribution）的混合场景里面表现的还可以。但是一旦面向OOD场景之后，RM的精度就急剧下降。同时对于OOD的response shift表现最差，难以匹配上EXRM的表现。而在控制变量的OOD变现中，EXRM比ID好95.2%。
+
+这其实验证了刚刚讲的第二点，同时学习偏好和行为似乎没有一个专有网络专门学习偏好的效果好。尤其是我们期望的RL scaling领域，如果只能通过大量数据堆叠的方式完全覆盖偏好，是看不到做一个更通用AI系统的希望的。
+
+在实际工作中该怎么做呢
+
+Shusheng Xu 在ICML
+
+的工作就很直接，大家可以仔细研究研究。和前面的互为补充，主要谈的是用DPO学policy可能有什么问题，我仔细展开说一下里面的思路。
+
+假设我们现在有一个待优化的policy \pi_{ref} , 他在两个可能的actions y_1 和 y_2 的原始概率分布大概是各占一半，假设我们按照偏好 y_1 \succ y_2 给定这个模型进行优化。理想中我们希望拉高 y_1 降低 y_2 ，其实这两种算法都能达到。但是我们特别想避免的是拉高一个分布外的 y_3 , 因为分布外的这个回答极有可能给我一个巨大的惊喜。
+
+为什么DPO优化中允许这种情况发生呢？
+
+因为从DPO的loss来看，这种优化目标太专注于通过压制 y_2 来获得chosen和reject的gap。对于分布外的样本其实根本不在这个优化目标的考虑范围内，如果 y_3 很好那么赚到，如果 y_3 不好，那也只能认赔。
+
+那PPO就不会有这个问题了嘛？我们假设PPO的Reward Model就是有问题的，他就认为这个分布外的 y_3 最好。 从机制上就没有什么关系，因为假设我们采样到了这个回答，由于这个回答是分布外的，所以作为KL散度约束的分母，会把KL惩罚做的极大，消除所有reward的收益。
+
+所以聪明的你估计已经看到了，针对在RM的不足，最好的方式是在DPO的时候加上RM的弥补泛化性的不足。然后由于offline带来的DPO分布外的训练不足，需要尽量使得DPO的更新和迭代和PPO一样online化。从头部开源玩家的方法来看，迭代式DPO加RM似乎是一个比较奏效的打榜玩法。
+
+但是问题就来了，DPO加了RM，加了on-policy，又加了online，好像再加一个advantage估计和baseline就是纯RL方法了。这个方法比RL还RL，为什么还叫DPO呢。
+
+
+## 图片
+
+![图片](https://pica.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-7bc481063a856f02632612f40481263c_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic4.zhimg.com/v2-11e9bf76796c533c063e8c8e9d79370b_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-506960cff25d9fc6c590520ffa5c99b0_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-55e6efdeae159d2eb9de82300980441a_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-2607f95bc56a9d1dc3c510b25cc91b2b_1440w.jpg)
+
+![图片](https://pic2.zhimg.com/v2-96a0ede5c5fe77a7fd906e3d2b7e3e69_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-68da193099a2a3a72b627f0fb744667a_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-ff6164d045739764eaf17615e589ff28_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-eb985471025eee6585a26e75e5197f9c_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-e8f67424885f5c62e4da6f3408201b4d_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-e184675dcc9a49b32512b0b5deea9ca8_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-b63736c00d453da835b5e37d02cf9777_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-8d35cc8c109063d91bf5f9721d512251_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-62c7971c440e7155fbf3696551eac826_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://pica.zhimg.com/v2-7bc481063a856f02632612f40481263c_l.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-5f01cc5c6d81f84f71b33ab00c31cbe4_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae)14:T3035,> 作者: 想当大侠 | 来源: https://zhuanlan.zhihu.com/p/1899507365507732891
+
+---
+
+前言
+
+verl 是现在非常火的 rl 框架，而且已经支持了多个 rl 算法（ppo、grpo 等等）
+
+过去对 rl 的理解很粗钱（只知道有好多个角色，有的更新权重，有的不更新），也曾硬着头皮看了一些论文和知乎，依然有很多细节不理解，现在准备跟着 verl 的代码梳理一遍两个著名的 rl 算法，毕竟代码不会隐藏任何细节！
+
+虽然 GRPO 算法是基于 PPO 算法改进来的，但是毕竟更简单，所以我先从 GRPO 的流程开始学习，然后再看 PPO。
+
+GRPO 论文中的展示的总体流程
+
+grpo 与 ppo 算法对比
+
+论文中这张图主要展示了 GRPO 和 PPO 的区别，隐藏了其他的细节，图中只能注意到以下几个关键点：
+
+没有 Value Model 和输出 v（value）
+同一个 q 得出了一组的 o（从 1 到 G）
+计算 A（Advantage） 的算法从 GAE 变成了 Group Computation
+KL 散度计算不作用于 Reward Model，而是直接作用于 Policy Model
+
+（其他细节看不懂，结合论文也依然比较抽象，因为我完全没有 RL 的知识基础，下文中我们结合代码会再一次尝试理解）
+
+下面是我根据 verl 代码自己 DIY 的流程图（帮助理解）：
+
+第一步：Rollout
+
+第一步是 rollout，rollout 是一个强化学习专用词汇，指的是从一个特定的状态按照某个策略进行一些列动作和状态转移。
+
+在 LLM 语境下，“某个策略”就是 actor model 的初始状态，“进行一些列动作”指的就是推理，即输入 prompt 输出 response 的过程。
+
+verl/trainer/ppo/ray_trainer.py
+
+gen_batch_output = self.actor_rollout_wg.generate_sequences(gen_batch)
+
+其背后的实现一般就是是 vllm 或 sglang 这些常见推理框架的离线推理功能，这部分功能相对独立我们先不展开。
+
+权重同步
+
+一个值得注意的细节是代码里面的 rollout_sharding_manager 实现，它负责每一个大 step 结束后把刚刚训练好的 actor model 参数更新到 vllm 或 sglang，这样下一个大 step 的 rollout 采用的就是最新的模型权重（最新的策略）了。
+
+这是每一个大 step 里面真正要做的第一件事，在真正执行 rollout 之前。
+
+verl/workers/fsdp_workers.py
+
+class ActorRolloutRefWorker(Worker):
+    # ...
+
+    @register(dispatch_mode=Dispatch.DP_COMPUTE_PROTO)
+    def generate_sequences(self, prompts: DataProto):
+        # ...
+
+        with self.rollout_sharding_manager:
+            # ...
+
+            prompts = self.rollout_sharding_manager.preprocess_data(prompts)
+            output = self.rollout.generate_sequences(prompts=prompts)
+            output = self.rollout_sharding_manager.postprocess_data(output)
+
+rollout_sharding_manager 的基类是 BaseShardingManager：
+
+verl/workers/sharding_manager/base.py
+
+class BaseShardingManager:
+    def __enter__(self):
+        pass
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        pass
+
+    def preprocess_data(self, data: DataProto) -> DataProto:
+        return data
+
+    def postprocess_data(self, data: DataProto) -> DataProto:
+        return data
+
+BaseShardingManager 的派生类在各自的 __enter__ 方法中实现了把 Actor Model 的权重 Sync 到 Rollout 实例的逻辑，以保证被 with self.rollout_sharding_manager 包裹的预处理和推理逻辑都是用的最新 Actor Model 权重。
+
+推理 N 次
+
+此外，GRPO 算法要求对每一个 prompt 都生成多个 response，后续才能根据组间对比得出相对于平均的优势（Advantage）
+
+verl/trainer/config/ppo_trainer.yaml
+
+actor_rollout_ref:
+  rollout:
+    # number of responses (i.e. num sample times)
+    n: 1 # > 1 for grpo
+
+在 _build_rollout 的时候 actor_rollout_ref.rollout.n 被传给了 vLLMRollout 或其他的 Rollout 实现中，从而推理出 n 组 response：
+
+verl/workers/fsdp_workers.py
+
+class ActorRolloutRefWorker(Worker):
+    def _build_rollout(self, trust_remote_code=False):
+        # ...
+
+        elif rollout_name == "vllm":
+            # ...
+
+            if vllm_mode == "customized":
+                rollout = vLLMRollout(
+                    actor_module=self.actor_module_fsdp,
+                    config=self.config.rollout,
+                    tokenizer=self.tokenizer,
+                    model_hf_config=self.actor_model_config,
+                )
+第二步：计算 log prob
+
+log 是 logit，prob 是 probability，合起来就是对数概率，举一个简单的例子来说明什么是 log prob：
+
+词表仅有 5 个词：
+    <pad> (ID 0)
+    你好 (ID 1)
+    世界 (ID 2)
+    ! (ID 3)
+    吗 (ID 4)
+
+prompt：你好
+prompt tokens: [1]
+
+response：世界!
+response tokens: [2,3]
+
+模型前向传播得到完整的 logits 张量：
+[
+    [-1.0, 0.5, 2.0, -0.5, -1.5],    // 表示 “你好” 后接 “世界” 概率最高，数值为 2.0
+    [-2.0, -1.0, 0.1, 3.0, 0.2]      // 表示 “你好世界” 后接 “!” 概率最高，数值为 3.0
+]
+
+对每个 logit 计算 softmax 得到：
+[
+    [-3.65, -2.15, -0.64, -3.15, -4.08],
+    [-4.34, -3.32, -2.20, -0.20, -2.10]
+]
+
+提取实际 response 对应的数值：得到 log_probs：
+[-0.64, -0.20]
+
+总结下来：
+
+1. 首先计算 prompt + response（来自 rollout）的完整 logits，即每一个 token 的概率分布
+2. 截取 response 部分的 logits
+3. 对每一个 logits 计算 log_sofmax（先 softmax，然后取对数），取出最终预测的 token 对应的 log_sofmax
+4. 最终输出 old_log_probs, size = [batchsize, seq_len]
+
+此处你可能会有一个疑惑：在上一步 Rollout 的时候我们不是已经进行过完整 batch 的推理了么？为什么现在还要重复进行一次 forward 来计算 log_prob，而不是在 generate 的过程中就把 log_prob 保存下来？
+
+答：因为 generate_sequences 阶段为了高效推理，不会保存每一个 token 的 log_prob，相反只关注整个序列的 log_prob。因此需要重新算一遍。
+
+感谢 @曹宇 评论区的补充：
+答：另外，vllm 官方 Q&A 中提到了 vllm 框架并不保证 log_probs 的稳定性。因为 pytorch 的 numerical instability 与 vllm 的并发批处理策略导致每一个 token 的 logits/log_probs 结果会略有不同，假如某一个 token 位采样了不同 token id，那么这个误差在后续还会被继续累加。我们在训练过程需要保证 log_probs 的稳定性，因此需要根据已经确定的 token id（即 response）再次 forward 一遍。
+old log prob
+
+verl/workers/fsdp_workers.py
+
+old_log_prob = self.actor_rollout_wg.compute_log_prob(batch)
+
+指 Actor Model 对整个 batch 的数据（prompt + response）进行 forward 得到的 log_prob
+
+此处的 “old” 是相对于后续的 actor update 阶段，因为现在 actor model 还没有更新，所以依然采用的是旧策略 （ps：当前 step 的”旧策略“也是上一个大 step 的“新策略”）
+
+ref log prob
+
+verl/trainer/ppo/ray_trainer.py
+
+ref_log_prob = self.ref_policy_wg.compute_ref_log_prob(batch)
+
+指 Ref Model 对整个 batch 的数据（prompt + response）进行 forward 得到的 log_prob
+
+通常 Ref Model 就是整个强化学习开始之前 Actor Model 最初的模样，换句话说第一个大 step 开始的时候 Actor Model == Ref Model，且 old_log_prob == ref_log_prob
+
+Ref Model 的作用是在后续计算 policy loss 之前，计算 KL 散度并作用于 policy loss，目的是让 actor model 不要和最初的 ref model 相差太远
+
+第三步：advantage
+
+advantage 是对一个策略的好坏最直接的评价，其背后就是 Reward Model，甚至也许不是一个 Model，而是一个粗暴的 function，甚至一个 sandbox 把 prompt+response 执行后得出的结果。
+
+在 verl 中允许使用上述多种 Reward 方案中的一种或多种，并把得出的 score 做合
+
+verl/trainer/ppo/ray_trainer.py
+
+
+if self.use_rm:
+    reward_tensor = self.rm_wg.compute_rm_score(batch)
+    batch = batch.union(reward_tensor)
+
+if self.config.reward_model.launch_reward_fn_async:
+    future_reward = compute_reward_async.remote(batch, self.config, self.tokenizer)
+else:
+    reward_tensor, reward_extra_infos_dict = compute_reward(batch, self.reward_fn)
+
+然后用这个 score 计算最终的 advantage
+
+verl/trainer/ppo/ray_trainer.py
+
+
+norm_adv_by_std_in_grpo = self.config.algorithm.get(
+    "norm_adv_by_std_in_grpo", True
+)  # GRPO adv normalization factor
+batch = compute_advantage(
+    batch,
+    adv_estimator=self.config.algorithm.adv_estimator,
+    gamma=self.config.algorithm.gamma,
+    lam=self.config.algorithm.lam,
+    num_repeat=self.config.actor_rollout_ref.rollout.n,
+    norm_adv_by_std_in_grpo=norm_adv_by_std_in_grpo,
+)
+第四步：actor update（小循环）
+
+在 PPOTrainer 中简单地一行调用，背后可是整个 GRPO 算法中最关键的步骤
+
+actor_output = self.actor_rollout_wg.update_actor(batch)
+
+在这里，会把上面提到的整个 batch 的数据再根据 actor_rollout_ref.actor.ppo_mini_batch_size 配置的值拆分成很多个 mini batch，然后对每一个 mini batch 数据进行一轮 forward + backward + optimize step，也就是小 step
+
+new log prob
+
+每一个小 step 中首先会对 mini batch 的数据计算（new）log_prob，第一个小 step 得到的值还是和 old_log_prob 一模一样的
+
+pg_loss
+
+然后通过输入所有 Group 的 Advantage 以新旧策略的概率比例（old_log_prob 和 log_prob），得出 pg_loss（Policy Gradient），这是最终用于 backward 的 policy loss 的基础部分：
+
+再次描述一下 pg_loss 的意义，即衡量当前策略（log_prob）相比于旧策略（old_log_prob），在当前优势函数（advantage）指导下的改进程度。
+
+verl/workers/actor/dp_actor.py
+
+pg_loss, pg_clipfrac, ppo_kl, pg_clipfrac_lower = compute_policy_loss(
+    old_log_prob=old_log_prob,
+    log_prob=log_prob,
+    advantages=advantages,
+    response_mask=response_mask,
+    cliprange=clip_ratio,
+    cliprange_low=clip_ratio_low,
+    cliprange_high=clip_ratio_high,
+    clip_ratio_c=clip_ratio_c,
+    loss_agg_mode=loss_agg_mode,
+)
+entropy loss
+
+entropy 指策略分布的熵 (Entropy)：策略对选择下一个动作（在这里是下一个 token）的不确定性程度。熵越高，表示策略输出的概率分布越均匀，选择各个动作的概率越接近，策略的探索性越强；熵越低，表示策略越倾向于选择少数几个高概率的动作，确定性越强。
+
+entropy_loss 指 entropy 的 平均值，是一个标量，表示探索性高低
+
+verl/workers/actor/dp_actor.py
+
+if entropy_coeff != 0:
+    entropy_loss = agg_loss(loss_mat=entropy, loss_mask=response_mask, loss_agg_mode=loss_agg_mode)
+
+    # compute policy loss
+    policy_loss = pg_loss - entropy_loss * entropy_coeff
+else:
+    policy_loss = pg_loss
+计算 KL 散度
+
+这里用到了前面 Ref Model 推出的 ref_log_prob，用这个来计算 KL 并作用于最后的 policy_loss，保证模型距离 Ref Model（初始的模型）偏差不会太大：
+
+verl/workers/actor/dp_actor.py
+
+if self.config.use_kl_loss:
+    ref_log_prob = data["ref_log_prob"]
+    # compute kl loss
+    kld = kl_penalty(
+        logprob=log_prob, ref_logprob=ref_log_prob, kl_penalty=self.config.kl_loss_type
+    )
+    kl_loss = agg_loss(
+        loss_mat=kld, loss_mask=response_mask, loss_agg_mode=self.config.loss_agg_mode
+    )
+
+    policy_loss = policy_loss + kl_loss * self.config.kl_loss_coef
+    metrics["actor/kl_loss"] = kl_loss.detach().item()
+    metrics["actor/kl_coef"] = self.config.kl_loss_coef
+反向计算
+
+verl/workers/actor/dp_actor.py
+
+loss.backward()
+
+持续循环小 step，直到遍历完所有的 mini batch，Actor Model 就完成了本轮的训练，会在下一个大 step 前把权重 sync 到 Rollout实例当中，准备处理下一个大 batch 数据。
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pica.zhimg.com/v2-700cd610630b1959128e49d84834c680_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic3.zhimg.com/v2-467a3a8b579b79ebd8fd210887e5211e_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-dd28406c1743f82c4c9d038087daad54_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-0c32218609bbe2ff0b51663f01c9f66c.webp)15:T7e3,> **💡 问题**: Attention的复杂度分析？从O(n²)优化到O(n)的路线图？
+
+## 来源
+- [xiaohongshu] [手撕Attention](https://www.xiaohongshu.com/explore/69ad304c000000002202302a)
+
+## 回答
+**标准Attention复杂度**： - 计算量：O(n²·d)，其中n是序列长度，d是head维度 - 显存：O(n²)的Attention Matrix，成为长序列瓶颈 - 例如n=128K时，Attention Matrix需要128K² ≈ 16B个元素，FP16下约32GB
+**优化路线图（按效果排序）**：
+1. **KV Cache**（推理必备）：缓存历史K/V，避免重复计算已生成token的attention。将每步计算从O(n²·d)降到O(n·d)，但显存仍是O(n)
+2. **MQA/GQA**（架构层面）：减少K/V head数，降低KV Cache显存n_head/group_ratio倍
+3. **FlashAttention**（IO优化）：通过Tiling（分块计算）将O(n²)的HBM读写降到O(n²·d²/M)，利用SRAM做局部softmax。数学等价，且由于IO减少反而更快
+4. **Sparse Attention**：只计算部分位置（sliding window + global tokens），如Mistral的SWA。复杂度O(n·w)，w是窗口大小
+5. **Linear Attention**：用核函数替代softmax，Q(K^T V)先算K^T V，复杂度O(n·d²)。代表：Mamba/SSM、RWKV
+6. **MLA**（DeepSeek）：将K/V压缩到低维latent空间，KV Cache从O(n·n_heads·d_head)降到O(n·d_latent)
+**面试回答结构**： - 先分析瓶颈（计算vs显存） - 针对瓶颈选择合适的优化（prefill→FlashAttn，decode→KV Cache+GQA+MLA） - 说明trade-off（精度损失vs效率提升）
+
+
+## 延伸思考
+- FlashAttention的Tiling和Recomputation具体怎么实现的？
+- Linear Attention为什么可以改变计算顺序？对精度的影响？
+- 长序列推理（n>128K）时应该如何组合这些优化？
+
+## 图片
+![Attention优化全景](http://sns-webpic-qc.xhscdn.com/202606222256/360e082cd28a9ec0ba1d90a5659c6c50/spectrum/1040g34o31tdt5h1256105no6jgq08o4hiqdu920!nc_n_webp_mw_1)
+*Attention优化全景*
+
+## 相关笔记
+- [[fnd-week01-attention]]
+- [[fnd-week10-kv-cache]]16:T68f,> **💡 问题**: Prefill vs Decode阶段的compute bound vs memory bound本质区别？
+
+## 来源
+- [xiaohongshu] [MHA/MQA/GQA 一张图看懂](https://www.xiaohongshu.com/explore/6950e1de000000001e00e177)
+
+## 回答
+LLM推理分为两个阶段，其计算特征完全不同：
+**Prefill阶段（Compute Bound）**： - 一次性处理整个输入prompt（例如1024个token） - 需要计算全部token之间的Attention（O(n²·d)） - 瓶颈在GPU算力（FLOPS），不是显存带宽 - 优化方向：FlashAttention（减少IO）、并行计算、高效的矩阵乘法（Tiling） - 关键指标：TTFT（Time To First Token）
+**Decode阶段（Memory Bound）**： - 逐个生成token，每步只处理一个新token - Attention计算量O(n·d)，很小 - 但需要读取完整的KV Cache（O(n)），瓶颈在显存带宽 - 优化方向：KV Cache压缩（GQA/MQA/MLA/量化）、显存带宽优化 - 关键指标：TPOT（Time Per Output Token）、吞吐量
+**混合优化策略（vLLM/SGLang实践）**： - Prefill和Decode分离调度（Disaggregated Prefill） - Prefill用高算力GPU（A100），Decode用更多GPU分摊KV Cache带宽 - 对于长prompt：Chunked Prefill，分段prefill避免OOM
+**面试回答要点**： - 能区分两个阶段的瓶颈（compute vs memory） - 能针对不同阶段提出优化（FlashAttn→Prefill, KV Cache优化→Decode） - 了解Disaggregated架构的价值
+
+
+## 延伸思考
+- Chunked Prefill如何平衡延迟和吞吐？
+- Disaggregated Prefill的通信开销如何控制？
+- 为什么Decode阶段不能简单地用FlashAttention加速？
+
+## 相关笔记
+- [[qa-week01-attn-complexity]]
+- [[fnd-week10-kv-cache]]17:T7bb,> **💡 问题**: RoPE的复数旋转矩阵推导？为什么比Sinusoidal更适配长序列？
+
+## 来源
+- [xiaohongshu] [面试必备：旋转位置编码 RoPE](https://www.xiaohongshu.com/explore/695b6e5c000000001a030087)
+
+## 回答
+**RoPE数学推导（三步走）**：
+Step 1 — 旋转矩阵：在2D空间中，位置m的旋转矩阵为 R(m) = [[cos(mθ), -sin(mθ)], [sin(mθ), cos(mθ)]]
+Step 2 — 应用到d维：将d维向量拆成d/2对，(x₀,x₁)→(x₂,x₃)→...，每对用不同频率θ_i旋转。θ_i = 10000^(-2i/d)
+Step 3 — Attention Score：q_m^T k_n = (R^m q)^T (R^n k) = q^T R^{n-m} k，仅依赖相对位置差n-m
+**为什么RoPE比Sinusoidal更适合长序列**：
+1. 相对位置编码天然性：RoPE直接编码相对位置（n-m），Sinusoidal需要模型学习从绝对位置推导相对关系 2. 外推能力：通过调整频率基（base 10000 → 更大值），让高频旋转更稀疏，模型可以处理更长的序列。这是NTK-aware scaling的核心 3. 长距离衰减：RoPE的attention score随相对距离增加而自然衰减（高频分量的振荡破坏内积一致性） 4. 与线性Attention兼容：RoPE的旋转特性与Linear Attention的K^T V优先计算顺序兼容
+**RoPE外推方法**： - Linear Scaling：所有位置除以放大因子，简单但效果一般 - NTK-aware：放大base（10000→更大），高频不压缩，低频压缩 - YaRN：NTK-aware + temperature tuning，当前最优方案 - ReRoPE/CoCA：训练时用短序列，推理时用滑动窗口+全局position reset
+
+
+## 延伸思考
+- 为什么RoPE的低频分量需要压缩而高频不需要？
+- YaRN中Temperature如何帮助外推？
+- RoPE与ALiBi在长序列上的实际对比？
+
+## 图片
+![RoPE旋转矩阵推导](http://sns-webpic-qc.xhscdn.com/202606222257/f6bf694b23b65e81c2cb3766df5c745f/spectrum/1040g0k031quvdpqb0m005opl5ifmbnrodc3emlo!nc_n_webp_mw_1)
+*RoPE旋转矩阵推导*
+
+## 相关笔记
+- [[fnd-week02-pos-encoding]]18:T75b,> **💡 问题**: SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析？
+
+## 来源
+- [xiaohongshu] [大模型激活函数为什么是swiGLU？](https://www.xiaohongshu.com/explore/6921761f000000001f0061d8)
+
+## 回答
+**SwiGLU = 门控线性单元 + Swish激活**。门控机制使网络可以动态决定哪些信息通过。
+**梯度分析**：
+1. ReLU: gradient = 1 if x>0 else 0。问题：(a) 负半区梯度为0→神经元"死亡"；(b) 非平滑→优化不稳定
+2. GELU: gradient = Φ(x) + x·φ(x)（φ是标准正态PDF）。平滑但计算复杂，负半区有小梯度
+3. SiLU/Swish: gradient = σ(x) + x·σ(x)(1-σ(x))。形状与GELU相似，计算更简单，负半区有非零梯度（约-0.1~0）
+4. SwiGLU: 前向 = Swish(xW_gate) ⊗ (xW_up)。梯度学自门控的分量选择，且由于SiLU的平滑性，门控参数也能获得有效梯度
+**为什么有效（三个层面）**：
+- **选择性**：门控可以让FFN根据输入动态选择激活哪些特征维度，相当于输入相关的特征选择 - **梯度流动**：SiLU在负半区仍有非零梯度（min≈-0.1），消除了ReLU的死神经元问题 - **二阶优化**：平滑激活函数使Hessian矩阵更稳定，有利于Adam等自适应优化器
+**实验证据**（来自PaLM/GLaM/LLaMA论文）： - SwiGLU > GeGLU ≈ ReGLU > ReLU - 在perplexity上SwiGLU比标准ReLU-FFN提升约2-5% - 同等参数量下，SwiGLU的效果显著更好
+
+
+## 延伸思考
+- GLU门控中gate和up两个分支的不同初始化策略？
+- 为什么不直接用Attention的门控机制代替GLU？
+- 门控机制是否增加了过拟合风险？
+
+## 图片
+![SwiGLU vs ReLU 对比](http://sns-webpic-qc.xhscdn.com/202606222257/fd92c98c779ae534ffbe50ebf2b58a4f/1040g2sg31p6brbn6jcgg5nvg187g8477mc261m8!nc_n_webp_mw_1)
+*SwiGLU vs ReLU 对比*
+
+## 相关笔记
+- [[fnd-week02-activation]]19:T879,> **💡 问题**: DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 回答
+MLA通过将K/V投影到低维latent空间实现KV Cache极致压缩。
+**标准MHA的KV Cache**： - 每层每token存储：n_heads × d_head × 2(K+V)个float - 例如LLaMA-70B: 64 heads × 128 d_head × 2 = 16384 floats/token/layer
+**MLA的KV Cache压缩（三步压缩法）**：
+Step 1 — Latent Down-Projection（压缩）：c_KV = W_down · h。将hidden_size(h)投影到极低维的latent空间(d_c，通常为512维)。这是核心压缩步骤。
+Step 2 — Up-Projection for Attention（训练时）：K = W_uk · c_KV, V = W_uv · c_KV。从latent展开到完整的K/V用于attention计算。
+Step 3 — Cache only Latent（推理时）：推理时只存储c_KV（1个latent向量，而非2×n_heads×d_head个向量）。每个token的KV Cache从 O(n_heads × d_head) 降为 O(d_c)。
+**压缩比计算**： - 标准MHA per-token KV: n_heads × d_head × 2 - MLA per-token KV: d_c（仅一个latent向量） - 压缩比 ≈ 2×n_heads×d_head / d_c ≈ 10-20×
+**为什么信息不丢失**： - Up-projection矩阵(learnable)学会从压缩的latent中恢复注意力所需的关键信息 - 低秩假设：K和V的信息冗余度很高，可以用低维latent表示 - 类似LoRA思路：实际信息秩远小于矩阵维度，低秩近似有效
+**与RoPE的兼容性**： - 对Q单独施加RoPE（Q需要位置信息），K可选择是否加RoPE - DeepSeek方案：部分K维度保留RoPE，其余从latent生成
+**面试回答要点**：先解释KV Cache瓶颈→MLA的压缩思想→低秩假设的合理性→具体实现
+
+
+## 延伸思考
+- MLA的低秩假设在什么情况下会失效？
+- 为什么Q不需要压缩而K/V需要？
+- MLA与GQA可以叠加使用吗？
+
+## 图片
+![MLA架构详解](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*MLA架构详解*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
+- [[fnd-week10-kv-cache]]1a:T99e,> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 回答
+MoE负载均衡是MoE架构的核心挑战——如果专家负载不均，会导致部分专家过载（token堆积→延迟高）、部分专家闲置（浪费算力）。
+**问题本质**： - 路由网络倾向于反复选择相同专家（富者愈富效应），导致专家利用不均 - 极端情况：90%的token流向5%的专家
+**三种主流解决方案**：
+**1. Auxiliary Loss（辅助损失）— 传统方案**： - 在训练loss中加一项惩罚专家不均衡程度的辅助loss - L_aux = α × Var(f_i) （专家处理token数的方差） - 问题：(a) α需要调参→太大会损害模型效果；(b) 只在训练时起作用，推理时可能不均衡
+**2. Expert Choice（让专家选token）— Google Switch Transformer**： - 反过来：每个专家选择top-k个token（而非token选专家） - 保证每个专家恰好处理相同数量的token - 问题：token可能被多个专家选中或遗漏
+**3. DeepSeek方案（Shared Expert + Aux-loss-free）— 业界最优**： - Shared Expert：一个所有token都会经过的共享专家，提供基础能力 - Routed Experts：细粒度专家（256个），token选择top-k个 - Aux-loss-free Load Balance：动态调整每个专家的bias项（非梯度更新），亲和度score = softmax(W_r·x + b_expert)，周期性调整b使专家负载均衡 - 优势：(a) 不损害模型效果（bias调整不在计算图中）；(b) 推理时也有效
+**DeepSeekMoE具体配置**： - 1 Shared Expert + 256 Routed Experts - 每token激活：1 shared（固定）+ top-8 routed（共9个专家） - 细粒度：每个routed expert的hidden_dim仅为标准MoE专家的1/4→更多专家+更细粒度
+**面试回答要点**：解释问题→列举三种方案→重点说明DeepSeek方案的创新
+
+
+## 延伸思考
+- Token Choice vs Expert Choice的通信复杂度对比？
+- Aux-loss-free bias调整的频率如何确定？
+- 推理时如果某个专家过载怎么办？（capacity factor/overflow策略）
+
+## 图片
+![MoE路由与负载均衡](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
+*MoE路由与负载均衡*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]1b:T5dd5,> 作者: 健壮壮 | 来源: https://zhuanlan.zhihu.com/p/2043620037890769967
+
+---
+
+具身领域目前处于类似于早起自动驾驶2012年-2015期间，外加我国15规划“集中力量办大事”催熟性资本注入，当前收到资本的青睐，蓬勃发展，但技术目前还没收敛。但不可否认，具身的市场远比自动驾驶大，因为具身的本体可能随着工厂、家庭、康养等场景前差万别，天然铸就了较大的差异化，可能最后活下来的公司远比自动驾驶公司多
+
+最近在做pi 0.6/0.7的后训练，p0.7技术范式将VLA 与 世界模型进行融合，实现zero-shot的能力，全程没有针对场景强化微调；当然强化学习在模型领域占据比较重要位置，主要可以让模型更加精通某一领域，成为专才（前提是预训练具备一定的基础能力）。pi 0.6 重点刚好在于强化学习技术，实现扩散模型与rl的结合；目前强化学习技术五花八门，且理论基础相对较难，本着把“先把书读薄，再把书读厚，再把书读薄”的原则（先大概关注此书的目的，然后深度分析研读推导，最后在总结），想把强化学习这门理论大概总结一下，方便理解。
+PS:总结又不到位的地方，请指教学习，整体文档包括绘图都将会公开（并会同步更新知识库），链接：
+
+总览
+1 离散空间（贝尔曼方程）
+1.1贝尔曼方程（基于模型）
+
+贝尔曼方程（给定策略）：数值迭代求解、求解逆矩阵
+贝尔曼最优方程（贝尔曼最优方程是一个特殊的贝尔曼方程，即给定最优策略的贝尔曼方程）
+贝尔曼最优方程求解：值迭代和策略迭代
+
+1.2 贝尔曼方程（基于数据）
+
+贝尔曼最优方程求解：值迭代和策略迭代（前提条件是需要知道模型参数）；
+当没有模型怎么办，那么转向基于数据；
+方法一：MC蒙特卡罗（期望估计）
+统计平均值，必须一个回合结束之后，然后计算折扣回报；比较耗时，但估计准确
+方法二：时序差分方法（增量式算法 + 离散表格法）
+TD算法求解贝尔曼方程 或 贝尔最优方程的随机近似算法
+具体有2个算法：
+sarsa算法(on policy算法)
+只能估计给定策略的动作值（贝尔曼方程的随机近似算法求解），必须配合策略改进才能得到最优策略
+Q learning算法（off policy算法）
+直接估计最优动作值（贝尔曼最优方程的随机近似算法求解），找到最优策略；
+Q learning算法是off policy的本质原因是：用随机近似算法求解贝尔曼最优方程
+
+1.3 贝尔曼方程（离散表格法转函数法）
+
+问题：离散的状态比较多的话，效率不高
+
+大型状态空间效率不高
+神经网络是很好的拟合器 优化目标就是拟合：
+1 目标函数
+J(w) = E[(v_{\pi}(s) - \check{v}(S,w))^2] ... (7.1)
+v_{\pi}(s)真实状态值, \check{v}(S,w)估计状态值
+2 优化算法（梯度下降算法）
+w_{k+1} = w_{k} - \alpha_{k}\bigtriangledown_{w} J(w_{k})
+那么就有函数法版本的SARA 和 Q_Learning；关于Q_learning需要注意：
+\begin{matrix} J = E [(R + \gamma \max_{a}\check{q}(S^{'} , a , w) - \check{q} (S , A , w) )^2] \\ q(s ,a ) = E [R_{t+1} + \gamma \max_{a} \check{q}(S^{'},a , w) - \check{q}(S,A , w) ] \end{matrix}
+贝尔曼最优方程 由于目标函数中有个参数的函数，导致计算梯度并非易事。将参数固定一个，更新一个，来回迭代
+J = E [(R + \gamma \max_{a}\check{q}(S^{'} , a , w_{T}) - \check{q} (S , A , w) )^2]
+技巧一：主干网络和目标网络（方便更新计算梯度） 初始w , w_{T}参数一样 不用显示计算上面的梯度，因为神经网络会自动反向传播更新参数
+技巧二：经验回放 我们对采样过程没有先验知识，最简单的方法就是均匀分布。实际上采样不可能是均匀的（样本之间有关联性），为了服从均匀分布，需要将样本顺序打乱，让其服从均匀分布，经验回放的好处：每个样本都会被利用多次，提高利用效率。
+2 连续空间（策略梯度）
+
+之前贝尔曼方程的一个前提是动态规划，离散之后得到贝尔曼方程，贝尔曼方程只能处理离散空间，那么sara\Q_learning只能处理离散状态。 现在直接不从动态规划入手，直接优化策略函数 优化目标：
+\max_{\theta} \ J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ R(\tau) \right]
+把期望写成积分形式：
+
+\begin{matrix} J(\theta) = \int p_{\theta}(\tau) R(\tau) d\tau \\ \nabla_{\theta} J(\theta) = \int \nabla_{\theta} p_{\theta}(\tau) R(\tau) d\tau \\ \nabla_{\theta} J(\theta) = \mathbb{E}_{\tau \sim \pi_{\theta}} \left[ R(\tau) \cdot \sum_{t=0}^{\infty} \nabla_{\theta} \log \pi_{\theta}(a_t \mid s_t) \right] \end{matrix}
+为了降低方差选择（期望保持不变），引入基线b(s） = v(s)
+
+\nabla_{\theta}J(\theta)=\mathbb{E}\left[\ \nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-v_{\pi}(S)\big)\right].
+为了去掉期望，采样随机梯度下降RM
+\theta_{t+1}=\theta_{t}+\alpha_{\theta}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta_{t})\big(q_{t}(s _{t},a_{t})-v_{t}(s_{t})\big)
+估计价值，采样随机梯度下降RM
+
+\begin{matrix} q_{t}(s_{t},a_{t})-v_{t}(s_{t})\approx r_{t+1}+\gamma v_{t}(s_{t+1})-v_{t}(s_{ t})\doteq\delta_{t}(s_{t},a_{t}). \\ \theta_{t+1}=\theta_{t}+\alpha_{\theta}{\beta(a _{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta)\delta_{t}(s_{t},a_{t}). \end{matrix}
+
+2.1 异策略PG(多一层重要性采样)
+Off policy 策略梯度对额外的基准函数b(s)是不变的，因为\mathbb{E}\left[\tfrac{\pi(A|S,\theta)}{\beta(A|S)}\nabla_{\theta}\ln\pi(A|S, \theta)b(S)\right]=0
+
+\nabla_{\theta}J(\theta)=\mathbb{E}_{S\sim\rho,A\sim\beta}\left[\frac{\pi(A|S, \theta)}{\beta(A|S)}\nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-b(S) \big)\right]
+为了降低方差选择b(s） = v(s)
+
+\nabla_{\theta}J(\theta)=\mathbb{E}\left[\frac{\pi(A|S,\theta)}{\beta(A|S)} \nabla_{\theta}\ln\pi(A|S,\theta)\big(q_{\pi}(S,A)-v_{\pi}(S)\big)\right].
+为了去掉期望，采样随机梯度下降RM
+\theta_{t+1}=\theta_{t}+\alpha_{\theta}\frac{\pi(a_{t}|s_{t},\theta_{t})}{ \beta(a_{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta_{t})\big(q_{t}(s _{t},a_{t})-v_{t}(s_{t})\big)
+
+估计价值，采样随机梯度下降RM
+
+\begin{matrix} q_{t}(s_{t},a_{t})-v_{t}(s_{t})\approx r_{t+1}+\gamma v_{t}(s_{t+1})-v_{t}(s_{ t})\doteq\delta_{t}(s_{t},a_{t}). \\ \theta_{t+1}=\theta_{t}+\alpha_{\theta}\frac{\pi(a_{t}|s_{t},\theta)}{\beta(a _{t}|s_{t})}\nabla_{\theta}\ln\pi(a_{t}|s_{t},\theta)\delta_{t}(s_{t},a_{t}). \end{matrix}
+
+2.2 TRPO(理论天花板)
+
+2.2.1 问题构建（新旧策略性能比较）
+
+策略性能 \eta_{old}一定不会比\eta_{old}差，因此需要知道差异在哪里，好方便实现单调改进 新策略 \tilde{\pi}的性能\eta(\tilde{\pi})与旧策略的性能\eta(\pi),具体差距在哪里？
+
+\eta(\tilde{\pi}) =\eta(\pi)+\mathbb{E}_{{s}_{\mathsf{0}},\bm{a}_{\mathsf{0}}, {s}_{\mathsf{1}},\bm{a}_{\mathsf{1}},\cdots\sim\tilde{\pi}}\left[\sum_{t=0} ^{\infty}\gamma^{t}A_{\pi}(\bm{s}_{t},{a}_{t})\right]\newline \eta(\tilde{\pi}) =\eta(\pi)+\sum_{{s}}\rho_{\tilde{\pi}}(\bm{s})\sum_{a}\tilde {\pi}({a}|{s})A_{\pi}(\bm{s},{a})
+
+直观理解： 新策略的性能等于旧策略的性能，加上一个“修正项”。这个修正项是：在新策略访问到的每个状态上，新策略选择的动作相对于旧策略的平均优势，并按其访问频率进行加权。 如果在新策略访问的所有状态上，新策略选择的动作平均来看都比旧策略好（即\sum_{a} \widetilde{ \pi} \left( a|s \right) A_{ \pi} \left( s,a \right)>0）,那么总性能就会提升。
+
+问题在于：公式中的\bm{\rho_{\tilde{\pi}}(s)}赖于我们想要优化的新策略 \tilde{\pi}本身，这使得直接优化这个公式非常困难（成了一个循环依赖问题）。为了解决上述难题，论文引入一个局部近似,L_{\pi}(\tilde{\pi})=\eta(\pi)+\sum_{\bm{s}}\rho_{\pi}(\bm{s})\sum_{a}\tilde{ \pi}(\bm{a}|\bm{s})A_{\pi}(\bm{s},\bm{a}),它做了一個关键的替换，将新策略\bm{\rho_{\tilde{\pi}}(s)}替换为旧策略\bm{\rho_{{\pi}}(s)}
+
+原理：L_{ \pi} \left( \tilde{ \pi} \right) \text{} 是\eta \left( \tilde{ \pi} \right)的一阶近似，也就是说在\boldsymbol{\tilde{\pi}}=\boldsymbol{\pi}这一点，两者函数值相等，且梯度相同：
+
+{L_{\pi_{\theta_{old}}}(\pi_{\theta_{old}})}={\eta(\pi_{ \theta_{old}})}\newline {\nabla_{\theta}L_{\pi_{\theta_{old}}}(\pi_{\theta})|_{\theta= \theta_{old}}}={\nabla_{\theta}\eta(\pi_{\theta})|_{\theta=\theta_{old}}}
+
+这意味着，在旧策略附近一个无限小的区域内，优化L_{ \pi} \left( \tilde{ \pi} \right) \text{} 就等价于优化真实的\eta \left( \tilde{ \pi} \right)
+
+2.2.2 近似的优化问题距离真实问题有多远？
+
+虽然L_{ \pi} \left( \tilde{ \pi} \right) \text{} 是局部准确的，但我们想知道，当策略更新步长不是无限小时，真实性能\eta \left( \tilde{ \pi} \right)和替代损失L_{ \pi} \left( \tilde{ \pi} \right) \text{} 之间到底会差多少？ 保守策略迭代的启发：Kakade & Langford (2002) 针对一种特殊的策略更新方式——混合策略
+
+{\pi_{new}=(1-\alpha)\pi_{old}+\alpha\pi^{\prime}}
+
+证明了一个重要的性能下界:
+
+\eta \left( \pi_{new} \right) \leq L_{ \pi_{old}} \left( \pi_{new} \right)+ \frac{2 \epsilon \gamma}{ \left( 1- \gamma \right)^{2}} \alpha^{2}
+
+其中：
+
+\bm{\epsilon=\max_{s}|\mathbb{E}_{a\sim\pi^{\prime}}[A_{\pi}(s,a)]|}
+
+{\eta(\pi_{\mathrm{new}})}\leq L_{\pi_{\mathrm{old}}}(\pi_{\mathrm{ new}})+C\boldsymbol{\alpha^{2}}\quad\boldsymbol{}
+
+现在，我们在每一步迭代中，都尝试去最小化这个上界的右边部分。也就是说，我们求解以下优化问题：
+
+L_{\pi_{\text{old}}}(\pi_{\text{new}})+C\alpha^{2}\leq L_{\pi_{\text{old}}}( \pi_{\text{old}})+C\cdot 0^{2}
+
+因为当{\pi}={\pi}_{\mathbf{old}} , \alpha = 0时刻，L_{ \pi_{old}} \left( \pi_{old} \right)= \eta \left( \pi_{old} \right)，所以上式变为
+
+{L_{\pi_{\text{old}}}(\pi_{\text{new}})+C\alpha^{2}\leq\eta(\pi_{ \text{old}})}
+
+因此结合上面证明：
+
+\boldsymbol{\eta(\pi_{\mathrm{new}})}\leq\underbrace{\boldsymbol{L_{\pi_{ \mathrm{old}}}(\pi_{\mathrm{new}})+C\alpha^{2}}}_{\text{性能上界}}\leq \underbrace{\boldsymbol{\eta(\pi_{\mathrm{old}})}}_{\text{旧性能}}
+
+最终结论：
+
+\boldsymbol{\eta(\pi_{\mathrm{new}})}\leq\boldsymbol{\eta(\pi_{\mathrm{old}})}
+
+由于我们是在最小化一个成本函数，所以“更小”意味着“更好”。因此，这个不等式意味着新策略的性能保证不差于旧策略。 更准确地说，只要优化过程能使上界下降，真实性能就一定会单调改进。
+
+\eta \left( \pi_{new} \right)（真实性能）：是您房间的实际高度。您无法直接看到它
+
+L_{\pi_{\mathrm{old}}}(\pi_{\mathrm{ new}})+C\boldsymbol{\alpha^{2}}\quad\boldsymbol{}（性能上界）：是您房间的天花板高度。您知道实际高度绝不会超过天花板。
+
+\eta \left( \pi_{old} \right)（旧性能）：是您之前待的另一个房间的已知高度。
+
+TRPO的算法过程就是： 每一步，您都想办法降低新房间的天花板，确保这个新天花板比您旧房间的高度还要低。那么，即使您看不到新房间的实际高度，您也百分之百地确信，新房间的实际高度肯定比旧房间的高度要低（即性能更好）。
+
+为了防止策略更新差别过大，引入KL散度在上述公式中： 将上述结论推广到了任意的随机策略，而不仅仅是混合策略。它指出，只要将混合系数\alpha替换为两个策略之间的最大总变分散度
+{\alpha=D_{TV}^{\max}(\pi_{old},\pi_{new})}
+（证明见原文） 利用 Pinsker 不等式：
+\left(D_{{}_{T V}} \left(p || q\right)\right)^{{}_{2}} \leq \frac{1}{2}D _{{}_{KL}} \left(p || q\right)
+
+将更直观的TV散度转换为更便于优化的KL散度，得到最终的理论基础：
+{\eta(\tilde{\pi})}\leq{L_{\pi}(\tilde{\pi})}+ {C\cdot D_{KL}^{\max}(\pi,\tilde{\pi})}
+其中：
+C=\tfrac{2\epsilon\gamma}{(1-\gamma)^{2}},\ D_{\textit{KL}}^{\max}(\pi,\tilde{ \pi})=\max\nolimits_{s}D_{\textit{KL}}(\pi(\cdot|\bm{s})\parallel\tilde{\pi}( \cdot|\bm{s}))
+
+2.2.3 优化问题的形成
+
+求解优化问题：
+\underset{\theta}{\text{minimize}}\left[L_{\theta_{\mathit{old}}}(\theta)+C \cdot D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\right]
+通过最小化这个带有惩罚项的目标，我们可以保证真实目标\eta \left( \pi_{new} \right)
+不会变差 为什么不能直接用这个公式？ 因为理论给出的惩罚系数 C 通常非常大，这会导致优化器采取极其保守的微小步长，学习速度极慢。（数值病态） TRPO 的巧妙转换：惩罚项 → 约束项 与其使用一个大常数 CC 来惩罚KL散度，不如直接约束KL散度的大小，在这个信任区域内尽情地优化
+L_{\theta_{\mathit{old}}}(\theta)
+
+优化问题变形为：
+\underset{\theta}{\text{minimize}} L_{\theta_{\mathit{old}}}(\theta)\quad\text{subject to} D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\leq\delta
+
+\bm{D_{KL}^{\max}}:约束要求每个状态的KL散度都小于\delta ，这有无数个约束，不现实。因此，TRPO 将其松弛为对平均KL散度的约束：\overline{D}_{\textit{KL}}^{\rho_{\theta_{\textit{old}}}}(\theta_{\textit{old}}, \theta)=\mathbb{E}_{\textit{s}\sim\rho_{\theta_{\textit{old}}}}[D_{\textit{KL}}( \pi_{\theta_{\textit{old}}}(\cdot|\textit{s})\parallel\pi_{\theta}(\cdot| \textit{s}))]\leq\delta;这个约束只有一个，并且可以通过采样来估计，非常实用。
+
+2.2.4 重要性采样（提升数据利用率）
+
+目标函数展开：
+L_{{}_{\theta_{old}}}(\theta)=\eta(\theta_{{}_{old}}) + \sum_{s}\rho_{{}_{ \theta_{old}}}(s) \sum_{a}\pi_{{}_{\theta}}(a | s)\mathit{A}_{{}_{\theta_{ old}}}(s,a)
+优化问题进一步等于（无关项去除）：
+\begin{array}{l}\max\limits_{\theta}\sum\limits_{s}\rho_{{}_{\theta_{old}}}( s) \sum\limits_{a}\pi_{{}_{\theta}}(a | s)\textit{A}_{{}_{\theta_{old}}}(s,a)\\ \qquad s.t. \bm{\bar{D}}_{{}_{KL}}^{{}_{\rho_{\theta_{old}}}}(\theta_{{}_{old }},\theta) {\leq} \delta\end{array}
+利用重要性采样（数据利用率提升），评估动作分布
+L_{\theta_{old}} = \sum_{a} \pi_{a} \left( a|s \right) A_{ \theta_{old}} \left( s,a \right)= \left[ \pi_{a \sim q} \left[ \frac{ \pi_{a} \left( a|s \right)}{q \left( a|s \right)} A_{ \theta_{old}} \left( s,a \right) \right] \right.
+\frac{ \pi_{ \theta}}{ \pi_{ \theta_{old}}}重要性权重。因为我们是用旧策略\pi_{ \theta_{old}}采样的数据\boldsymbol{(s_{t},a_{t})}来评估新策略\pi_{ \theta}
+
+A_{ \pi} \left( s,a \right)=Q_{ \pi} \left( s,a \right)-V_{ \pi} \left( s \right) \approx {r_{t}+\gamma V(s_{t+1})-V(s_{t})}
+优势函数(RM随机梯度下降算法+base line减小方差)，GAE的核心思想是：将蒙特卡洛估计（高方差、低偏差）和时序差分估计（低方差、高偏差）结合起来，通过一个参数 λ来平滑地控制权衡。 优化问题进一步：
+\begin{split}&\max_{\theta}J_{{}_{\theta_{old}}}(\theta) {=} \mathbb{E}_{{}_{s\sim\rho_{{}_{\theta_{old}}},a\sim q}}\left[\frac{\pi_{{}_{ \theta}}(a | s)}{q(a | s)}A_{{}_{\theta_{old}}}(s,a)\right]\\ & s.t. \mathbb{E}_{{}_{s\sim\rho_{{}_{\theta_{old}}}}}\left[ \left.D_{{}_{KL}}\left(\pi_{{}_{\theta_{old}}}(\cdot | s) \right\|\pi_{{}_{ \theta}}(\cdot | s)\right)\right]{\leq} \delta\end{split}
+
+2.2.5 优化加速（问题一阶/二阶近似利用共轭梯度求解加速）
+
+带约束的问题直接求解困难
+
+局部近似（类似于SQP） 在{\theta_{old}}处，对目标函数做一阶泰勒展开，对约束函数（平均KL散度）做二阶泰勒展开（因为它在{\theta_{old}}处取最小值0，一阶导为0）。 利用泰勒展开：
+f \left( x \right)= \sum_{n=0}^{ \infty} \frac{f^{ \left( n \right)} \left( x_{0} \right)}{n!} \left( x-x_{0} \right)^{n}=f \left( x_{0} \right)+f^{ \prime} \left( x_{0} \right) \left( x-x_{0} \right)+ \frac{1}{2}f^{ \prime \prime} \left( x_{0} \right) \left( x-x_{0} \right)^{2}+ \frac{f^{ \left( 3 \right)} \left( \varepsilon \right)}{3!} \left( x-x_{0} \right)^{3}
+近似后的问题变为（函数）：
+\begin{matrix} L_{ \theta_{old}}( \theta) \approx \nabla_{ \theta}L_{ \theta_{old}}( \theta) \left|_{ \theta= \theta_{old}} \cdot( \theta- \theta_{old}) \right. \\ \mathbb{E}_{{}_{s\sim\rho_{\theta_{old}}}}\left[D_{{}_{KL}}\left(\pi_{{}_{ \theta_{old}}}(\cdot | s) \| \pi_{{}_{\theta}}(\cdot | s)\right)\right] \approx \frac{1}{2}(\theta- \theta_{{}_{old}})^{{}^{T}} \cdot I(\theta_{ {}_{old}}) \cdot (\theta - \theta_{{}_{old}}) \end{matrix}
+其中：
+I_{ij} \left( \theta_{old} \right)= \left. \frac{ \partial^{2}E_{s \sim \rho_{ \theta_{old}}} \left[ D_{KL} \left( \pi_{ \theta_{old}} \left( \cdot|s \right)| \pi_{ \theta} \left( \cdot|s \right) \right) \right]}{ \partial \theta_{i} \partial \theta_{j}} \right|_{ \theta= \theta_{old}}
+那么近似之后的优化问题变成：
+\left.\begin{aligned} &\max_{\theta}\ \left.\nabla_{\theta}L_{{}_{ \theta_{ old}}}(\theta)\right|_{\theta = \theta_{ old}} \cdot (\theta - \theta_{ old})\\ & s.t.\ \frac{1}{2}(\theta - \theta_{ old})^{{}_{T}} \cdot I( \theta_{ old}) \cdot (\theta - \theta_{ old}) \leq \delta\end{aligned}\right.
+
+更新方向—-二次规划问题的解析解(利用共梯度法，避免显式求逆，加速计算)
+
+共轭梯度
+
+\theta - \theta_{ old} = \frac{1}{ \lambda} I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+\frac{1}{ \lambda}是步长，\left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}是梯度 \frac{1}{ \lambda} I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}自然梯度方向，它考虑了策略空间的曲率，比普通梯度方向更好。直接求逆计算量巨大，TRPO使用共轭梯度法来(近似)高效求解方程\nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta= \theta_{old}} = I^{} \left( \theta_{old} \right) \cdot x，得到 x \approx I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+而无需显式存储或求逆 \hat{g} = I^{-1} \left( \theta_{old} \right) \cdot \nabla_{ \theta}L_{ \theta_{old}} \left( \theta \right) |_{ \theta = \theta_{old}}
+
+更新步长（先求最大，然后回溯搜索，带约束） 解析解给出的步长可能仍然违反KL约束，因此，TRPO进行回溯线搜索：
+
+精确线搜索：(最大步长，但可能不满足约束)
+\frac{\delta L(\theta,\lambda)}{\delta\lambda} = 0\Rightarrow\delta- c = \frac{1}{2}(\beta\hat{g})^{{}_{T}} \cdot I(\theta_{{}_{old}}) \cdot ( \beta\hat{g}) = \frac{1}{2} \beta^{{}_{2}}\hat{g}^{{}_{T}}I(\theta_{{}_{old }})\hat{g}\ \text{则}\beta = \sqrt{ \frac{2(\delta - c)}{|\hat{g}^{{}^{T}}I( \theta_{{}_{old}})\hat{g}|}}
+回溯线搜索：（带约束） 回溯二分检查约束：
+\overline{D}_{\textit{KL}}\left(\theta_{\textit{old}},\theta_{\textit{}} \right)\leq\delta.
+2.3 PPO(TRPO工程近似版)
+
+信任域策略优化 (TRPO):
+
+理论坚实: 基于保守策略迭代 理论，提供了单调性能改进的保证。其核心是约束新旧策略之间的KL散度，确保新策略不会偏离旧策略太远。
+实现复杂: 为了实现KL约束，TRPO需要计算Fisher信息矩阵（FIM）的近似，并使用共轭梯度法 来求解带约束的优化问题。这带来了两大问题：
+计算开销大： 计算FIM和运行共轭梯度法比标准的随机梯度下降要复杂和耗时。TRPO的计算虽然稳定，但二阶优化过程非常耗时，工业界经常无法承受这么高的开销
+不兼容性： 难以应用于有Dropout、参数共享（如策略网络和价值网络共享底层特征提取器）或辅助任务的架构，因为这些技术会破坏对优化问题的线性/二次近似所需的假设。 优化问题经过近似之后的问题，求解优化问题：
+\underset{\theta}{\text{minimize}}\left[L_{\theta_{\mathit{old}}}(\theta)+C \cdot D_{\mathit{KL}}^{\max}(\theta_{\mathit{old}},\theta)\right]
+为了解决约束耗时的问题：
+L^{CLIP}(\theta)=\hat{\mathbb{E}_{t}}\left[\min\left(\underbrace{r_{t}(\theta )\hat{A}_{t}}_{\text{未裁剪项}},\underbrace{\operatorname{clip}(r_{t}( \theta),1-\epsilon,1+\epsilon)\hat{A}_{t}}_{\text{裁剪项}}\right)\right]
+方案(裁剪方案）：PPO同样想使两个策略间差异不要过大， PPO放弃了精确的KL约束，转而采用一种启发式但极其有效的“软约束”——概率比裁剪
+clip
+PPO：只用一阶梯度 + 裁剪，没有 Fisher、没有 CG、没有线搜索，一轮就一次反向，快很多。
+TRPO：每轮 = 多次二阶乘积 + 多次 CG 迭代 + 多次线搜索，速度通常是 PPO 的 1/5～1/20。
+2.4 GRPO
+
+GRPO通过优化PPO算法，解决了计算优势值时需要同时依赖奖励模型（reward model）和价值模型（value model）的问题，成功移除了value model（价值模型），显著降低了推理时的内存占用和时间开销。Advantage（优势值）的核心价值在于为模型输出提供更精准的评估，不仅衡量答案的绝对质量，还通过相对比较（与其他回答的对比）来更全面地定位其优劣。 当时价值模型的提出，主要是策略梯度估计方差过高这一核心瓶颈。后面也证明了，最优的偏置就是价值函数，价值函数RM近似就是TD差分
+
+GRPO
+
+计算损失 这一步的目标是最大化优势，同时确保模型保持在参考策略附近。因此，损失定义如下：
+
+\begin{array}{l}\mathcal{L}_{\text{GRPO}}\hskip-1.0pt\left(\theta\right)=- \frac{1}{G}\sum_{i=1}^{G}\frac{1}{\left|o_{i}\right|}\sum_{t=1}^{\left|o_{i} \right|}\left[\frac{\pi_{\theta}\left(o_{i,t}|q,o_{i,<t}\right)}{\left[\pi_{ \theta}\left(o_{i,t}|q,o_{i,<t}\right)\right]_{\text{no grad}}}\hat{A}_{i,t} \hskip 1.0pt-\beta\mathbb{D}_{\text{KL}}\left[\pi_{\theta}\|\pi_{\text{ref}} \right]\right]\end{array}
+
+其中第一项表示缩放后的优势，第二项通过KL散度惩罚与参考策略的偏离 在原始论文中，该公式被推广为在每次生成后通过利用裁剪替代目标（clipped surrogate objective）进行多次更新：
+
+\begin{array}{l}\mathcal{L}_{\mathrm{GRPO}}\big(\theta\big)=-\frac{1}{G} \sum_{l=1}^{G
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pica.zhimg.com/v2-6532db27969756feb5a5380a1d68dfb0_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-4b2eae6eed5254df81e5edb9230070f8_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-1f5de55645826dff97afd5336c7cb24e_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-64b351ca02cb0fb295b16b1c05c04394_1440w.jpg)
+
+![图片](https://pica.zhimg.com/v2-124f8c76510c81e86863df1a6664334e_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-2ec5728cebfc736d1626476e4f6ea4df_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-c690d64d7e4918261821f89d5b38aa2e_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-ea25777123bc7ac6cff2ae80d1be54e2_1440w.jpg)
+
+![图片](https://pic1.zhimg.com/v2-192b0d3bcac4ccf88f228105ae52b1a6_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-71194be145afeb83581b0827168f04d3_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-a65badb53119ac04346911d809ea9179_1440w.jpg)
+
+![图片](https://pic3.zhimg.com/v2-db4775f06463ea4f1d3db5bfb4550030_1440w.jpg)
+
+![图片](https://pic4.zhimg.com/v2-fc20705a7fb7b81fb83182e6131ebe99.webp)
+
+![图片](https://picx.zhimg.com/v2-9cf8b2995ccbffc25559bf968911906f_250x0.jpg?source=172ae18b)
+
+![图片](https://pica.zhimg.com/v2-6a669b2e6fceaa108618a228efc032e5_250x0.jpg?source=172ae18b)1c:Tbc9,## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
+Transformer统治了深度学习五年，但其O(n²)的attention复杂度始终是长序列的瓶颈。State Space Model（SSM）家族提供了一条线性复杂度的替代路线。
+**Mamba（2023.12）— SSM的质变**： - 核心思想：用State Space Model替代Attention - SSM建模：h_t = A·h_{t-1} + B·x_t（状态方程）；y_t = C·h_t（输出方程） - 关键创新Selective Scan：A、B、C参数随输入x_t变化（输入依赖），解决了固定SSM无法做content-based reasoning的问题 - 复杂度O(n·d)（线性！），且可以用parallel scan高效计算 - Mamba-2（2024.05）：将Selective SSM重新表述为structured matrix multiplication，与FlashAttention共享底层优化
+**Mamba与Attention的关系**： - Attention: y = softmax(QK^T/√d)·V，显式建模token间交互 - SSM: h_t = A_t·h_{t-1} + B_t·x_t，隐式通过state传递信息 - Mamba-2统一视角：SSM可以看作Attention的special case（Q=1, K和V由state dynamics定义） - 互补性：Attention擅长精确检索（lookup），SSM擅长序列建模（上下文压缩）
+**Titans（Google, 2025）— 记忆力的系统化**： - 提出三种记忆模块：Persistent Memory（长期固定知识）、Contextual Memory（当前上下文）、Neural Memory（可学习的记忆机制） - 核心创新：将记忆作为一等公民纳入架构设计，而非attention的副作用 - 神经记忆模块使用surprise-based写入机制：模型对其预测误差大的token做更强的记忆编码
+**应用建议**： - 超长序列（>100K）：优先考虑Mamba-2或Hybrid（Mamba前几层+Attention后几层） - 标准长度（<32K）：Transformer（FlashAttention足够高效） - 机器人/实时系统：Mamba的低延迟、线性复杂度有优势
+
+
+## 关键要点
+- SSM的核心三参数：A（状态转移）、B（输入投影）、C（输出投影）
+- Selective Scan：让A、B、C成为输入的线性函数，用parallel scan O(n log n)实现
+- Mamba-2的SSD算法：structured matrix duality，将SSM转化为半可分矩阵乘法
+- Hybrid Mamba-Attention：Jamba/Mamba2-Hybrid等将Mamba和Attention层交替使用
+- Titans的记忆架构：Persistent + Contextual + Neural记忆的三层金字塔
+- Surprise-based memory写入：高预测误差→重要性高→强记忆编码
+- Attention vs SSM的核心trade-off：O(n²)精确检索 vs O(n)线性建模
+- 具身智能中SSM可能特别有用：实时控制需要低延迟+长序列历史
+
+## 自测问题
+- Mamba的Selective Scan如何实现content-based reasoning？与标准SSM的关键区别？
+- Mamba-2如何将SSM与Attention统一？SSD算法的核心insight？
+- 在具身智能场景中，Mamba/SSM相比Transformer有什么优势？
+- Titans的surprise-based记忆机制与Attention的KV Cache有什么本质不同？
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
+- [[qa-week03-moe-routing]]1d:T345e,> 作者: 苏剑林 | 来源: https://zhuanlan.zhihu.com/p/32372010801
+
+---
+
+最佳排版请看原博客：
+
+这篇文章我们继续探讨MoE的负载均衡问题。在上一篇文章《MoE环游记：2、不患寡而患不均》中，我们主要讨论了通过Aux Loss来促进负载均衡的思路。Aux Loss固然简单直观，但它也有一个明显的缺点——权重不好调——调低了无法促进均衡，调高了容易损害LM Loss，所以业界一直有寻找替代方案的尝试。
+
+本文要分享的是名为“Loss-Free”的方案，由DeepSeek在《Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts》提出。和DeepSeek众多耀眼的开源作品相比，这篇论文也许不算起眼，但在笔者看来，它潜在的学术影响力可能远超其他工作，因为所提方法不仅简单有效，而且极具普适性，堪称经典。
+
+方法大意
+
+面对负载不均衡，Aux Loss的应对思路是通过额外的损失引导Router给出均衡的打分，而Loss-Free的想法则是换个新的分配思路，即不改变Router现有打分结果，而是改变\mathop{\text{argtop}}_k \boldsymbol{\rho}这个分配方式。
+
+其实这个方向此前也有过一些努力。比如2021年Facebook提出了BASE Layer，将Expert的分配视为线性指派问题，即以负载均衡为约束条件，求在该约束之下Router总打分尽可能高的分配结果，这可以用匈牙利算法等来解决。但该方案需要知道全体Token的打分，所以对于自回归式LLM来说，它只适用于训练，推理还是只能用\mathop{\text{argtop}}_k \boldsymbol{\rho}，训练推理存在不一致性，并且由于目前求解算法的限制，它只适用于k=1的场景。
+
+相比之下，Loss-Free的做法非常简单且有效，它留意到一个事实，即我们总可以引入一个偏置项\boldsymbol{b}，使得\mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}的分配是均衡的，所以它将MoE的形式改为
+
+\boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho}} \rho_i \boldsymbol{e}_i\qquad\to\qquad \boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}} \rho_i \boldsymbol{e}_i \\
+
+这里的\boldsymbol{b}是输入无关的向量，由训练过程确定下来，训练完后它就保持不变，因此推理阶段也可以用，换言之训练和推理具有一致的形式。注意乘以\boldsymbol{e}_i的还是\rho_i而不是\rho_i + b_i，也就是说\boldsymbol{b}仅仅参与分配过程而不参与MoE的前向计算，所以我们对\boldsymbol{b}或\boldsymbol{\rho} + \boldsymbol{b}的正负性都没有特殊要求。
+
+手搓梯度
+
+怎么训练\boldsymbol{b}呢？我们知道，\boldsymbol{b}的优化方向自然是促进负载均衡，为此按照上一篇的记号，我们先定义\boldsymbol{f}=[f_1,f_2,\cdots,f_n]：
+
+f_i = \left\{\begin{aligned}1/k, \quad i\in \mathop{\text{argtop}}\nolimits_k \boldsymbol{\rho}+\boldsymbol{b} \\ 0, \quad i\not\in \mathop{\text{argtop}}\nolimits_k \boldsymbol{\rho}+\boldsymbol{b}\end{aligned}\right.\\
+
+以及\boldsymbol{F}=\mathbb{E}[\boldsymbol{f}]，这里的\boldsymbol{F}自然就是在\boldsymbol{b}偏置下Expert当前的负载分布了。借着我们定义均匀分布为\boldsymbol{Q}=(1/n,1/n,\cdots,1/n)，那么负载均衡就相当于最小化
+
+\mathcal{L}_{\text{aux}} = \frac{1}{2}\Vert\boldsymbol{F} - \boldsymbol{Q}\Vert^2 = \frac{1}{2}\sum_{i=1}^n (F_i - 1/n)^2 \\
+
+这个目标是不可导的，但有了上一篇的经验，我们知道STE（Straight-Through Estimator）可以解决这个问题。STE的关键是找一个可导且跟\boldsymbol{F}具有同增减趋势的量作为\boldsymbol{F}的光滑近似，这里我们的优化参数只有\boldsymbol{b}，而它正好具有我们期望的性质（增大b_i，i被选中的概率就更高，那么F_i就更大），所以答案就呼之欲出了：
+
+\mathcal{L}_{\text{aux}} = \frac{1}{2}\Vert\boldsymbol{b} + \text{sg}[\boldsymbol{F}-\boldsymbol{b}] - \boldsymbol{Q}\Vert^2 = \frac{1}{2}\sum_{i=1}^n (b_i + \text{sg}[F_i - b_i] - 1/n)^2 \\
+
+它的梯度是
+
+\nabla_{\boldsymbol{b}}\mathcal{L}_{\text{aux}} = \frac{1}{2}\nabla_{\boldsymbol{b}}\Vert\boldsymbol{b} + \text{sg}[\boldsymbol{F}-\boldsymbol{b}] - \boldsymbol{Q}\Vert^2 = \boldsymbol{F} - \boldsymbol{Q} \\
+
+所以用梯度下降（SGD）来更新\boldsymbol{b}就是
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha (\boldsymbol{F} - \boldsymbol{Q}) \\
+
+这里\alpha是\boldsymbol{b}的学习率。不过Loss-Free最终选择的更新规则略有不同，它选择的是符号梯度下降（SignSGD）：
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha \mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})\label{eq:aux-loss-free} \\
+
+这个结果其实也很好理解，就是如果F_i比1/n大，那么就调小一点b_i，否则就增大一点b_i。
+
+改良版本
+
+除了加\mathop{\text{sign}}外，笔者发现直接对\boldsymbol{F} - \boldsymbol{Q}做RMS Norm，在相同的\alpha下往往能达到更好的均衡效果：
+
+\boldsymbol{b}\leftarrow \boldsymbol{b} - \alpha\frac{\boldsymbol{F} - \boldsymbol{Q}}{\text{RMS}(\boldsymbol{F} - \boldsymbol{Q})} \\
+
+这里的\text{RMS}是“Root Mean Square”，定义为
+
+\text{RMS}(\boldsymbol{F} - \boldsymbol{Q}) = \sqrt{\frac{1}{n}\sum_{i=1}^n (F_i - Q_i)^2} \\
+
+注意\mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})和\frac{\boldsymbol{F} - \boldsymbol{Q}}{\text{RMS}(\boldsymbol{F} - \boldsymbol{Q})}的\text{RMS}都是1，因此它们俩尺度上是大致相同的，所以允许使用相同的\alpha。
+
+简单来说，\mathop{\text{sign}}的问题在于不论F_i与目标Q_i的远近都使用同样的更新幅度，这导致原本就已经跟Q_i比较接近的F_i反而容易偏离原本已经达到的均衡，从而产生震荡；而RMS Norm则保留了F_i-Q_i之间的相对大小，更新幅度更加自适应一些，理论上更有助于促进均衡，实测效果也多是它更好。
+
+一脉相承
+
+原论文在介绍Loss-Free时，并没有上述Aux Loss的推导过程，而是直接给出式\eqref{eq:aux-loss-free}的更新规则，给人的感觉是给\boldsymbol{b}“手搓”了梯度\mathop{\text{sign}}(\boldsymbol{F} - \boldsymbol{Q})，这也是它Loss-Free这个名字的来源。
+
+然而，从本文给出的推导可以看出，更新规则\eqref{eq:aux-loss-free}也完全可以从Aux Loss视角得到，两者是一脉相承的。看起来Loss-Free最直接的好处是不用调Aux Loss权重了，但它实际上也有个学习率参数\alpha要调，尽管原论文已经帮我们搜好\alpha=0.001这个默认值，但不可否认这个超参数是存在的。
+
+在笔者看来，Loss-Free的本质创新并不是没有Aux Loss，而是隔离了Aux Loss和LM Loss的优化参数，从而达到了负载均衡和模型能力两不误的效果。其中最关键一步，是留意到“一个偏置项足以达到负载均衡”这一事实，然后就让Aux Loss只优化新引入的偏置\boldsymbol{b}，而LM Loss则优化剩余参数，让Aux Loss对LM Loss的负面作用降到最低。
+
+相比之下，常规的Aux Loss方案需要全体参数来促进负载均衡，而LM Loss优化的也是全体参数，两者的优化方向可能并不完全兼容，因此想找到一个最优的平衡点相对来说就更为困难。所以，Loss-Free基于“一个偏置项足以达到负载均衡”将两个Loss的优化参数隔离开来，是负载均衡问题的一个绝妙的解决办法。
+
+相关细节
+
+尽管Loss-Free已经足够简单明了，但是在使用的时候还要稍微注意一些细节。
+
+首先，对于每个Batch的数据，我们应当先根据LM Loss来更新模型参数，然后再根据式\eqref{eq:aux-loss-free}来更新\boldsymbol{b}。这是因为\boldsymbol{b}的更新依赖于全体Token的统计信息\boldsymbol{F}，先更新\boldsymbol{b}再更新模型其余参数的话，原则上会有泄漏未来信息的风险。虽然直观看来就一个向量\boldsymbol{b}泄漏不了多少信息，但这个风险终归是存在的，因此要尽量去规避它。
+
+其次，刚才我们说原论文已经调好\alpha=0.001，但这个结果可能跟原论文用Sigmoid作为Router \boldsymbol{\rho}激活函数的选择是绑定的。原因也不难想，经过Sigmoid后，每个\rho_i相对比较独立，并且都在(0,1)内，\alpha=0.001相当于说每一步的更新幅度约为千分之一，如果换Softmax、ReLU或者其他激活函数，那么就可能需要重调\alpha了。
+
+针对这个问题，笔者建议的做法是结构Gate和Bias所用的激活函数，即
+
+\boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}} \rho_i \boldsymbol{e}_i\qquad\to\qquad \boldsymbol{y} = \sum_{i\in \mathop{\text{argtop}}_k \boldsymbol{\rho}^{(\sigma)} + \boldsymbol{b}} \rho_i^{(h)} \boldsymbol{e}_i \\
+
+其中\boldsymbol{\rho}^{(\sigma)} = \sigma(\boldsymbol{x}\boldsymbol{W}^{(R)}), \boldsymbol{\rho}^{(h)} = h(\boldsymbol{x}\boldsymbol{W}^{(R)})，\sigma(\cdot)是Sigmoid函数，h(\cdot)是任意单调且值域非负的函数，说白了就是加上\boldsymbol{b}的是Sigmoid激活的打分，这样我们就可以复用\alpha=0.001，至于乘上Expert的Gate，我们可以用其他激活函数，只要它的单调性跟Sigmoid一致就行。
+
+此外，由于更新规则\eqref{eq:aux-loss-free}加了\text{sign}函数，因此有可能训出绝对值大于1的b_i，整体绝对值还可能越来越大，这些都是正常的，对模型效果不会有影响。实际上\boldsymbol{b}有一个冗余的自由度，因为全体b_i都加上同一个常数后，\mathop{\text{argtop}}_k \boldsymbol{\rho} + \boldsymbol{b}的结果不变。这个额外的自由度我们可以用来做其他好玩的事情（且听下回分解）。
+
+延伸思考
+
+除了MoE的负载均衡之外，Loss-Free的思想还可以应用到很多类似问题，比如VQ-VQE的编码表坍缩（Codebook Collapse），就可以用同样思路解决，而且相比之前介绍的“旋转技巧”、“线性变换技巧”显得更自然和普适。事实上，本文开篇的评价“Loss-Free潜在的学术影响力可能远超其他工作”，正是基于Loss-Free的普适性考虑的。
+
+抛开具体的应用背景，从数学上来看，Loss-Free的贡献可以理解为给出了用梯度下降来求解指派问题的方法。一个经典的线性指派问题可以表示为：
+
+\min_f \sum_{i=1}^n c_{i, f(i)} \\
+
+其中c_{i,j}是给定的成本函数，f是\{1,2,\cdots,n\}到自身的双射。放到本文的背景下，c_{i,j}不就相当于n个Token、n个Expert的打分，所求f不就是一个负载均衡的分配方案？求解此类问题的一般想法是在满足约束条件的空间里搜索尽可能优的解，而Loss-Free则反过来，先构建一个最优但不一定满足约束条件的解：
+
+f(i) = \mathop{\text{argmin}}_j c_{i,j} \\
+
+这个解在分数上肯定是最优的，但不一定满足双射的条件，这里不满足双射就等价于负载不均衡。于是我们引入偏置
+
+f(i) = \mathop{\text{argmin}}_j c_{i,j} + b_j \\
+
+b_j初始化为零，然后根据式\eqref{eq:aux-loss-free}来更新，更新规则说白了就是哪个j出现出现次数多，那减少相应的b_j，反之增加，直到出现双射为止。
+
+文章小结
+
+本文介绍了MoE负载均衡问题的Loss-Free方法，它由DeepSeek提出，其核心在于通过引入一个简单的偏置项来实现负载均衡。本文进一步思考了它与Aux Loss的联系，以及它在类似数学问题上的应用潜力。
+
+
+## 图片
+
+![图片](https://picx.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic4.zhimg.com/v2-d14507f4ddf8d03a3d51006f53ec0c87.webp)
+
+![图片](https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/2db3518da5ab1ea3a846fa0c44719470_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=06d4cd63)
+
+![图片](https://pic4.zhimg.com/v2-bffb2bf11422c5ef7d8949788114c2ab.png)
+
+![图片](https://picx.zhimg.com/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=06d4cd63)
+
+![图片](https://pic4.zhimg.com/v2-3bb879be3497db9051c1953cdf98def6.png)
+
+![图片](https://pica.zhimg.com/e8fe28ca33371a84459acd603d059085_l.jpg?source=06d4cd63)
+
+![图片](https://pica.zhimg.com/v2-309b651fd65d15a6b74590c6c82e00cf_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-5fc67a2efe2e8f52b40fac8a80da1442_l.jpg?source=06d4cd63)1e:T5ce0,> 作者: 苏剑林 | 来源: https://zhuanlan.zhihu.com/p/13401683661
+
+---
+
+最佳排版请看原博客：
+
+随着LLM时代的到来，学术界对于优化器的研究热情似乎有所减退。这主要是因为目前主流的AdamW已经能够满足大多数需求，而如果对优化器“大动干戈”，那么需要巨大的验证成本。因此，当前优化器的变化，多数都只是工业界根据自己的训练经验来对AdamW打的一些小补丁。
+
+不过，最近推特上一个名为“Muon”的优化器颇为热闹，它声称比AdamW更为高效，且并不只是在Adam基础上的“小打小闹”，而是体现了关于向量与矩阵差异的一些值得深思的原理。本文让我们一起赏析一番。
+
+
+
+
+
+
+
+算法初探
+
+Muon全称是“MomentUm Orthogonalized by Newton-schulz”，它适用于矩阵参数\boldsymbol{W}\in\mathbb{R}^{n\times m}，其更新规则是
+
+\begin{aligned} \boldsymbol{M}_t =&\, \beta\boldsymbol{M}_{t-1} + \boldsymbol{G}_t \\[5pt] \boldsymbol{W}_t =&\, \boldsymbol{W}_{t-1} - \eta_t [\text{msign}(\boldsymbol{M}_t) + \lambda \boldsymbol{W}_{t-1}] \\ \end{aligned}\\
+
+这里\text{msign}是矩阵符号函数，它并不是简单地对矩阵每个分量取\text{sign}操作，而是\text{sign}函数的矩阵化推广，它跟SVD的关系是：
+
+\boldsymbol{U},\boldsymbol{\Sigma},\boldsymbol{V}^{\top} = SVD(\boldsymbol{M}) \quad\Rightarrow\quad \text{msign}(\boldsymbol{M}) = \boldsymbol{U}_{[:,:r]}\boldsymbol{V}_{[:,:r]}^{\top} \\
+
+其中\boldsymbol{U}\in\mathbb{R}^{n\times n},\boldsymbol{\Sigma}\in\mathbb{R}^{n\times r},\boldsymbol{V}\in\mathbb{R}^{m\times m}，r是\boldsymbol{M}的秩。更多的理论细节我们稍后再展开，这里我们先来尝试直观感知如下事实：
+
+Muon是一个类似于Adam的自适应学习率优化器。
+
+
+
+
+像Adagrad、RMSprop、Adam等自适应学习率优化器的特点是通过除以梯度平方的滑动平均的平方根来调整每个参数的更新量，这达到了两个效果：1、损失函数的常数缩放不影响优化轨迹；2、每个参数分量的更新幅度尽可能一致。Muon正好满足这两个特性：
+
+1、损失函数乘以\lambda，\boldsymbol{M}也会乘以\lambda，结果是\boldsymbol{\Sigma}被乘以\lambda，但Muon最后的更新量是将\boldsymbol{\Sigma}变为单位阵，所以不影响优化结果；
+2、当\boldsymbol{M}被SVD为\boldsymbol{U}\boldsymbol{\Sigma}\boldsymbol{V}^{\top}时，\boldsymbol{\Sigma}的不同奇异值体现了\boldsymbol{M}的“各向异性”，而将它们都置一则更加各向同性，也起到同步更新幅度的作用。
+
+
+
+
+（注：Muon还有个Nesterov版，它只是将更新规则中的\text{msign}(\boldsymbol{M}_t)换成\text{msign}(\beta\boldsymbol{M}_t + \boldsymbol{G}_t)，其余部份完全一致，简单起见就不在正文中展开介绍了。）
+
+符号函数
+
+利用SVD，我们还可以证明恒等式
+
+\text{msign}(\boldsymbol{M}) = (\boldsymbol{M}\boldsymbol{M}^{\top})^{-1/2}\boldsymbol{M}= \boldsymbol{M}(\boldsymbol{M}^{\top}\boldsymbol{M})^{-1/2}\label{eq:msign-id} \\
+
+其中{}^{-1/2}是矩阵的1/2次幂的逆矩阵，如果不可逆的话则取伪逆。这个恒等式能让我们更好理解为什么\text{msign}是\text{sign}的矩阵推广：对于标量x我们有\text{sign}(x)=x(x^2)^{-1/2}，正是上式的一个特殊情形（当\boldsymbol{M}是1\times 1矩阵时）。这个特殊例子还可以推广到对角阵\boldsymbol{M}=\text{diag}(\boldsymbol{m})：
+
+\text{msign}(\boldsymbol{M}) = \text{diag}(\boldsymbol{m})[\text{diag}(\boldsymbol{m})^2]^{-1/2} = \text{diag}(\text{sign}(\boldsymbol{m}))=\text{sign}(\boldsymbol{M}) \\
+
+其中\text{sign}(\boldsymbol{m})、\text{sign}(\boldsymbol{M})是指向量/矩阵的每个分量都取\text{sign}。上式意味着，当\boldsymbol{M}是对角阵时，Muon就退化为带动量的SignSGD（Signum）或笔者所提的Tiger，它们都是Adam的经典近似。反过来说，Muon与Signum、Tiger的区别就是Element-wise的\text{sign}(\boldsymbol{M})替换成了矩阵版\text{msign}(\boldsymbol{M})。
+
+对于n维向量来说，我们还可以视为n\times 1的矩阵，此时\text{msign}(\boldsymbol{m}) = \boldsymbol{m}/\Vert\boldsymbol{m}\Vert_2正好是l_2归一化。所以，在Muon框架下对向量我们有两种视角：一是对角矩阵，如LayerNorm的gamma参数，结果是对动量取\text{sign}；二是n\times 1的矩阵，结果是对动量做l_2归一化。此外，输入和输出的Embedding虽然也是矩阵，但它们使用上是稀疏的，所以更合理的方式也是将它们当成多个向量独立处理。
+
+当m=n=r时，\text{msign}(\boldsymbol{M})还有一个意义是“最优正交近似”：
+
+\text{msign}(\boldsymbol{M}) = \mathop{\text{argmin}}_{\boldsymbol{O}^{\top}\boldsymbol{O} = \boldsymbol{I}}\Vert \boldsymbol{M} - \boldsymbol{O}\Vert_F^2 \label{eq:nearest-orth} \\
+
+类似地，对于\text{sign}(\boldsymbol{M})我们可以写出（假设\boldsymbol{M}没有零元素）：
+
+\text{sign}(\boldsymbol{M}) = \mathop{\text{argmin}}_{\boldsymbol{O}\in\{-1,1\}^{n\times m}}\Vert \boldsymbol{M} - \boldsymbol{O}\Vert_F^2 \\
+
+不论是\boldsymbol{O}^{\top}\boldsymbol{O} = \boldsymbol{I}还是\boldsymbol{O}\in\{-1,1\}^{n\times m}，我们都可以视为对更新量的一种规整化约束，所以Muon和Signum、Tiger可以视作是同一思路下的优化器，它们都以动量\boldsymbol{M}为出发点来构建更新量，只是为更新量选择了不同的规整化方法。
+
+式\eqref{eq:nearest-orth}的证明：对于正交矩阵\boldsymbol{O}，我们有
+\begin{aligned} \Vert \boldsymbol{M} - \boldsymbol{O}\Vert_F^2 =&\, \Vert \boldsymbol{M}\Vert_F^2 + \Vert \boldsymbol{O}\Vert_F^2 - 2\langle\boldsymbol{M},\boldsymbol{O}\rangle_F \\[5pt] =&\, \Vert \boldsymbol{M}\Vert_F^2 + n - 2\text{Tr}(\boldsymbol{M}\boldsymbol{O}^{\top})\\[5pt] =&\, \Vert \boldsymbol{M}\Vert_F^2 + n - 2\text{Tr}(\boldsymbol{U}\boldsymbol{\Sigma}\boldsymbol{V}^{\top}\boldsymbol{O}^{\top})\\[5pt] =&\, \Vert \boldsymbol{M}\Vert_F^2 + n - 2\text{Tr}(\boldsymbol{\Sigma}\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U})\\ =&\, \Vert \boldsymbol{M}\Vert_F^2 + n - 2\sum_{i=1}^n \boldsymbol{\Sigma}_{i,i}(\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U})_{i,i} \end{aligned}\\ 其中涉及到的运算规则我们在伪逆中已经介绍过。由于\boldsymbol{U},\boldsymbol{V},\boldsymbol{O}都是正交矩阵，所以\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U}也是正交矩阵，正交矩阵的每个分量必然不超过1，又因为\boldsymbol{\Sigma}_{i,i} > 0，所以上式取最小值对应于每个(\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U})_{i,i}取最大值，即(\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U})_{i,i}=1，这意味着\boldsymbol{V}^{\top}\boldsymbol{O}^{\top}\boldsymbol{U}=\boldsymbol{I}，即\boldsymbol{O}=\boldsymbol{U}\boldsymbol{V}^{\top}。
+该结论还可以仔细地推广到m,n,r不相等的情形，但这里不作进一步展开。
+
+
+
+
+迭代求解
+
+实践中，如果每一步都对\boldsymbol{M}做SVD来求解\text{msign}(\boldsymbol{M})的话，那么计算成本还是比较大的，因此作者提出了用Newton-schulz迭代来近似计算\text{msign}(\boldsymbol{M})。
+
+迭代的出发点是恒等式\eqref{eq:msign-id}，不失一般性，我们假设n\geq m，然后考虑在\boldsymbol{M}^{\top}\boldsymbol{M}=\boldsymbol{I}处泰勒展开(\boldsymbol{M}^{\top}\boldsymbol{M})^{-1/2}，展开的方式是直接将标量函数t^{-1/2}的结果用到矩阵中：
+
+t^{-1/2} = 1 - \frac{1}{2}(t-1) + \frac{3}{8}(t-1)^2 - \frac{5}{16}(t-1)^3 + \cdots \\
+
+保留到二阶，结果是(15 - 10t + 3t^2)/8，那么我们有
+
+\text{msign}(\boldsymbol{M}) = \boldsymbol{M}(\boldsymbol{M}^{\top}\boldsymbol{M})^{-1/2}\approx \frac{15}{8}\boldsymbol{M} - \frac{5}{4}\boldsymbol{M}(\boldsymbol{M}^{\top}\boldsymbol{M}) + \frac{3}{8}\boldsymbol{M}(\boldsymbol{M}^{\top}\boldsymbol{M})^2 \\
+
+假如\boldsymbol{X}_t是\text{msign}(\boldsymbol{M})的某个近似，我们认为将它代入上式后，会得到\text{msign}(\boldsymbol{M})的一个更好的近似，于是我们得到一个可用的迭代格式
+
+\boldsymbol{X}_{t+1} = \frac{15}{8}\boldsymbol{X}_t - \frac{5}{4}\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t) + \frac{3}{8}\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t)^2 \\
+
+然而，查看Muon的官方代码我们就会发现，它里边的Newton-schulz迭代确实是这个形式，但三个系数却是(3.4445, -4.7750, 2.0315)，而且作者没有给出数学推导，只有一段语焉不详的注释：
+
+
+
+
+收敛加速
+
+为了猜测官方迭代算法的来源，我们考虑一般的迭代过程
+
+\boldsymbol{X}_{t+1} = a\boldsymbol{X}_t + b\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t) + c\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t)^2\label{eq:iteration} \\
+
+其中a,b,c是三个待求解的系数，如果想要更高阶的迭代算法，我们也可以逐次补充\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t)^3、\boldsymbol{X}_t(\boldsymbol{X}_t^{\top}\boldsymbol{X}_t)^4等项，下面的分析过程是通用的。
+
+我们选择的初始值是\boldsymbol{X}_0=\boldsymbol{M}/\Vert\boldsymbol{M}\Vert_F，\Vert\Vert_F是矩阵的范数，选择的依据是除以\Vert\boldsymbol{M}\Vert_F不改变SVD的\boldsymbol{U},\boldsymbol{V}，但可以让\boldsymbol{X}_0的所有奇异值都在[0,1]之间，让迭代的初始奇异值更标准一些。现在假设\boldsymbol{X}_t可以SVD为\boldsymbol{U}\boldsymbol{\Sigma}_t\boldsymbol{V}^{\top}，那么代入上式我们可以得到
+
+\boldsymbol{X}_{t+1} = \boldsymbol{U}_{[:,:r]}(a \boldsymbol{\Sigma}_{t,[:r,:r]} + b \boldsymbol{\Sigma}_{t,[:r,:r]}^3 + c \boldsymbol{\Sigma}_{t,[:r,:r]}^5)\boldsymbol{V}_{[:,:r]}^{\top} \\
+
+因此，式\eqref{eq:iteration}实际上在迭代奇异值组成的对角阵\boldsymbol{\Sigma}_{[:r,:r]}，如果记\boldsymbol{X}_t=\boldsymbol{U}_{[:,:r]}\boldsymbol{\Sigma}_{t,[:r,:r]}\boldsymbol{V}_{[:,:r]}^{\top}，那么有\boldsymbol{\Sigma}_{t+1,[:r,:r]} = g(\boldsymbol{\Sigma}_{t,[:r,:r]})，其中g(x) = ax + bx^3 + cx^5。又因为对角阵的幂等于对角线元素各自取幂，所以问题简化成单个奇异值\sigma的迭代。我们的目标是计算\boldsymbol{U}_{[:,:r]}\boldsymbol{V}_{[:,:r]}^{\top}，换言之希望通过迭代将\boldsymbol{\Sigma}_{[:r,:r]}变为单位阵，这又可以简化为迭代\sigma_{t+1} = g(\sigma_t)将单个奇异值变为1。
+
+受@leloykun启发，我们将a,b,c的选择视为一个最优化问题，目标是让迭代过程对于任意初始奇异值都收敛得尽可能快。首先我们将g(x)重新参数化为
+
+g(x) = x + \kappa x(x^2 - x_1^2)(x^2 - x_2^2) \\
+
+其中x_1 \leq x_2。该参数化的好处是直观表示出了迭代的5个不动点0,\pm x_1,\pm x_2。由于我们的目标是收敛到1，因此初始化我们选择x_1 < 1,x_2 > 1，想法是不管迭代过程往x_1走还是往x_2走，结果都是1附近。
+
+接下来，我们确定迭代步数T，这样迭代过程就称为一个确定性函数，然后我们将矩阵的形状（即n,m）确定好，就可以采样一批矩阵，并通过SVD来算奇异值。最后，我们将这些奇异值当成输入，而目标输出则是1，损失函数是平方误差，整个模型完全可导，可以用梯度下降解决（@leloykun则假设了x_1 + x_2 = 2，然后用网格搜索来求解）。
+
+一些计算结果：
+
+\begin{array}{ccc|ccc|ccc|c|c} \hline n & m & T & \kappa & x_1 & x_2 & a & b & c & \text{mse} & \text{mse}_{\text{o}}\\ \hline 1024 & 1024 & 3 & 7.020 & 0.830 & 0.830 & 4.328 & -9.666 & 7.020 & 0.10257 & 0.18278 \\ 1024 & 1024 & 5 & 1.724 & 0.935 & 1.235 & 3.297 & -4.136 & 1.724 & 0.02733 & 0.04431 \\ 2048 & 1024 & 3 & 7.028 & 0.815 & 0.815 & 4.095 & -9.327 & 7.028 & 0.01628 & 0.06171 \\ 2048 & 1024 & 5 & 1.476 & 0.983 & 1.074 & 2.644 & -3.128 & 1.476 & 0.00038 & 0.02954 \\ 4096 & 1024 & 3 & 6.948 & 0.802 & 0.804 & 3.886 & -8.956 & 6.948 & 0.00371 & 0.02574 \\ 4096 & 1024 & 5 & 1.214 & 1.047 & 1.048 & 2.461 & -2.663 & 1.214 & 0.00008 & 0.02563 \\ \hline 2048 & 2048 & 3 & 11.130 & 0.767 & 0.767 & 4.857 & -13.103 & 11.130 & 0.10739 & 0.24410 \\ 2048 & 2048 & 5 & 1.779 & 0.921 & 1.243 & 3.333 & -4.259 & 1.779 & 0.03516 & 0.04991 \\ 4096 & 4096 & 3 & 18.017 & 0.705 & 0.705 & 5.460 & -17.929 & 18.017 & 0.11303 & 0.33404 \\ 4096 & 4096 & 5 & 2.057 & 0.894 & 1.201 & 3.373 & -4.613 & 2.057 & 0.04700 & 0.06372 \\ 8192 & 8192 & 3 & 30.147 & 0.643 & 0.643 & 6.139 & -24.893 & 30.147 & 0.11944 & 0.44843 \\ 8192 & 8192 & 5 & 2.310 & 0.871 & 1.168 & 3.389 & -4.902 & 2.310 & 0.05869 & 0.07606 \\ \hline \end{array}\\
+
+这里的\text{mse}_{\text{o}}是有Muon作者的a,b,c算出来的结果。从表格可以看出，结果跟矩阵大小、迭代步数都有明显关系；从损失函数来看，非方阵比方阵更容易收敛；Muon作者给出的a,b,c，大概是迭代步数为5时方阵的最优解。当迭代步数给定时，结果依赖于矩阵大小，这本质上是依赖于奇异值的分布，关于这个分布有个值得一提的结果是当n,m\to\infty时为Marchenko–Pastur分布。
+
+参考代码：
+
+import jax
+import jax.numpy as jnp
+from tqdm import tqdm
+
+n, m, T = 1024, 1024, 5
+key, data = jax.random.key(42), jnp.array([])
+for _ in tqdm(range(1000), ncols=0, desc='SVD'):
+    key, subkey = jax.random.split(key)
+    M = jax.random.normal(subkey, shape=(n, m))
+    S = jnp.linalg.svd(M, full_matrices=False)[1]
+    data = jnp.concatenate([data, S / (S**2).sum()**0.5])
+
+@jax.jit
+def f(w, x):
+    k, x1, x2 = w
+    for _ in range(T):
+        x = x + k * x * (x**2 - x1**2) * (x**2 - x2**2)
+    return ((x - 1)**2).mean()
+
+f_grad = jax.grad(f)
+w, u = jnp.array([1, 0.9, 1.1]), jnp.zeros(3)
+for _ in tqdm(range(100000), ncols=0, desc='SGD'):
+    u = 0.9 * u + f_grad(w, data)  # 动量加速
+    w = w - 0.01 * u
+
+k, x1, x2 = w
+a, b, c = 1 + k * x1**2 * x2**2, -k * (x1**2 + x2**2), k
+print(f'{n} & {m} & {T} & {k:.3f} & {x1:.3f} & {x2:.3f} & {a:.3f} & {b:.3f} & {c:.3f} & {f(w, data):.5f}')
+一些思考
+
+如果按照默认选择T=5，那么对于一个n\times n的矩阵参数，Muon的每一步更新至少需要算15次n\times n与n\times n的矩阵乘法，这计算量毋庸置疑是比Adam明显大的，由此可能有读者担心Muon实践上是否可行。
+
+事实上，这种担心是多余的，Muon计算虽然比Adam复杂，但每一步增加的时间不多，笔者的结论是5%内，Muon作者则声称能做到2%。这是因为Muon的矩阵乘法发生在当前梯度计算完后、下一梯度计算前，这期间几乎所有的算力都是空闲的，而这些矩阵乘法是静态大小且可以并行，因此不会明显增加时间成本，反而是Muon比Adam少一组缓存变量，显存成本更低。
+
+Muon最值得深思的地方，其实是向量与矩阵的内在区别，以及它对优化的影响。SGD、Adam、Tiger等常见优化器的更新规则是Element-wise的，即不论向量、矩阵参数，实际都视为一个大向量，分量按照相同的规则独立地更新。具备这个特性的优化器往往理论分析起来更加简化，也方便张量并行，因为一个大矩阵切成两个小矩阵独立处理，并不改变优化轨迹。
+
+但Muon不一样，它以矩阵为基本单位，考虑了矩阵的一些独有特性。可能有些读者会奇怪：矩阵和向量不都只是一堆数字的排列吗，能有什么区别？举个例子，矩阵我们有“迹（trace）”这个概念，它是对角线元素之和，这个概念不是瞎定义的，它有一个重要特性是在相似变换下保持不变，它还等于矩阵的所有特征值之和。从这个例子就可以看出，矩阵的对角线元素跟非对角线元素，地位其实是不完全对等的。而Muon正是因为考虑了这种不对等性，才有着更好的效果。
+
+当然，这也会导致一些负面影响。如果一个矩阵被划分到不同设备上，那么用Muon时就需要将它们的梯度就需要汇聚起来再计算更新量了，而不能每个设备独立更新，这增加了通信成本。即便我们不考虑并行方面，这个问题也存在，比如Multi-Head Attention一般是通过单个大矩阵投影到Q（K,V同理），然后用reshape的方式得到多个Head，这样在模型参数中就只有单个矩阵，但它本质上是多个小矩阵，所以按道理我们需要将大矩阵拆开成多个小矩阵独立更新。
+
+总之，Muon这种非Element-wise的更新规则，在捕捉向量与矩阵的本质差异的同时，也会引入一些小问题，这可能会不满足一些读者的审美。
+
+（补充：几乎在本博客发布的同时，Muon的作者Keller Jordan也发布了自己的一篇博客《Muon: An optimizer for hidden layers in neural networks》。）
+
+范数视角
+
+从理论上看，Muon捕捉了矩阵的什么关键特性呢？也许接下来的范数视角可以回答我们的问题。
+
+这一节的讨论主要参考了论文《Stochastic Spectral Descent for Discrete Graphical Models》和《Old Optimizer, New Norm: An Anthology》，特别是后一篇。不过其中的出发点并不是新的，我们在《梯度流：探索通向最小值之路》就已经简单涉猎过：对于向量参数\boldsymbol{w}\in\mathbb{R}^n，我们将下一步的更新规则定义为
+
+\boldsymbol{w}_{t+1} = \mathop{\text{argmin}}_{\boldsymbol{w}} \frac{\Vert\boldsymbol{w} - \boldsymbol{w}_t\Vert^2}{2\eta_t} + \mathcal{L}(\boldsymbol{w}) \\
+
+其中\Vert\Vert是某个向量范数，这称为在某个范数约束下的“最速梯度下降”。接着假设\eta_t足够小，那么第一项占主导，这意味着\boldsymbol{w}_{t+1}与\boldsymbol{w}_t会很接近，于是我们假设\mathcal{L}(\boldsymbol{w})的一阶近似够用了，于是问题简化成
+
+\boldsymbol{w}_{t+1} = \mathop{\text{argmin}}_{\boldsymbol{w}} \frac{\Vert\boldsymbol{w} - \boldsymbol{w}_t\Vert^2}{2\eta_t} + \mathcal{L}(\boldsymbol{w}_t) + \nabla_{\boldsymbol{w}_t}\mathcal{L}(\boldsymbol{w}_t)^{\top}(\boldsymbol{w}-\boldsymbol{w}_t) \\
+
+记\Delta\boldsymbol{w}_{t+1} = \boldsymbol{w}_{t+1}-\boldsymbol{w}_t, \boldsymbol{g}_t = \nabla_{\boldsymbol{w}_t}\mathcal{L}(\boldsymbol{w}_t)，那么可以简写成
+
+\Delta\boldsymbol{w}_{t+1} = \mathop{\text{argmin}}_{\Delta\boldsymbol{w}} \frac{\Vert\Delta\boldsymbol{w}\Vert^2}{2\eta_t} + \boldsymbol{g}_t^{\top}\Delta\boldsymbol{w} \\
+
+计算\Delta\boldsymbol{w}_{t+1}的一般思路是求导，但《Old Optimizer, New Norm: An Anthology》提供了一个不用求导的统一方案：将\Delta\boldsymbol{w}分解为范数\gamma = \Vert\Delta\boldsymbol{w}\Vert和方向向量\boldsymbol{\phi} = -\Delta\boldsymbol{w}/\Vert\Delta\boldsymbol{w}\Vert，于是
+
+\min_{\Delta\boldsymbol{w}} \frac{\Vert\Delta\boldsymbol{w}\Vert^2}{2\eta_t} + \boldsymbol{g}_t^{\top}\Delta\boldsymbol{w} = \min_{\gamma\geq 0, \Vert\boldsymbol{\phi}\Vert=1} \frac{\gamma^2}{2\eta_t} - \gamma\boldsymbol{g}_t^{\top}\boldsymbol{\phi} = \min_{\gamma\geq 0} \frac{\gamma^2}{2\eta_t} - \gamma\bigg(\underbrace{\max_{\Vert\boldsymbol{\phi}\Vert=1}\boldsymbol{g}_t^{\top}\boldsymbol{\phi}}_{\text{记为}\Vert \boldsymbol{g}_t\Vert^{\dagger}}\bigg) \\
+
+\gamma只是一个标量，跟学习率类似，容易求得最优值是\eta_t\Vert \boldsymbol{g}_t\Vert^{\dagger}，而更新方向则是最大化\boldsymbol{g}_t^{\top}\boldsymbol{\phi}（\Vert\boldsymbol{\phi}\Vert=1）的\boldsymbol{\phi}^*。现在代入欧氏范数即\Vert\boldsymbol{\phi}\Vert_2 = \sqrt{\boldsymbol{\phi}^{\top}\boldsymbol{\phi}}，我们就有\Vert \boldsymbol{g}_t\Vert^{\dagger}=\Vert \boldsymbol{g}_t\Vert_2和\boldsymbol{\phi}^* = \boldsymbol{g}_t/\Vert\boldsymbol{g}_t\Vert_2，这样一来\Delta\boldsymbol{w}_{t+1}=-\eta_t \boldsymbol{g}_t，即梯度下降（SGD）。一般地，对于p范数
+
+\Vert\boldsymbol{\phi}\Vert_p = \sqrt[\uproot{10}p]{\sum_{i=1}^n |\phi_i|^p}\\Hölder不等式给出\boldsymbol{g}^{\top}\boldsymbol{\phi} \leq \Vert \boldsymbol{g}\Vert_q \Vert \boldsymbol{\phi}\Vert_p，其中1/p + 1/q = 1，利用它我们得到 \max_{\Vert\boldsymbol{\phi}\Vert_p=1}\boldsymbol{g}^{\top}\boldsymbol{\phi} = \Vert \boldsymbol{g}\Vert_q\\
+
+等号成立的条件是
+
+\boldsymbol{\phi}^* = \frac{1}{\Vert\boldsymbol{g}\Vert_q^{q/p}}\Big[\text{sign}(g_1) |g_1|^{q/p},\text{sign}(g_2) |g_2|^{q/p},\cdots,\text{sign}(g_n) |g_n|^{q/p}\Big] \\
+
+以它为方向向量的优化器叫做pbSGD，可参考《pbSGD: Powered Stochastic Gradient Descent Methods for Accelerated Non-Convex Optimization》。特别地，当p\to\infty时有q\to 1和|g_i|^{q/p}\to 1，此时退化为SignSGD，即SignSGD实际上是\Vert\Vert_{\infty}范数下的最速梯度下降。
+
+矩阵范数
+
+现在让我们将目光切换到矩阵参数\boldsymbol{W}\in\mathbb{R}^{n\times m}。类似地，我们将它的更新规则定义为
+
+\boldsymbol{W}_{t+1} = \mathop{\text{argmin}}_{\boldsymbol{W}} \frac{\Vert\boldsymbol{W} - \boldsymbol{W}_t\Vert^2}{2\eta_t} + \mathcal{L}(\boldsymbol{W}) \\
+
+此时\Vert\Vert是某种矩阵范数。同样使用一阶近似，我们得到
+
+\Delta\boldsymbol{W}_{t+1} = \mathop{\text{argmin}}_{\Delta\boldsymbol{W}} \frac{\Vert\Delta\boldsymbol{W}\Vert^2}{2\eta_t} + \text{Tr}(\boldsymbol{G}_t^{\top}\Delta\boldsymbol{W}) \\
+
+这里\Delta\boldsymbol{W}_{t+1} = \boldsymbol{W}_{t+1}-\boldsymbol{W}_t, \boldsymbol{G}_t = \nabla_{\boldsymbol{W}_t}\mathcal{L}(\boldsymbol{W}_t)。还是使用“范数-方向”解耦，即设\gamma = \Vert\Delta\boldsymbol{w}\Vert和\boldsymbol{\Phi} = -\Delta\boldsymbol{W}/\Vert\Delta\boldsymbol{W}\Vert，我们得到
+
+\min_{\Delta\boldsymbol{W}} \frac{\Vert\Delta\boldsymbol{W}\Vert^2}{2\eta_t} + \text{Tr}(\boldsymbol{G}_t^{\top}\Delta\boldsymbol{W}) = \min_{\gamma\geq 0} \
+
+
+## 图片
+
+![图片](https://pica.zhimg.com/v2-ddf658f2e6ef81ef4a5c8a6a53e2abf9_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://pic1.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=32738c0c&needBackground=1)
+
+![图片](https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pic3.zhimg.com/v2-4dcf698b669d6aee78887c8a7548a4b8_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-2866421e8833d83bd640c53ec247e509_1440w.jpg)
+
+![图片](https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=172ae18b)
+
+![图片](https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c)
+
+![图片](https://pica.zhimg.com/v2-e872bbdfd2ad3ac449171a244515a219.webp?source=7e7ef6e2&needBackground=1)
+
+![图片](https://pic4.zhimg.com/v2-b5bfd50abb22df2daf6477d7b387cf31.webp)
+
+![图片](https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-c71427010ca7866f9b08c37ec20672e0.png)
+
+![图片](https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-93e828703c559fc306d10d802139a996_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-fd425751f8e830685d299d10aec38b55_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-d88cf689141311b8ab05e55ed4efe54f_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=06d4cd63)
+
+![图片](https://picx.zhimg.com/v2-2f93c058b95fcc56b75cd7a0f70be10e_l.jpg?source=06d4cd63)
+
+![图片](https://pic1.zhimg.com/v2-6558ca50578916708daa98779d79d86f_l.jpg?source=06d4cd63)0:{"P":null,"c":["","topics"],"q":"","i":false,"f":[[["",{"children":["topics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/28-evnhkoub7g.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/review-handbook/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full bg-background text-foreground flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"flex-1 md:ml-56 pb-20 md:pb-0 safe-bottom","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L7",null,{}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L8",null,{"topics":{"topics":[{"id":"foundation-model","name":"基础模型架构","icon":"🏗️","subtopics":[{"id":"attention-arch","name":"注意力架构（MHA→MQA→GQA→MLA演进/复杂度分析/手撕代码）"},{"id":"position-encoding","name":"位置编码（Sinusoidal→RoPE→ALiBi→NoPE/NTK-aware外推）"},{"id":"activation-functions","name":"激活函数（SwiGLU/GELU/GeGLU/SiLU对比/门控机制/梯度分析）"},{"id":"normalization","name":"归一化与正则（LayerNorm→RMSNorm→DeepNorm/Pre-LN vs Post-LN/Dropout）"},{"id":"llm-architecture","name":"大模型架构报告（DeepSeek V2/V3/R1→Kimi-MoE→GLM→Qwen技术报告）"},{"id":"architecture-innovation","name":"架构创新（MoE路由与负载均衡/Mamba/SSM/Titans记忆力/Linear Attention）"},{"id":"optimizers","name":"优化器（SGD→Adam→AdamW→Lion→Sophia→Muon/解耦Weight Decay）"},{"id":"loss-functions","name":"损失函数（CE/NTP/Contrastive/Aux-loss/Z-loss/RLHF-loss）"},{"id":"training-regularization","name":"训练正则（Weight Decay/EMA/Gradient Clip/Label Smoothing/Loss Spike分析）"},{"id":"flash-attention","name":"FlashAttention（V1/V2/V3原理/Tiling策略/IO-Awareness/面试高频）"}]},{"id":"reinforcement-learning","name":"强化学习","icon":"🎮","subtopics":[{"id":"rl-fundamentals","name":"RL基础（MDP/Bellman方程/Value Iteration/Policy Gradient/Actor-Critic/GAE推导）"},{"id":"ppo-variants","name":"PPO全解（PPO-Clip/PPO-Penalty/TRPO/Importance Sampling/Critic设计）"},{"id":"grpo-variants","name":"GRPO及其变体（GRPO推导/DAPO/SAPO/GSPO/Group Relative Advantage）"},{"id":"rlhf-pipeline","name":"RLHF全流程（Reward Model训练→PPO→DPO→GRPO→RLVR→Evaluation）"},{"id":"reward-design","name":"Reward设计（Bradley-Terry/Ensemble RM/Process vs Outcome Reward/Overoptimization）"},{"id":"rl-coding","name":"RL Coding（手写PPO/GRPO/GAE/Reward Model/Training Loop/verl源码阅读）"}]},{"id":"vla-architecture","name":"VLA模型架构","icon":"🤖","subtopics":[{"id":"vlm-backbone","name":"VLM基座（CLIP/SigLIP/InternVL/Llava/Qwen-VL/DINOv2）"},{"id":"rt-series","name":"RT系列（RT-1→RT-2→RT-X/Co-fine-tuning/Web-to-Robot迁移）"},{"id":"open-vla","name":"开源VLA（OpenVLA/Octo/π0/RDT/GR-1/架构对比与选型）"},{"id":"action-representation","name":"动作表示（Tokenization/Flow Matching/Diffusion Policy/Action Chunking）"},{"id":"vla-training","name":"VLA训练范式（全量微调→LoRA→MoE插件/Co-training/Sim-to-Real）"},{"id":"vla-interview","name":"VLA面试（架构选型/动作空间设计/推理延迟优化/多Embodiment泛化/Scaling Law）"}]},{"id":"world-models","name":"世界模型（WAM）","icon":"🌍","subtopics":[{"id":"wm-fundamentals","name":"世界模型基础（Dyna→Model-based RL→Latent Imagination→RSSM）"},{"id":"video-generation-wm","name":"视频生成世界模型（Sora/Genie/UniSim/GameNGen/Occupancy WM）"},{"id":"robot-wm","name":"机器人世界模型（DreamerV3/GR-1/SuSIE/DayDreamer/DriveWAM）"},{"id":"wam-application","name":"WAM应用（规划/数据增强/Sim-to-Real/Policy Rollout/自动驾驶WAM）"}]},{"id":"model-optimization","name":"模型优化与加速","icon":"⚡","subtopics":[{"id":"kv-cache","name":"KV Cache优化（PagedAttention/vLLM/GQA→MLA/RadixAttention/Prefix Caching）"},{"id":"quantization","name":"量化（QAT vs PTQ/GPTQ/AWQ/FP8 E4M3/INT4/GGUF/KV Cache量化）"},{"id":"peft","name":"PEFT（LoRA/QLoRA/AdaLoRA/DoRA/IA3/VeRA/理论和实现）"},{"id":"inference-opt","name":"推理优化（FlashAttention/TensorRT-LLM/SGLang/Speculative Decoding/显存计算）"},{"id":"distillation","name":"知识蒸馏（Logit-based/Feature-based/Online Distillation/模型压缩）"}]},{"id":"training-frameworks","name":"训练框架与工程","icon":"🔧","subtopics":[{"id":"verl","name":"Verl框架（PPO/GRPO Pipeline/Hybrid Engine/SGLang+FSDP/源码解析）"},{"id":"distributed-training","name":"分布式训练（DDP/FSDP/TP/PP/SP/CP/通信与计算重叠）"},{"id":"deepspeed","name":"DeepSpeed（ZeRO-1/2/3→ZeRO-Offload→ZeRO++/显存优化策略）"},{"id":"megatron","name":"Megatron-LM（TP+PP Pipeline/Sequence Parallel/Context Parallel）"},{"id":"embodied-frameworks","name":"具身框架（IsaacSim/ManiSkill/RLBench/LIBERO/Genesis/GPU并行仿真）"},{"id":"data-pipeline","name":"数据管线（OXE数据集/RoboSet/数据配比与增强/Scaling Law）"}]},{"id":"system-integration","name":"系统设计与面试实战","icon":"🎯","subtopics":[{"id":"system-design","name":"系统设计（端到端推理Pipeline/延迟优化SLA/吞吐-成本平衡/千人服务架构）"},{"id":"robot-foundations","name":"机器人基础（运动学/手眼标定/ROS2/URDF/Real2Sim/传感器融合）"},{"id":"latest-trends","name":"前沿趋势（具身AGI/Foundation Model for Robotics/多Embodiment/Sim-to-Real新范式）"},{"id":"mock-interview","name":"模拟面试（算法推导手撕/项目深挖/系统设计/行为面试/公司面试题汇总）"}]}]},"notes":[{"id":"fnd-week01-attention","title":"MHA/MQA/GQA/MLA 一张图看懂注意力机制演进","type":"foundation","week":1,"topics":["attention-arch"],"tags":[{"name":"注意力机制","initial_weight":1.5},{"name":"MHA","initial_weight":1.2},{"name":"GQA","initial_weight":1.3},{"name":"面试高频","initial_weight":1.5}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week01-transformer-block","qa-week01-attn-complexity"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6950e1de000000001e00e177","title":"MHA/MQA/GQA 一张图看懂！","saved_at":"2026-06-22"}],"summary":"$9","code_snippet":"$undefined","images":[]},{"id":"fnd-week01-transformer-block","title":"手撕Attention：从Self-Attention到MLA完整实现","type":"foundation","week":1,"topics":["attention-arch","position-encoding"],"tags":[{"name":"Transformer","initial_weight":1.5},{"name":"Attention手写","initial_weight":1.8},{"name":"KV Cache","initial_weight":1.4}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week01-attention","cod-week01-mha"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/69ad304c000000002202302a","title":"手撕Attention","saved_at":"2026-06-22"}],"summary":"$a","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-activation","title":"SwiGLU/GELU/GeGLU/SiLU激活函数全景","type":"foundation","week":2,"topics":["activation-functions"],"tags":[{"name":"SwiGLU","initial_weight":1.5},{"name":"激活函数","initial_weight":1.2},{"name":"GELU","initial_weight":1.1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["qa-week02-swiglu","fnd-week02-norm"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6921761f000000001f0061d8","title":"大模型激活函数为什么是swiGLU？","saved_at":"2026-06-22"}],"summary":"$b","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-norm","title":"LayerNorm/RMSNorm/DeepNorm/Pre-LN vs Post-LN 归一化技术演进","type":"foundation","week":2,"topics":["normalization"],"tags":[{"name":"LayerNorm","initial_weight":1.2},{"name":"RMSNorm","initial_weight":1.4},{"name":"归一化","initial_weight":1.1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week02-activation","fnd-week01-transformer-block"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/650c5d97000000001f00701d","title":"大模型NLP面试题：LLaMA模型结构","saved_at":"2026-06-22"}],"summary":"$c","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-optimizer-zh","title":"重新思考学习率与Batch Size（三）：Muon","type":"foundation","week":2,"topics":["optimizers"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/1958228593369921194","title":"重新思考学习率与Batch Size（三）：Muon","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$d","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-pos-encoding-zh","title":"位置编码之路：SIN->ALiBi->RoPE ->PI->NTK->YARN","type":"foundation","week":2,"topics":["position-encoding"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/1894384438206505105","title":"位置编码之路：SIN->ALiBi->RoPE ->PI->NTK->YARN","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$e","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-pos-encoding","title":"旋转位置编码RoPE：从Sinusoidal到RoPE的完整推导","type":"foundation","week":2,"topics":["position-encoding"],"tags":[{"name":"RoPE","initial_weight":1.5},{"name":"位置编码","initial_weight":1.3},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["qa-week02-rope","fnd-week02-activation"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/695b6e5c000000001a030087","title":"面试必备：旋转位置编码 RoPE","saved_at":"2026-06-22"}],"summary":"$f","code_snippet":"$undefined","images":[]},{"id":"fnd-week03-deepseek","title":"DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"DeepSeek","initial_weight":1.8},{"name":"MLA","initial_weight":1.5},{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.3}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["adv-week03-mamba","qa-week03-deepseek-mla","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$10","code_snippet":"$undefined","images":[]},{"id":"fnd-week03-kimi-glm","title":"Kimi-MoE与GLM-4技术架构对比","type":"foundation","week":3,"topics":["llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.4},{"name":"技术报告","initial_weight":1.2},{"name":"Kimi","initial_weight":1.3},{"name":"GLM","initial_weight":1.2}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d","title":"年度最牛逼论文：DeepSeek-V3技术报告","saved_at":"2026-06-22"}],"summary":"$11","code_snippet":"$undefined","images":[]},{"id":"fnd-week05-ppo-zh","title":"一文吃透 PPO / DPO / GRPO / GSPO:从公式推导到 verl 源码逐行拆解","type":"foundation","week":5,"topics":["ppo-variants"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/2047023571269165830","title":"一文吃透 PPO / DPO / GRPO / GSPO:从公式推导到 verl 源码逐行拆解","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$12","code_snippet":"$undefined","images":[]},{"id":"fnd-week05-rlhf-zh","title":"DPO，RM，RLHF 傻傻分不清楚","type":"foundation","week":5,"topics":["rlhf-pipeline"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/718913850","title":"DPO，RM，RLHF 傻傻分不清楚","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$13","code_snippet":"$undefined","images":[]},{"id":"fnd-week06-verl-grpo-zh","title":"跟着 verl 代码学习 GRPO 算法流程","type":"foundation","week":6,"topics":["grpo-variants"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/1899507365507732891","title":"跟着 verl 代码学习 GRPO 算法流程","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$14","code_snippet":"$undefined","images":[]},{"id":"qa-week01-attn-complexity","title":"Attention O(n²)复杂度分析与优化","type":"interview_qa","week":1,"topics":["attention-arch"],"tags":[{"name":"复杂度分析","initial_weight":1.3},{"name":"面试高频","initial_weight":1.5},{"name":"推理优化","initial_weight":1.2}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week01-attention","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/69ad304c000000002202302a","title":"手撕Attention","saved_at":"2026-06-22"}],"question":"Attention的复杂度分析？从O(n²)优化到O(n)的路线图？","summary":"$15","code_snippet":"$undefined","images":[]},{"id":"qa-week01-prefill-decode","title":"Prefill vs Decode阶段的计算特征与优化策略","type":"interview_qa","week":1,"topics":["attention-arch","kv-cache"],"tags":[{"name":"Prefill/Decode","initial_weight":1.4},{"name":"推理优化","initial_weight":1.3},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["qa-week01-attn-complexity","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6950e1de000000001e00e177","title":"MHA/MQA/GQA 一张图看懂","saved_at":"2026-06-22"}],"question":"Prefill vs Decode阶段的compute bound vs memory bound本质区别？","summary":"$16","code_snippet":"$undefined","images":[]},{"id":"qa-week02-rope","title":"RoPE的数学推导与外推方法","type":"interview_qa","week":2,"topics":["position-encoding"],"tags":[{"name":"RoPE","initial_weight":1.5},{"name":"数学推导","initial_weight":1.3},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week02-pos-encoding"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/695b6e5c000000001a030087","title":"面试必备：旋转位置编码 RoPE","saved_at":"2026-06-22"}],"question":"RoPE的复数旋转矩阵推导？为什么比Sinusoidal更适配长序列？","summary":"$17","code_snippet":"$undefined","images":[]},{"id":"qa-week02-swiglu","title":"SwiGLU门控机制深度分析","type":"interview_qa","week":2,"topics":["activation-functions"],"tags":[{"name":"SwiGLU","initial_weight":1.5},{"name":"门控机制","initial_weight":1.3},{"name":"面试高频","initial_weight":1.4}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week02-activation"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6921761f000000001f0061d8","title":"大模型激活函数为什么是swiGLU？","saved_at":"2026-06-22"}],"question":"SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析？","summary":"$18","code_snippet":"$undefined","images":[]},{"id":"qa-week03-deepseek-mla","title":"DeepSeek MLA如何将KV Cache压缩到极致","type":"interview_qa","week":3,"topics":["llm-architecture","kv-cache"],"tags":[{"name":"MLA","initial_weight":1.6},{"name":"DeepSeek","initial_weight":1.5},{"name":"KV Cache","initial_weight":1.4}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","fnd-week10-kv-cache"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"DeepSeek MLA（Multi-head Latent Attention）如何将KV Cache压缩到极致？","summary":"$19","code_snippet":"$undefined","images":[]},{"id":"qa-week03-moe-routing","title":"MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略","type":"interview_qa","week":3,"topics":["architecture-innovation","llm-architecture"],"tags":[{"name":"MoE","initial_weight":1.5},{"name":"负载均衡","initial_weight":1.4},{"name":"面试高频","initial_weight":1.5}],"difficulty":4,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"question":"MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？","summary":"$1a","code_snippet":"$undefined","images":[]},{"id":"qa-week04-rl-interview-zh","title":"“面试造火箭”之 强化学习（具身/自驾）总结","type":"interview_qa","week":4,"topics":["rl-fundamentals"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/2043620037890769967","title":"“面试造火箭”之 强化学习（具身/自驾）总结","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$1b","code_snippet":"$undefined","images":[]},{"id":"adv-week03-mamba","title":"Mamba/SSM/Titans：从Attention到State Space的记忆力架构革命","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"Mamba","initial_weight":1.5},{"name":"SSM","initial_weight":1.4},{"name":"Titans","initial_weight":1.3},{"name":"架构创新","initial_weight":1.2}],"difficulty":5,"status":"pending","rating":0,"created_at":"2026-06-22","updated_at":"2026-06-22","recommendations":["fnd-week03-deepseek","qa-week03-moe-routing"],"sources":[{"platform":"xiaohongshu","url":"https://www.xiaohongshu.com/explore/6780a3370000000017038fce","title":"DeepSeek v3核心技术解读","saved_at":"2026-06-22"}],"summary":"$1c","code_snippet":"$undefined","images":[]},{"id":"adv-week03-moe-zh","title":"MoE环游记：3、换个思路来分配","type":"advanced","week":3,"topics":["architecture-innovation"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/32372010801","title":"MoE环游记：3、换个思路来分配","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$1d","code_snippet":"$undefined","images":[]},{"id":"fnd-week02-muon-zh","title":"Muon优化器赏析：从向量到矩阵的本质跨越","type":"advanced","week":2,"topics":["optimizers"],"tags":[{"name":"来自知乎","initial_weight":1}],"difficulty":3,"status":"pending","rating":0,"created_at":"2026-06-23","updated_at":"2026-06-23","sources":[{"platform":"zhihu","url":"https://zhuanlan.zhihu.com/p/13401683661","title":"Muon优化器赏析：从向量到矩阵的本质跨越","saved_at":"2026-06-23"}],"recommendations":[],"summary":"$1e","code_snippet":"$undefined","images":[]}]}],["$L1f"],"$L20"]}],{},null,false,null]},null,false,"$@21"]},null,false,null],"$L22",false]],"m":"$undefined","G":["$23",["$L24"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qGs-v4gzfOS06h0eFRT_0"}
+25:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+26:"$Sreact.suspense"
+29:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+2b:I[97367,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+1f:["$","script","script-0",{"src":"/review-handbook/_next/static/chunks/3ht_gmg46x-0q.js","async":true,"nonce":"$undefined"}]
+20:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+28:[]
+21:"$W28"
+22:["$","$1","h",{"children":[null,["$","$L29",null,{"children":"$L2a"}],["$","div",null,{"hidden":true,"children":["$","$L2b",null,{"children":["$","$26",null,{"name":"Next.Metadata","children":"$L2c"}]}]}],null]}]
+24:["$","link","0",{"rel":"stylesheet","href":"/review-handbook/_next/static/chunks/1wjjs27pxtu05.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+2a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"}],["$","meta","2",{"name":"theme-color","content":"#0a0a0a","media":"(prefers-color-scheme: dark)"}],["$","meta","3",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}]]
+2d:I[27201,["/review-handbook/_next/static/chunks/28-evnhkoub7g.js","/review-handbook/_next/static/chunks/14mrh2-p_w84d.js"],"IconMark"]
+27:null
+2c:[["$","title","0",{"children":"复习手册 — 具身智能面试准备"}],["$","meta","1",{"name":"description","content":"100天系统化算法岗面试准备，从机器人学到VLA模型"}],["$","link","2",{"rel":"icon","href":"/review-handbook/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L2d","3",{}]]
