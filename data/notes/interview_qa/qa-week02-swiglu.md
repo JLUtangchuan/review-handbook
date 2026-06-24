@@ -4,31 +4,37 @@ title: SwiGLU门控机制深度分析
 type: interview_qa
 week: 2
 topics:
-- activation-functions
+  - activation-functions
 tags:
-- name: SwiGLU
-  initial_weight: 1.5
-- name: 门控机制
-  initial_weight: 1.3
-- name: 面试高频
-  initial_weight: 1.4
+  - name: SwiGLU
+    initial_weight: 1.5
+  - name: 门控机制
+    initial_weight: 1.3
+  - name: 面试高频
+    initial_weight: 1.4
 difficulty: 3
-status: pending
-rating: 0
+status: completed
+rating: 2
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-24'
 recommendations:
-- fnd-week02-activation
+  - fnd-week02-activation
 sources:
-- platform: xiaohongshu
-  url: https://www.xiaohongshu.com/explore/6921761f000000001f0061d8
-  title: 大模型激活函数为什么是swiGLU？
-  saved_at: '2026-06-22'
+  - platform: xiaohongshu
+    url: https://www.xiaohongshu.com/explore/6921761f000000001f0061d8
+    title: 大模型激活函数为什么是swiGLU？
+    saved_at: '2026-06-22'
 question: SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析？
 ---
 
 # SwiGLU门控机制深度分析
 
+> **💡 问题**: SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析？
+
+## 来源
+- [xiaohongshu] [大模型激活函数为什么是swiGLU？](https://www.xiaohongshu.com/explore/6921761f000000001f0061d8)
+
+## 内容
 > **💡 问题**: SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析？
 
 ## 来源
@@ -54,6 +60,9 @@ question: SwiGLU的门控机制为什么有效？相比ReLU/SiLU的梯度分析�
 ## 图片
 ![SwiGLU vs ReLU 对比](http://sns-webpic-qc.xhscdn.com/202606222257/fd92c98c779ae534ffbe50ebf2b58a4f/1040g2sg31p6brbn6jcgg5nvg187g8477mc261m8!nc_n_webp_mw_1)
 *SwiGLU vs ReLU 对比*
+
+## 相关笔记
+- [[fnd-week02-activation]]
 
 ## 相关笔记
 - [[fnd-week02-activation]]

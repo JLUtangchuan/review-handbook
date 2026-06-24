@@ -4,31 +4,37 @@ title: RoPE的数学推导与外推方法
 type: interview_qa
 week: 2
 topics:
-- position-encoding
+  - position-encoding
 tags:
-- name: RoPE
-  initial_weight: 1.5
-- name: 数学推导
-  initial_weight: 1.3
-- name: 面试高频
-  initial_weight: 1.5
+  - name: RoPE
+    initial_weight: 1.5
+  - name: 数学推导
+    initial_weight: 1.3
+  - name: 面试高频
+    initial_weight: 1.5
 difficulty: 4
-status: pending
-rating: 0
+status: completed
+rating: 2
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-24'
 recommendations:
-- fnd-week02-pos-encoding
+  - fnd-week02-pos-encoding
 sources:
-- platform: xiaohongshu
-  url: https://www.xiaohongshu.com/explore/695b6e5c000000001a030087
-  title: 面试必备：旋转位置编码 RoPE
-  saved_at: '2026-06-22'
+  - platform: xiaohongshu
+    url: https://www.xiaohongshu.com/explore/695b6e5c000000001a030087
+    title: 面试必备：旋转位置编码 RoPE
+    saved_at: '2026-06-22'
 question: RoPE的复数旋转矩阵推导？为什么比Sinusoidal更适配长序列？
 ---
 
 # RoPE的数学推导与外推方法
 
+> **💡 问题**: RoPE的复数旋转矩阵推导？为什么比Sinusoidal更适配长序列？
+
+## 来源
+- [xiaohongshu] [面试必备：旋转位置编码 RoPE](https://www.xiaohongshu.com/explore/695b6e5c000000001a030087)
+
+## 内容
 > **💡 问题**: RoPE的复数旋转矩阵推导？为什么比Sinusoidal更适配长序列？
 
 ## 来源
@@ -52,6 +58,9 @@ Step 3 — Attention Score：q_m^T k_n = (R^m q)^T (R^n k) = q^T R^{n-m} k，仅
 ## 图片
 ![RoPE旋转矩阵推导](http://sns-webpic-qc.xhscdn.com/202606222257/f6bf694b23b65e81c2cb3766df5c745f/spectrum/1040g0k031quvdpqb0m005opl5ifmbnrodc3emlo!nc_n_webp_mw_1)
 *RoPE旋转矩阵推导*
+
+## 相关笔记
+- [[fnd-week02-pos-encoding]]
 
 ## 相关笔记
 - [[fnd-week02-pos-encoding]]

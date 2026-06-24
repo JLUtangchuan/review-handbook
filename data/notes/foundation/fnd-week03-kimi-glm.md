@@ -4,32 +4,36 @@ title: Kimi-MoE与GLM-4技术架构对比
 type: foundation
 week: 3
 topics:
-- llm-architecture
+  - llm-architecture
 tags:
-- name: MoE
-  initial_weight: 1.4
-- name: 技术报告
-  initial_weight: 1.2
-- name: Kimi
-  initial_weight: 1.3
-- name: GLM
-  initial_weight: 1.2
+  - name: MoE
+    initial_weight: 1.4
+  - name: 技术报告
+    initial_weight: 1.2
+  - name: Kimi
+    initial_weight: 1.3
+  - name: GLM
+    initial_weight: 1.2
 difficulty: 3
-status: pending
-rating: 0
+status: completed
+rating: 1
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-24'
 recommendations:
-- fnd-week03-deepseek
+  - fnd-week03-deepseek
 sources:
-- platform: xiaohongshu
-  url: https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d
-  title: 年度最牛逼论文：DeepSeek-V3技术报告
-  saved_at: '2026-06-22'
+  - platform: xiaohongshu
+    url: https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d
+    title: 年度最牛逼论文：DeepSeek-V3技术报告
+    saved_at: '2026-06-22'
 ---
 
 # Kimi-MoE与GLM-4技术架构对比
 
+## 来源
+- [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
+
+## 内容
 ## 来源
 - [xiaohongshu] [年度最牛逼论文：DeepSeek-V3技术报告](https://www.xiaohongshu.com/explore/6772845b000000000b00fc8d)
 
@@ -57,6 +61,9 @@ sources:
 ## 图片
 ![DeepSeek V3技术报告精华](http://sns-webpic-qc.xhscdn.com/202606222257/e8e1c256229729de7bbbcfed18acc416/notes_pre_post/1040g3k031c1gqskkh0005no10lvg8f4hia26e1o!nc_n_webp_mw_1)
 *DeepSeek V3技术报告精华*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
 
 ## 相关笔记
 - [[fnd-week03-deepseek]]

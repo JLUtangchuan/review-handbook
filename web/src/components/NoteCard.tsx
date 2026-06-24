@@ -31,9 +31,12 @@ export default function NoteCard({ note, onSelect, compact = false }: NoteCardPr
   const urgency = ebbinghausUrgency(record);
 
   return (
-    <button
+    <div
       onClick={() => onSelect(note)}
-      className={`w-full text-left p-4 rounded-xl border border-border bg-card hover:bg-card-hover transition-colors ${
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") onSelect(note); }}
+      className={`w-full text-left p-4 rounded-xl border border-border bg-card hover:bg-card-hover transition-colors cursor-pointer ${
         compact ? "p-3" : "p-4"
       }`}
     >
@@ -109,6 +112,6 @@ export default function NoteCard({ note, onSelect, compact = false }: NoteCardPr
         {/* Chevron */}
         <span className="text-muted text-sm mt-1 shrink-0">›</span>
       </div>
-    </button>
+    </div>
   );
 }

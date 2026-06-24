@@ -4,32 +4,38 @@ title: MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策�
 type: interview_qa
 week: 3
 topics:
-- architecture-innovation
-- llm-architecture
+  - architecture-innovation
+  - llm-architecture
 tags:
-- name: MoE
-  initial_weight: 1.5
-- name: 负载均衡
-  initial_weight: 1.4
-- name: 面试高频
-  initial_weight: 1.5
+  - name: MoE
+    initial_weight: 1.5
+  - name: 负载均衡
+    initial_weight: 1.4
+  - name: 面试高频
+    initial_weight: 1.5
 difficulty: 4
-status: pending
-rating: 0
+status: completed
+rating: 2
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-24'
 recommendations:
-- fnd-week03-deepseek
+  - fnd-week03-deepseek
 sources:
-- platform: xiaohongshu
-  url: https://www.xiaohongshu.com/explore/6780a3370000000017038fce
-  title: DeepSeek v3核心技术解读
-  saved_at: '2026-06-22'
+  - platform: xiaohongshu
+    url: https://www.xiaohongshu.com/explore/6780a3370000000017038fce
+    title: DeepSeek v3核心技术解读
+    saved_at: '2026-06-22'
 question: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
 ---
 
 # MoE负载均衡：Aux-loss、Expert Choice与DeepSeek的Shared Expert策略
 
+> **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
+
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
 > **💡 问题**: MoE负载均衡问题：Aux-loss / Expert Choice / DeepSeek的Shared Expert策略？
 
 ## 来源
@@ -54,6 +60,9 @@ MoE负载均衡是MoE架构的核心挑战——如果专家负载不均，会�
 ## 图片
 ![MoE路由与负载均衡](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
 *MoE路由与负载均衡*
+
+## 相关笔记
+- [[fnd-week03-deepseek]]
 
 ## 相关笔记
 - [[fnd-week03-deepseek]]

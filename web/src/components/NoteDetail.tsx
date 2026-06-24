@@ -20,8 +20,14 @@ export default function NoteDetail({
   isCompleted = false,
 }: NoteDetailProps) {
   return (
-    <div className="fixed inset-0 z-50 bg-background md:bg-black/60 md:pt-12 overflow-y-auto">
-      <div className="min-h-full md:min-h-0 md:max-w-2xl md:mx-auto bg-surface md:rounded-t-2xl">
+    <div
+      className="fixed inset-0 z-50 bg-background md:bg-black/60 md:pt-12 flex flex-col"
+      onClick={onClose}
+    >
+      <div
+        className="flex-1 overflow-y-auto md:max-w-2xl md:mx-auto w-full bg-surface md:rounded-t-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* Header */}
         <div className="sticky top-0 bg-surface/95 backdrop-blur border-b border-border px-4 py-3 flex items-center gap-3 z-10">
           <button

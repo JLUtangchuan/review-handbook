@@ -4,34 +4,38 @@ title: DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasonin
 type: foundation
 week: 3
 topics:
-- llm-architecture
+  - llm-architecture
 tags:
-- name: DeepSeek
-  initial_weight: 1.8
-- name: MLA
-  initial_weight: 1.5
-- name: MoE
-  initial_weight: 1.4
-- name: 技术报告
-  initial_weight: 1.3
+  - name: DeepSeek
+    initial_weight: 1.8
+  - name: MLA
+    initial_weight: 1.5
+  - name: MoE
+    initial_weight: 1.4
+  - name: 技术报告
+    initial_weight: 1.3
 difficulty: 4
-status: pending
-rating: 0
+status: completed
+rating: 1
 created_at: '2026-06-22'
-updated_at: '2026-06-22'
+updated_at: '2026-06-24'
 recommendations:
-- adv-week03-mamba
-- qa-week03-deepseek-mla
-- qa-week03-moe-routing
+  - adv-week03-mamba
+  - qa-week03-deepseek-mla
+  - qa-week03-moe-routing
 sources:
-- platform: xiaohongshu
-  url: https://www.xiaohongshu.com/explore/6780a3370000000017038fce
-  title: DeepSeek v3核心技术解读
-  saved_at: '2026-06-22'
+  - platform: xiaohongshu
+    url: https://www.xiaohongshu.com/explore/6780a3370000000017038fce
+    title: DeepSeek v3核心技术解读
+    saved_at: '2026-06-22'
 ---
 
 # DeepSeek技术报告精读：V2(MLA+MoE)→V3(FP8+MTP)→R1(GRPO Reasoning)
 
+## 来源
+- [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
+
+## 内容
 ## 来源
 - [xiaohongshu] [DeepSeek v3核心技术解读](https://www.xiaohongshu.com/explore/6780a3370000000017038fce)
 
@@ -61,6 +65,11 @@ DeepSeek系列三阶段技术演进：
 ## 图片
 ![DeepSeek V3架构全景](http://sns-webpic-qc.xhscdn.com/202606222257/70109c49610b2ff5b68b4df3399e3c46/1040g2sg31cfa5ao3h0705o0frbig853t5piqm5o!nc_n_webp_mw_1)
 *DeepSeek V3架构全景*
+
+## 相关笔记
+- [[adv-week03-mamba]]
+- [[qa-week03-deepseek-mla]]
+- [[qa-week03-moe-routing]]
 
 ## 相关笔记
 - [[adv-week03-mamba]]

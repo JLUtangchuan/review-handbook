@@ -1,5 +1,5 @@
 role: 具身智能算法工程师
-start_date: '2026-06-16'
+start_date: '2026-06-24'
 total_days: 100
 total_weeks: 15
 weeks:
@@ -41,6 +41,73 @@ weeks:
       topics:
       - flash-attention
       - attention-arch
+    - note_id: qa-week01-col-001
+      question: 百面LLM - 99
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-002
+      question: 百面LLM-98
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-003
+      question: 百面LLM-97
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-004
+      question: 百面LLM-96
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-005
+      question: 百面LLM-95
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-006
+      question: 百面LLM-94
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-007
+      question: 百面LLM-90
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-008
+      question: 百面LLM-93
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-009
+      question: 百面LLM-92
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-010
+      question: 百面LLM-91
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-011
+      question: '百面LLM，综十三， Preference Modeling: Binary Discrimination Versus Imitation
+        Learning'
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-012
+      question: '百面LLM，综十二， Pre-SFT: Let Models Decide on Supervisory Data for Fine-Tuning'
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-013
+      question: 百面LLM-89
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-014
+      question: '考古OpenAI，Anthropic论文4: A General Language Assistant as a Laboratory
+        for Alignment'
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-015
+      question: 百面LLM-88
+      topics:
+      - attention-arch
+    - note_id: qa-week01-col-all
+      question: 百面LLM专栏全集（共102篇）
+      topics:
+      - attention-arch
+      - transformer-arch
     advanced: []
     coding:
     - note_id: cod-week01-mha
